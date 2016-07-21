@@ -1,11 +1,14 @@
-“The Global Carbon Project was formed to assist the international science
-community to establish a common, mutually agreed knowledge base supporting
-policy debate and action to slow the rate of increase of greenhouse gases in
-the atmosphere.
+> The Global Carbon Project was formed to assist the international science
+> community to establish a common, mutually agreed knowledge base supporting
+> policy debate and action to slow the rate of increase of greenhouse gases in
+> the atmosphere.
+
 […]
-The scientific goal of the Global Carbon Project is to develop a complete
-picture of the global carbon cycle, including both its biophysical and human
-dimensions together with the interactions and feedbacks between them.”
+
+> The scientific goal of the Global Carbon Project is to develop a complete
+> picture of the global carbon cycle, including both its biophysical and human
+> dimensions together with the interactions and feedbacks between them.
+
 (<http://www.globalcarbonproject.org/about/index.htm>)
 
 This data package makes the data from the 2015 [Global Carbon Budget](http://www.globalcarbonproject.org/carbonbudget/)
@@ -276,5 +279,5 @@ The Global Carbon Budget [data page] states:
 
 > The use of data is conditional on citing the original data sources. Full details on how to cite the data are given at the top of each page. For research projects, if the data are essential to the work, or if an important result or conclusion depends on the data, co-authorship may need to be considered. The Global Carbon Project facilitates access to data to encourage its use and promote a good understanding of the carbon cycle. Respecting original data sources is key to help secure the support of data providers to enhance, maintain and update valuable data.
 
-The source code in `scripts` and this data package itself are released under an
+The source code in `scripts` and this data package itself are released under a
 [CC0 Public Dedication License](https://creativecommons.org/publicdomain/zero/1.0/).
