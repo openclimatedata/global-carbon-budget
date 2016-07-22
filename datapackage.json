@@ -339,6 +339,76 @@
           }
         ]
       }
+    },
+    {
+      "name": "territorial-emissions-cdiac",
+      "path": "data/terrestrial-emissions-cdiac.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Name",
+            "type": "string",
+            "description": "Country, region or group name"
+          },
+          {
+            "name": "CDIAC-Name",
+            "type": "string",
+            "description": "Uppercase name as used in CDIAC or same as Name column"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "description": "Year"
+          },
+          {
+            "name": "Emissions",
+            "type": "number",
+            "description": "Fossil fuels and cement production emissions by country (territorial, using the region names from consumption emissions) in MtC"
+          },
+          {
+            "name": "Source",
+            "type": "string",
+            "description": "Estimates are based on CDIAC data or on trends from BP data"
+          }
+        ]
+      }
+    },
+    {
+      "name": "territorial-emissions-unfccc",
+      "path": "data/terrestrial-emissions-unfccc.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Name",
+            "type": "string",
+            "description": "Country, region or group name"
+          },
+          {
+            "name": "CDIAC-Name",
+            "type": "string",
+            "description": "Uppercase name as used in CDIAC or same as Name column"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "description": "Year"
+          },
+          {
+            "name": "Emissions",
+            "type": "number",
+            "description": "Fossil fuels and cement production emissions by country (territorial, using the region names from consumption emissions) in MtC"
+          },
+          {
+            "name": "Source",
+            "type": "string",
+            "description": "Estimates are based on CDIAC data, country reported UNFCCC data, or on trends from BP data"
+          }
+        ]
+      }
     }
   ],
   "name": "global-carbon-budget",

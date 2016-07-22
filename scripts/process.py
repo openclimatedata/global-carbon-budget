@@ -6,15 +6,27 @@ import numpy as np
 import pandas as pd
 
 path = os.path.dirname(os.path.realpath(__file__))
-excel_file = os.path.join(path,
-                          "../archive/Global_Carbon_Budget_2015_v1.1.xlsx")
-
+excel_global = os.path.join(
+    path,
+    "../archive/Global_Carbon_Budget_2015_v1.1.xlsx"
+)
+excel_national = os.path.join(
+    path,
+    "../archive/National_Carbon_Emissions_2015_v1.1.xlsx"
+)
 fossil_fuel_csv = os.path.join(path, "../data/fossil-fuel-cement.csv")
 land_use_csv = os.path.join(path, "../data/land-use-change.csv")
 ocean_sink_csv = os.path.join(path, "../data/ocean-sink.csv")
 terrestrial_sink_csv = os.path.join(path, "../data/terrestrial-sink.csv")
 historical_budget_csv = os.path.join(path, "../data/historical-budget.csv")
-
+territorial_cdiac_csv = os.path.join(
+    path,
+    "../data/territorial-emissions-cdiac.csv"
+)
+territorial_unfccc_csv = os.path.join(
+    path,
+    "../data/territorial-emissions-unfccc.csv"
+)
 
 # Fossil fuel and cement production emissions by fuel type
 converters = {
@@ -27,7 +39,7 @@ converters = {
     "Per Capita": lambda x: round(x, 2)
 }
 fossil_fuel_cement = pd.read_excel(
-    excel_file,
+    excel_global,
     sheetname="Fossil Emissions by Fuel Type",
     skiprows=10,
     index_col="Year",
@@ -41,7 +53,7 @@ fossil_fuel_cement.to_csv(fossil_fuel_csv, encoding="UTF-8")
 
 # Land-use change emissions
 landuse_change = pd.read_excel(
-    excel_file,
+    excel_global,
     sheetname="Land-Use Change Emissions",
     skiprows=21,
     index_col="Year",
@@ -67,7 +79,7 @@ landuse_change.to_csv(
 # Ocean CO2 sink
 
 ocean_sink = pd.read_excel(
-    excel_file,
+    excel_global,
     sheetname="Ocean Sink",
     skiprows=25,
     skip_footer=2,
@@ -89,7 +101,7 @@ ocean_sink.to_csv(
 # Terrestrial CO₂ sink
 
 terrestrial_sink = pd.read_excel(
-    excel_file,
+    excel_global,
     sheetname="Terrestrial Sink",
     skiprows=17,
     index_col="Year",
@@ -115,7 +127,7 @@ terrestrial_sink.to_csv(
 # Historical CO₂ budget
 
 historical_budget = pd.read_excel(
-    excel_file,
+    excel_global,
     sheetname="Historical Budget",
     skiprows=14,
     index_col="Year",
@@ -131,4 +143,90 @@ historical_budget.to_csv(
     historical_budget_csv,
     encoding="UTF-8",
     float_format="%.3f"
+
+)
+
+
+# Territorial CDIAC emissions
+
+territorial_cdiac = pd.read_excel(
+    excel_national,
+    sheetname="Territorial Emissions CDIAC",
+    skiprows=13,
+    index_col=0,
+    header=[0, 1]
+)
+territorial_cdiac.index.name = "Year"
+
+territorial_cdiac = territorial_cdiac.T
+territorial_cdiac.index.rename(["CDIAC-Name", "Name"], inplace=True)
+
+territorial_cdiac = pd.melt(
+    territorial_cdiac.reset_index(),
+    id_vars=['Name', 'CDIAC-Name'],
+    var_name="Year",
+    value_name="Emissions"
+)
+
+territorial_cdiac['Source'] = np.where(
+    territorial_cdiac.Year < 2012, "CDIAC", "BP")
+
+# In 2012 to 2014 all data is based on BP.
+assert((territorial_cdiac[territorial_cdiac.Year.isin(
+    [2012, 2015])]["Source"] == "BP").all())
+
+territorial_cdiac.to_csv(
+    territorial_cdiac_csv,
+    encoding="UTF-8",
+    float_format="%.3f",
+    index=False
+)
+
+# Territorial UNFCCC emissions
+
+territorial_unfccc = pd.read_excel(
+    excel_national,
+    sheetname="Territorial Emissions UNFCCC",
+    skiprows=13,
+    index_col=0,
+    header=[0, 1]
+)
+territorial_unfccc.index.name = "Year"
+
+territorial_unfccc = territorial_unfccc.T
+territorial_unfccc.index.rename(["CDIAC-Name", "Name"], inplace=True)
+
+territorial_unfccc = pd.melt(
+    territorial_unfccc.reset_index(),
+    id_vars=['Name', 'CDIAC-Name'],
+    var_name="Year",
+    value_name="Emissions"
+)
+
+territorial_unfccc['Source'] = np.where(
+    territorial_unfccc.Year < 2012, "CDIAC", "BP")
+
+countries_unfccc_data = (
+    (territorial_unfccc.Year == 2012) &
+    (territorial_unfccc.Emissions != territorial_cdiac.Emissions)
+)
+has_data = territorial_unfccc[countries_unfccc_data].iloc[:42]['Name'].values
+
+with_data_and_in_range = (territorial_unfccc.Name.isin(has_data) &
+                          territorial_unfccc.Year.isin(range(1990, 2013)))
+territorial_unfccc.ix[with_data_and_in_range, "Source"] = "UNFCCC"
+
+# Check
+# 42 countries have UNFCCC data available in 1990 - 2012
+assert(territorial_unfccc.ix[
+    territorial_unfccc.Source == "UNFCCC"]["Source"].count() == 42 * 23)
+# In 2013 and 2014 all data is based on BP.
+assert((territorial_unfccc[territorial_unfccc.Year.isin(
+    [2013, 2015])]["Source"] == "BP").all())
+
+territorial_unfccc.to_csv(
+    territorial_unfccc_csv,
+    encoding="UTF-8",
+    float_format="%.3f",
+    index=False
 )
