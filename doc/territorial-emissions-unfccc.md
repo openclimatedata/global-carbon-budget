@@ -27,4 +27,4 @@ The 2012, 2013 and 2014 estimates (or 2013 and 2014 where UNFCCC data are availa
 1. National estimates include emissions from fossil fuel combustion and oxidation and cement production and excludes emissions from bunker fuels. World totals include emissions from bunker fuels.
 2. Bunker fuels: Emissions from fuels used for international aviation and maritime transport
 3. The disaggregations of regions (e.g. the former Soviet Union prior to 1992) are based on the shares of emissions in the first year after the countries are disaggregated (e.g., 1992 for the Former Soviet).
-4. The statistical difference presented on column HX is the difference between the world emissions and the sum of the emissions for each countries and for the bunker fuels.
+4. The statistical difference presented as *Statistical Difference* (column HX in original Excel file) is the difference between the world emissions and the sum of the emissions for each countries and for the bunker fuels.
