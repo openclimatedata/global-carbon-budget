@@ -19,10 +19,7 @@ Where available (42 countries) the national estimates reported by countries to t
 
 The 2012, 2013 and 2014 estimates (or 2013 and 2014 where UNFCCC data are available) are preliminary and based on energy statistics published by BP (data in red in original Excel file) <http://www.bp.com/en/global/corporate/about-bp/energy-economics/statistical-review-of-world-energy.html>
 
-(1) National estimates include emissions from fossil fuel combustion and oxidation and cement production and excludes emissions from bunker fuels. World totals include emissions from bunker fuels.
-
-(2) Bunker fuels: Emissions from fuels used for international aviation and maritime transport
-
-(3) The disaggregations of regions (e.g. the former Soviet Union prior to 1992) are based on the shares of emissions in the first year after the countries are disaggregated (e.g., 1992 for the Former Soviet).
-
-(4) The statistical difference presented on column HX is the difference between the world emissions and the sum of the emissions for each countries and for the bunker fuels.
+1. National estimates include emissions from fossil fuel combustion and oxidation and cement production and excludes emissions from bunker fuels. World totals include emissions from bunker fuels.
+2. Bunker fuels: Emissions from fuels used for international aviation and maritime transport
+3. The disaggregations of regions (e.g. the former Soviet Union prior to 1992) are based on the shares of emissions in the first year after the countries are disaggregated (e.g., 1992 for the Former Soviet).
+4. The statistical difference presented on column HX is the difference between the world emissions and the sum of the emissions for each countries and for the bunker fuels.
