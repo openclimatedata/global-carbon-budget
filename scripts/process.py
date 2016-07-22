@@ -175,6 +175,8 @@ territorial_cdiac['Source'] = np.where(
 assert((territorial_cdiac[territorial_cdiac.Year.isin(
     [2012, 2015])]["Source"] == "BP").all())
 
+territorial_cdiac.sort_values(["Name", "Year"], inplace=True)
+
 territorial_cdiac.to_csv(
     territorial_cdiac_csv,
     encoding="UTF-8",
@@ -223,6 +225,8 @@ assert(territorial_unfccc.ix[
 # In 2013 and 2014 all data is based on BP.
 assert((territorial_unfccc[territorial_unfccc.Year.isin(
     [2013, 2015])]["Source"] == "BP").all())
+
+territorial_unfccc.sort_values(["Name", "Year"], inplace=True)
 
 territorial_unfccc.to_csv(
     territorial_unfccc_csv,
