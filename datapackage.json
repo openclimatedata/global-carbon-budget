@@ -3,6 +3,10 @@
     {
       "name": "2015 Global Budget v1.1 (December 2015)",
       "web": "http://cdiac.ornl.gov/ftp/Global_Carbon_Project/Global_Carbon_Budget_2015_v1.1.xlsx"
+    },
+    {
+      "name": "National Emissions v1.1 (December 2015)",
+      "web": "http://cdiac.ornl.gov/ftp/Global_Carbon_Project/National_Carbon_Emissions_2015_v1.1.xlsx"
     }
   ],
   "resources": [
