@@ -112,7 +112,7 @@ Global Carbon Budget 2015, by C Le Quéré, R Moriarty, RM Andrew, JG Canadell, 
 
 Otherwise please refer as:
 
-Global Carbon Project (2015) Carbon budget and trends 2015. [<www.globalcarbonproject.org/carbonbudget>] published on 7 December 2015, along with any other original peer-reviewed papers and data sources as appropriate.
+Global Carbon Project (2015) Carbon budget and trends 2015. <www.globalcarbonproject.org/carbonbudget> published on 7 December 2015, along with any other original peer-reviewed papers and data sources as appropriate.
 
 See also the [Global Carbon Budget Publications](http://www.globalcarbonproject.org/carbonbudget/15/publications.htm) page.
 
