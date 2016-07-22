@@ -209,7 +209,7 @@
           {
             "name": "NEMO-PlankTOM5",
             "type": "number",
-            "description": "NEMO-PlankTOM5:	Buitenhuis, ET, Rivkin, RB, Sailley, SF, Le Quéré, C 2010. Biogeochemical fluxes through microzooplankton. Global Biogeochemical Cycles 24"
+            "description": "EMO-PlankTOM5: Buitenhuis, ET, Rivkin, RB, Sailley, SF, Le Quéré, C 2010. Biogeochemical fluxes through microzooplankton. Global Biogeochemical Cycles 24"
           },
           {
             "name": "NEMO-PISCES(LSCE)",
@@ -224,33 +224,32 @@
           {
             "name": "MICOM-HAMOCC(NorESM-OC)",
             "type": "number",
-            "description": "MICOM-HAMOCC:	Assmann, KM, Bentsen, M, Segschneider, J and Heinze, C 2010. An isopycnic ocean carbon cycle model. Geoscientific Model Development, 3: 143-167"
+            "description": "MICOM-HAMOCC: Assmann, KM, Bentsen, M, Segschneider, J and Heinze, C 2010. An isopycnic ocean carbon cycle model. Geoscientific Model Development, 3: 143-167"
           },
           {
             "name": "MPIOM-HAMOCC",
             "type": "number",
-            "description": "MPIOM-HAMOCC:	Ilyina, T, Six, K, Segschneider, J, Maier-Reimer, E, Li, H, and Núñez-Riboni, I 2013 The global ocean biogeochemistry model HAMOCC: Model architecture and performance as component of the MPI-Earth System Model in different CMIP5 experimental realizations, Journal of Advances in Modeling Earth Systems, doi: 10.1002/jame.20017"
+            "description": "MPIOM-HAMOCC: Ilyina, T, Six, K, Segschneider, J, Maier-Reimer, E, Li, H, and Núñez-Riboni, I 2013 The global ocean biogeochemistry model HAMOCC: Model architecture and performance as component of the MPI-Earth System Model in different CMIP5 experimental realizations, Journal of Advances in Modeling Earth Systems, doi: 10.1002/jame.20017"
           },
           {
             "name": "NEMO-PISCES(CNRM)",
             "type": "number",
-            "description": "NEMO-PISCES (CNRM)		Séférian R, Bopp, L, Gehlen, M, Orr, J, Ethé, C, Cadule, P, Aumont, O, Salas Y Mélia, D, Voldoire, A and Madec, G 2013 Skill assessment of three earth system models with common marine biogeochemistry. Climate Dynamics, 40, 2549–2573"
+            "description": "NEMO-PISCES (CNRM): Séférian R, Bopp, L, Gehlen, M, Orr, J, Ethé, C, Cadule, P, Aumont, O, Salas Y Mélia, D, Voldoire, A and Madec, G 2013 Skill assessment of three earth system models with common marine biogeochemistry. Climate Dynamics, 40, 2549–2573"
           },
           {
             "name": "CSIRO",
             "type": "number",
-            "description": "CSIRO		Oke PR, Griffin, DA, Schiller, A, Matear, R ., Fiedler, R, Mansbridge, J, Lenton, A, Cahill, M, Chamberlain, MA and Ridgway, K 2013. Evaluation of a near-global eddy-resolving ocean model. Geosci. Model Dev., 6, 591-615"
+            "description": "CSIRO: Oke PR, Griffin, DA, Schiller, A, Matear, R ., Fiedler, R, Mansbridge, J, Lenton, A, Cahill, M, Chamberlain, MA and Ridgway, K 2013. Evaluation of a near-global eddy-resolving ocean model. Geosci. Model Dev., 6, 591-615"
           },
           {
             "name": "MITgcm-REcoM2",
             "type": "number",
-            "description": "MITgcm-REcoM2		Hauck, J, C Völker, T Wang, M Hoppema, M Losch, and Wolf-Gladrow, D A: Seasonally different carbon flux changes in the Southern Ocean in response to the southern annular mode, Global Biogeochem. Cycles, 27, 1236-1245, 2013"
+            "description": "MITgcm-REcoM2: Hauck, J, C Völker, T Wang, M Hoppema, M Losch, and Wolf-Gladrow, D A: Seasonally different carbon flux changes in the Southern Ocean in response to the southern annular mode, Global Biogeochem. Cycles, 27, 1236-1245, 2013"
           },
           {
             "name": "Landschützer",
             "type": "number",
             "description": "Landschützer data product used to evaluate the results: Landschützer P, Gruber N, Bakker DCE, Schuster U (2014) Recent variability of the global ocean carbon sink. Global Biogeochemical Cycles"
-"
           },
           {
             "name": "Rödenbeck",
@@ -286,7 +285,7 @@
           {
             "name": "CLM4.5BGC",
             "type": "number",
-            "description": "CLM4.5-BGC	Oleson, K, Lawrence, D, Bonan, G, Drewniak, B, Huang, M, Koven, C, Levis, S, Li, F, Riley, W, Subin, Z, Swenson, S, Thornton, P, Bozbiyik, A, Fisher, R, Heald, C, Kluzek, E, Lamarque, J, Lawrence, P, Leung, L, Lipscomb, W, Muszala, S, Ricciuto, D, Sacks, W, Tang, J and Yang, Z 2013. Technical Description of version 45 of the Community Land Model (CLM), NCAR"
+            "description": "CLM4.5-BGC: Oleson, K, Lawrence, D, Bonan, G, Drewniak, B, Huang, M, Koven, C, Levis, S, Li, F, Riley, W, Subin, Z, Swenson, S, Thornton, P, Bozbiyik, A, Fisher, R, Heald, C, Kluzek, E, Lamarque, J, Lawrence, P, Leung, L, Lipscomb, W, Muszala, S, Ricciuto, D, Sacks, W, Tang, J and Yang, Z 2013. Technical Description of version 45 of the Community Land Model (CLM), NCAR"
           },
           {
             "name": "ISAM",
@@ -296,7 +295,7 @@
           {
             "name": "JSBACH",
             "type": "number",
-            "description": "JSBACH:	Reick, C. H., T. Raddatz, V. Brovkin, and Gayler, V.: The representation of natural and anthropogenic land cover change in MPI-ESM, Journal of Advances in Modeling Earth Systems, 5, 459–482, 2013"
+            "description": "JSBACH: Reick, C. H., T. Raddatz, V. Brovkin, and Gayler, V.: The representation of natural and anthropogenic land cover change in MPI-ESM, Journal of Advances in Modeling Earth Systems, 5, 459–482, 2013"
           },
           {
             "name": "JULES",
@@ -316,12 +315,12 @@
           {
             "name": "LPJml",
             "type": "number",
-            "description": "LPJmL:	Bondeau, A., Smith, P., Zaehle, S., Schaphoff, S., Lucht, W., Cramer, W., Gerten, D., Lotze-Campen, H., Müller, C., Reichstein, M., and Smith, B.: Modelling the role of agriculture for the 20th century global terrestrial carbon balance, Global Change Biology, 13, 1–28,, 2007"
+            "description": "LPJmL: Bondeau, A., Smith, P., Zaehle, S., Schaphoff, S., Lucht, W., Cramer, W., Gerten, D., Lotze-Campen, H., Müller, C., Reichstein, M., and Smith, B.: Modelling the role of agriculture for the 20th century global terrestrial carbon balance, Global Change Biology, 13, 1–28,, 2007"
           },
           {
             "name": "OCN",
             "type": "number",
-            "description": "OCN:	Zaehle, S, and AD Friend, 2010. Carbon and Nitrogen Cycle Dynamics in the O-CN Land Surface Model: 1 Model Description, Site-Scale Evaluation, and Sensitivity to Parameter Estimates. Global C=Biogeocchemical Cycles 24 (1): GB1005 doi:10.1029/2009GB003521"
+            "description": "OCN: Zaehle, S, and AD Friend, 2010. Carbon and Nitrogen Cycle Dynamics in the O-CN Land Surface Model: 1 Model Description, Site-Scale Evaluation, and Sensitivity to Parameter Estimates. Global C=Biogeocchemical Cycles 24 (1): GB1005 doi:10.1029/2009GB003521"
           },
           {
             "name": "ORCHIDEE",
