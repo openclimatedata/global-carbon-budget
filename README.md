@@ -11,8 +11,7 @@
 
 (<http://www.globalcarbonproject.org/about/index.htm>)
 
-This data package makes the data from the 2015 [Global Carbon Budget](http://www.globalcarbonproject.org/carbonbudget/)
-Excel file available as CSV files.
+This data package makes the data from the 2015 Global Carbon Budget and National Emissions [Excel files](http://cdiac.ornl.gov/GCP/) available as CSV files.
 
 ## Data
 
