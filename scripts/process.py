@@ -27,6 +27,10 @@ territorial_unfccc_csv = os.path.join(
     path,
     "../data/territorial-emissions-unfccc.csv"
 )
+country_definitions_csv = os.path.join(
+    path,
+    "../data/country-definitions.csv"
+)
 
 # Fossil fuel and cement production emissions by fuel type
 converters = {
@@ -232,5 +236,19 @@ territorial_unfccc.to_csv(
     territorial_unfccc_csv,
     encoding="UTF-8",
     float_format="%.3f",
+    index=False
+)
+
+
+# Country Definitions
+country_definitions = pd.read_excel(
+    excel_national,
+    sheetname="Country Definitions",
+    skiprows=3
+)
+
+country_definitions.to_csv(
+    country_definitions_csv,
+    encoding="UTF-8",
     index=False
 )

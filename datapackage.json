@@ -409,6 +409,36 @@
           }
         ]
       }
+    },
+    {
+      "name": "country-definitions",
+      "path": "data/country-definitions.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Number",
+            "type": "integer",
+            "description": "Number"
+          },
+          {
+            "name": "Code",
+            "type": "string",
+            "description": "Country or group code"
+          },
+          {
+            "name": "Name",
+            "type": "string",
+            "description": "Country or group name"
+          },
+          {
+            "name": "Description",
+            "type": "string",
+            "description": "Members of groups or regions"
+          }
+        ]
+      }
     }
   ],
   "name": "global-carbon-budget",

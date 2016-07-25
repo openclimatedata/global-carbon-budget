@@ -68,7 +68,9 @@ This data package makes the data from the 2015 Global Carbon Budget and National
 
 ### Country Definitions
 
-...
+Details of the geographical information corresponding to countries and regions used in this database for Consumption and Transfer emissions
+
+[country-definitions.csv](data/country-definitions.csv)
 
 ## Preparation
 
