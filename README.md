@@ -60,13 +60,17 @@ This data package makes the data from the 2015 Global Carbon Budget and National
 
 ### Consumption Emissions UNFCCC
 
-[Notes and methods](doc/consumption-emissions.md)
+[Notes and Methods](doc/consumption-emissions.md)
 
 [consumption-emissions.csv](data/consumption-emissions.csv)
 
 
 ### Emissions Transfers UNFCCC
-...
+
+[Notes and Methods](doc/emissions-transfers.md)
+
+[emissions-transfers.csv](data/emissions-transfers.csv)
+
 
 
 ### Country Definitions
