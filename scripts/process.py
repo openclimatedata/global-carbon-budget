@@ -27,6 +27,10 @@ territorial_unfccc_csv = os.path.join(
     path,
     "../data/territorial-emissions-unfccc.csv"
 )
+consumption_emissions_csv = os.path.join(
+    path,
+    "../data/consumption-emissions.csv"
+)
 country_definitions_csv = os.path.join(
     path,
     "../data/country-definitions.csv"
@@ -247,6 +251,39 @@ territorial_unfccc.to_csv(
     index=False
 )
 
+
+# Consumption emissions
+consumption_emissions = pd.read_excel(
+    excel_national,
+    sheetname="Consumption Emissions UNFCCC",
+    skiprows=7,
+    index_col=0,
+    header=[0, 1]
+)
+consumption_emissions.index.name = "Year"
+consumption_emissions = consumption_emissions.T
+consumption_emissions.index.rename(["CDIAC-Name", "Name"], inplace=True)
+
+consumption_emissions = pd.melt(
+    consumption_emissions.reset_index(),
+    id_vars=['Name', 'CDIAC-Name'],
+    var_name="Year",
+    value_name="Emissions"
+)
+
+consumption_emissions['Source'] = np.where(
+    consumption_emissions.Year < 2012, "CDIAC", "BP")
+consumption_emissions.ix[with_data_and_in_range, "Source"] = "UNFCCC"
+
+consumption_emissions.dropna(inplace=True)
+
+consumption_emissions.sort_values(["Name", "Year"], inplace=True)
+consumption_emissions.to_csv(
+    consumption_emissions_csv,
+    encoding="UTF-8",
+    float_format="%.3f",
+    index=False
+)
 
 # Country Definitions
 country_definitions = pd.read_excel(
