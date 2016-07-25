@@ -212,21 +212,29 @@ territorial_unfccc = pd.melt(
 territorial_unfccc['Source'] = np.where(
     territorial_unfccc.Year < 2012, "CDIAC", "BP")
 
-countries_unfccc_data = (
-    (territorial_unfccc.Year == 2012) &
-    (territorial_unfccc.Emissions != territorial_cdiac.Emissions)
-)
-has_data = territorial_unfccc[countries_unfccc_data].iloc[:42]['Name'].values
-
+has_data = [
+    'Australia', 'Austria', 'Belarus', 'Belgium', 'Bulgaria', 'Canada',
+    'Croatia', 'Cyprus', 'Czech Republic', 'Denmark', 'Estonia', 'Finland',
+    'France', 'Germany', 'Greece', 'Hungary', 'Iceland', 'Ireland', 'Italy',
+    'Japan', 'Kazakhstan', 'Latvia', 'Liechtenstein', 'Lithuania',
+    'Luxembourg', 'Malta', 'Netherlands', 'New Zealand', 'Norway', 'Poland',
+    'Portugal', 'Romania', 'Russian Federation', 'Slovakia', 'Slovenia',
+    'Spain', 'Sweden', 'Switzerland', 'Turkey', 'Ukraine', 'United Kingdom',
+    'United States of America'
+]
+assert(len(has_data) == 42)
 with_data_and_in_range = (territorial_unfccc.Name.isin(has_data) &
                           territorial_unfccc.Year.isin(range(1990, 2013)))
 territorial_unfccc.ix[with_data_and_in_range, "Source"] = "UNFCCC"
 
 # Check
 # 42 countries have UNFCCC data available in 1990 - 2012
-assert(territorial_unfccc.ix[
-    territorial_unfccc.Source == "UNFCCC"]["Source"].count() == 42 * 23)
-# In 2013 and 2014 all data is based on BP.
+assert(territorial_unfccc[(territorial_unfccc.Source == "UNFCCC") &
+                          territorial_unfccc.Name.isin(has_data) &
+                          (territorial_unfccc.Year >= 1990) &
+                          (territorial_unfccc.Year <  2013)
+                          ]["Emissions"].count() == 42 * 23)
+# In 2013 and 2014 all data is based on BP
 assert((territorial_unfccc[territorial_unfccc.Year.isin(
     [2013, 2015])]["Source"] == "BP").all())
 
