@@ -64,7 +64,8 @@
             "description": "Based on CDIAC estimates or using trend from BP energy-related emissions dataset"
           }
         ]
-      }
+      },
+      "primaryKey": "Year"
     },
     {
       "name": "historical-budget",
@@ -100,7 +101,8 @@
             "description": "Ocean CO₂ sink"
           }
         ]
-      }
+      },
+      "primaryKey": "Year"
     },
     {
       "name": "land-use-change",
@@ -186,7 +188,8 @@
             "description": "Mean Model Ensemble"
           }
         ]
-      }
+      },
+      "primaryKey": "Year"
     },
     {
       "name": "ocean-sink",
@@ -257,7 +260,8 @@
             "description": "Rödenbeck data product used to evaluate the results: Rödenbeck, C, Bakker, DCE, Metzl, N, Olsen, A, Sabine, C, Cassar, N, Reum, F, Keeling, RF, and Heimann, M 2014. Interannual sea-air CO2 flux variability from an observation-driven ocean mixed-layer scheme., Biogeosciences Discussions, doi: 10.5194/bgd-11-3167-2014, 2014. 3167-3207"
           }
         ]
-      }
+      },
+      "primaryKey": "Year"
     },
     {
       "name": "terrestrial-sink",
@@ -338,7 +342,8 @@
             "description": "Mean Model Ensemble"
           }
         ]
-      }
+      },
+      "primaryKey": "Year"
     },
     {
       "name": "territorial-emissions-cdiac",
@@ -373,7 +378,8 @@
             "description": "Estimates are based on CDIAC data or on trends from BP data"
           }
         ]
-      }
+      },
+      "primaryKey": ["Name", "Year"]
     },
     {
       "name": "territorial-emissions-unfccc",
@@ -408,7 +414,8 @@
             "description": "Estimates are based on CDIAC data, country reported UNFCCC data, or on trends from BP data"
           }
         ]
-      }
+      },
+      "primaryKey": ["Name", "Year"]
     },
     {
       "name": "country-definitions",
@@ -439,7 +446,8 @@
           }
         ]
       }
-    }
+    },
+    "primaryKey": "Code"
   ],
   "name": "global-carbon-budget",
   "title": "Global Carbon Budget 2015",
