@@ -342,7 +342,7 @@
     },
     {
       "name": "territorial-emissions-cdiac",
-      "path": "data/terrestrial-emissions-cdiac.csv",
+      "path": "data/territorial-emissions-cdiac.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "schema": {
@@ -377,7 +377,7 @@
     },
     {
       "name": "territorial-emissions-unfccc",
-      "path": "data/terrestrial-emissions-unfccc.csv",
+      "path": "data/territorial-emissions-unfccc.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "schema": {
