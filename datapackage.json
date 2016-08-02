@@ -11,8 +11,8 @@
   ],
   "resources": [
     {
-      "name": "gcb-fossil-fuel-cement",
-      "path": "data/gcb-fossil-fuel-cement.csv",
+      "name": "fossil-fuel-cement",
+      "path": "data/fossil-fuel-cement.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "bytes": 2404,
@@ -67,8 +67,8 @@
       }
     },
     {
-      "name": "gcb-historical-budget",
-      "path": "data/gcb-historical-budget.csv",
+      "name": "historical-budget",
+      "path": "data/historical-budget.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "bytes": 7112,
@@ -103,8 +103,8 @@
       }
     },
     {
-      "name": "gcb-land-use-change",
-      "path": "data/gcb-land-use-change.csv",
+      "name": "land-use-change",
+      "path": "data/land-use-change.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "bytes": 4904,
@@ -189,8 +189,8 @@
       }
     },
     {
-      "name": "gcb-ocean-sink",
-      "path": "data/gcb-ocean-sink.csv",
+      "name": "ocean-sink",
+      "path": "data/ocean-sink.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "bytes": 3318,
@@ -260,8 +260,8 @@
       }
     },
     {
-      "name": "gcb-terrestrial-sink",
-      "path": "data/gcb-terrestrial-sink.csv",
+      "name": "terrestrial-sink",
+      "path": "data/terrestrial-sink.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "bytes": 4774,
