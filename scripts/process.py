@@ -272,7 +272,7 @@ consumption_emissions = pd.melt(
     consumption_emissions.reset_index(),
     id_vars=['Name', 'CDIAC-Name'],
     var_name="Year",
-    value_name="Emissions"
+    value_name="Consumption-Emissions"
 )
 
 consumption_emissions['Source'] = np.where(
@@ -306,7 +306,7 @@ emissions_transfers = pd.melt(
     emissions_transfers.reset_index(),
     id_vars=['Name', 'CDIAC-Name'],
     var_name="Year",
-    value_name="Emissions"
+    value_name="Emissions-Transfers"
 )
 
 emissions_transfers['Source'] = np.where(

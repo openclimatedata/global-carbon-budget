@@ -472,7 +472,7 @@
             "description": "Year"
           },
           {
-            "name": "Emissions",
+            "name": "Consumption-Emissions",
             "type": "number",
             "description": "Consumption Emissions"
           },
@@ -509,7 +509,7 @@
             "description": "Year"
           },
           {
-            "name": "Emissions",
+            "name": "Emissions-Transfers",
             "type": "number",
             "description": "Emissions Transfers"
           },
