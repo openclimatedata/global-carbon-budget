@@ -447,6 +447,80 @@
         ],
         "primaryKey": "Code"
       }
+    },
+    {
+      "name": "consumption-emissions",
+      "path": "data/consumption-emissions.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 125154,
+      "schema": {
+        "fields": [
+          {
+            "name": "Name",
+            "type": "string",
+            "description": "Country, region or group name"
+          },
+          {
+            "name": "CDIAC-Name",
+            "type": "string",
+            "description": "Uppercase name as used in CDIAC or same as Name column"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "description": "Year"
+          },
+          {
+            "name": "Emissions",
+            "type": "number",
+            "description": "Consumption Emissions"
+          },
+          {
+            "name": "Source",
+            "type": "string",
+            "description": "Estimates are based on CDIAC, UNFCCC, or on trends from BP data"
+          }
+        ],
+        "primaryKey": ["Name", "Year"]
+      }
+    },
+    {
+      "name": "emissions-transfers",
+      "path": "data/emissions-transfers.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 127361,
+      "schema": {
+        "fields": [
+          {
+            "name": "Name",
+            "type": "string",
+            "description": "Country, region or group name"
+          },
+          {
+            "name": "CDIAC-Name",
+            "type": "string",
+            "description": "Uppercase name as used in CDIAC or same as Name column"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "description": "Year"
+          },
+          {
+            "name": "Emissions",
+            "type": "number",
+            "description": "Emissions Transfers"
+          },
+          {
+            "name": "Source",
+            "type": "string",
+            "description": "Estimates are based on CDIAC, UNFCCC, or on trends from BP data"
+          }
+        ],
+        "primaryKey": ["Name", "Year"]
+      }
     }
   ],
   "name": "global-carbon-budget",
