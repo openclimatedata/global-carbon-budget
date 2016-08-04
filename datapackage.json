@@ -63,9 +63,9 @@
             "type": "string",
             "description": "Based on CDIAC estimates or using trend from BP energy-related emissions dataset"
           }
-        ]
-      },
-      "primaryKey": "Year"
+        ],
+        "primaryKey": "Year"
+      }
     },
     {
       "name": "historical-budget",
@@ -100,9 +100,9 @@
             "type": "number",
             "description": "Ocean CO₂ sink"
           }
-        ]
-      },
-      "primaryKey": "Year"
+        ],
+        "primaryKey": "Year"
+      }
     },
     {
       "name": "land-use-change",
@@ -187,9 +187,9 @@
             "type": "number",
             "description": "Mean Model Ensemble"
           }
-        ]
-      },
-      "primaryKey": "Year"
+        ],
+        "primaryKey": "Year"
+      }
     },
     {
       "name": "ocean-sink",
@@ -259,9 +259,9 @@
             "type": "number",
             "description": "Rödenbeck data product used to evaluate the results: Rödenbeck, C, Bakker, DCE, Metzl, N, Olsen, A, Sabine, C, Cassar, N, Reum, F, Keeling, RF, and Heimann, M 2014. Interannual sea-air CO2 flux variability from an observation-driven ocean mixed-layer scheme., Biogeosciences Discussions, doi: 10.5194/bgd-11-3167-2014, 2014. 3167-3207"
           }
-        ]
-      },
-      "primaryKey": "Year"
+        ],
+        "primaryKey": "Year"
+      }
     },
     {
       "name": "terrestrial-sink",
@@ -341,9 +341,9 @@
             "type": "number",
             "description": "Mean Model Ensemble"
           }
-        ]
-      },
-      "primaryKey": "Year"
+        ],
+        "primaryKey": "Year"
+      }
     },
     {
       "name": "territorial-emissions-cdiac",
@@ -377,9 +377,9 @@
             "type": "string",
             "description": "Estimates are based on CDIAC data or on trends from BP data"
           }
-        ]
-      },
-      "primaryKey": ["Name", "Year"]
+        ],
+        "primaryKey": ["Name", "Year"]
+      }
     },
     {
       "name": "territorial-emissions-unfccc",
@@ -413,9 +413,9 @@
             "type": "string",
             "description": "Estimates are based on CDIAC data, country reported UNFCCC data, or on trends from BP data"
           }
-        ]
-      },
-      "primaryKey": ["Name", "Year"]
+        ],
+        "primaryKey": ["Name", "Year"]
+      }
     },
     {
       "name": "country-definitions",
@@ -444,10 +444,10 @@
             "type": "string",
             "description": "Members of groups or regions"
           }
-        ]
+        ],
+        "primaryKey": "Code"
       }
-    },
-    "primaryKey": "Code"
+    }
   ],
   "name": "global-carbon-budget",
   "title": "Global Carbon Budget 2015",
