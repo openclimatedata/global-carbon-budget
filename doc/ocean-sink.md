@@ -4,9 +4,15 @@ All values in billion tonnes of carbon per year (GtC/yr), for the globe. For val
 
 1 billion tonnes C = 1 petagram of carbon (10^15 gC) = 1 gigatonne C = 3.664 billion tonnes of CO2
 
+
 #### Methods:
 
 The ocean CO2 sink for the 1990s is based on observations (see cited studies below). The average anomalies from the model results, normalised to the observed mean for 1990-1999 are used for the annual values.
+
+
+#### Note:
+The data-based products include a pre-industrial steady state source of CO₂ (of about 0.45 GtC/yr).
+
 
 #### Cite individual estimates as:
 
