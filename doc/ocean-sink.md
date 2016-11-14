@@ -60,6 +60,8 @@ Hauck, J, C Völker, T Wang, M Hoppema, M Losch, and Wolf-Gladrow, D A: Seasonal
 
 ##### Data products used to evaluate the results:
 
+Note: the data products include a pre-industrial steady state source of CO2 (of about 0.45 GtC/yr) and therefore are not directly comparable with the ocean model results
+
 ##### Landschützer:
 
 Landschützer P, Gruber N, Bakker DCE, Schuster U (2014) Recent variability of the global ocean carbon sink. Global Biogeochemical Cycles.

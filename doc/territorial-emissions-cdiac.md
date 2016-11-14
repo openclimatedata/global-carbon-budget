@@ -6,7 +6,7 @@ All values in million tonnes of carbon per year. For values in million tonnes of
 
 #### Cite as:
 
-Boden, TA, Marland, G and Andres, RJ 2015. Global, Regional, and National Fossil-Fuel CO2 Emissions, Carbon Dioxide Information Analysis Center, Oak Ridge National Laboratory, U.S. Department of Energy, Oak Ridge, Tenn., USA [doi 10.3334/CDIAC/00001_V2015](https://doi.org/10.3334/CDIAC/00001_V2015)
+Boden, T.A., G. Marland, and R.J. Andres. 2016. Global, Regional, and National Fossil-Fuel CO2 Emissions. Carbon Dioxide Information Analysis Center, Oak Ridge National Laboratory, U.S. Department of Energy, Oak Ridge, Tenn., U.S.A. doi 10.3334/CDIAC/00001_V2016
 
 #### Methods:
 
@@ -14,7 +14,7 @@ Boden, TA, Marland, G and Andres, RJ 2015. Global, Regional, and National Fossil
 
 <http://cdiac.ornl.gov/trends/emis/meth_reg.html>
 
-2012, 2013 and 2014 estimates are preliminary and based on energy statistics published by BP (data in red in original Excel file)
+2014 and 2015 estimates are preliminary and based on energy statistics published by BP (data in red in original Excel file)
 
 <http://www.bp.com/en/global/corporate/about-bp/energy-economics/statistical-review-of-world-energy.html>
 

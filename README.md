@@ -2,7 +2,7 @@ The Global Carbon Budget is an annual living data publication of carbon cycle
 sources and sinks, generated from multiple data sources and by multiple
 organisations and research groups.
 
-This data package makes the data from the 2015 Global Carbon Budget and National Emissions [Excel files](http://cdiac.ornl.gov/GCP/) available as CSV files. For updates of the original data and further information refer to the
+This data package makes the data from the 2016 Global Carbon Budget and National Emissions [Excel files](http://cdiac.ornl.gov/GCP/) available as CSV files. For updates of the original data and further information refer to the
 [Global Carbon Budget](http://www.globalcarbonproject.org/carbonbudget/index.htm) website.
 
 
@@ -115,15 +115,15 @@ The Global Carbon Budget [data page](http://www.globalcarbonproject.org/carbonbu
 
 > The use of data is conditional on citing the original data sources. Full details on how to cite the data are given at the top of each page. For research projects, if the data are essential to the work, or if an important result or conclusion depends on the data, co-authorship may need to be considered. The Global Carbon Project facilitates access to data to encourage its use and promote a good understanding of the carbon cycle. Respecting original data sources is key to help secure the support of data providers to enhance, maintain and update valuable data.
 
-The primary reference for Carbon Budget 2015 is:
+The primary reference for the full Global Carbon Budget 2016 is:
 
-Global Carbon Budget 2015, by C Le Quéré, R Moriarty, RM Andrew, JG Canadell, S Sitch, JI Korsbakken, P Friedlingstein, GP Peters, RJ Andres, TA Boden, RA Houghton, JI House, RF Keeling, P Tans, A Arneth, DCE Bakker, L Barbero , L Bopp, J Chang, F Chevallier, LP Chini, P Ciais, M Fader, R Feely, T Gkritzalis, I Harris, J Hauck, T Ilyina, AK Jain, E Kato, V Kitidis, K Klein Goldewijk, C Koven, P Landschützer, SK Lauvset, N Lefèvre, A Lenton, ID Lima, N Metzl, F Millero, DR Munro, A Murata, JEMS Nabel, S Nakaoka, Y Nojiri, K O'Brien, A Olsen, T Ono, FF Pérez, B Pfeil, D Pierrot, B Poulter, G Rehder, C Rödenbeck, S Saito, U Schuster, J Schwinger, R Séférian, T Steinhoff, BD Stocker, AJ Sutton, T Takahashi, B Tilbrook, IT van der Laan-Luijkx, GR van der Werf, S van Heuven, D Vandemark, N Viovy, A Wiltshire, S Zaehle, and N Zeng (2015), Earth System Science Data, DOI:[10.5194/essd-7-349-2015](https://doi.org/10.5194/essd-7-349-2015).
+Le Quéré, C., Andrew, R. M., Canadell, J. G., Sitch, S., Korsbakken, J. I., Peters, G. P., Manning, A. C., Boden, T. A., Tans, P. P., Houghton, R. A., Keeling, R. F., Alin, S.,  Andrews, O. D., Anthoni, P., Barbero, L., Bopp, L., Chevallier, F., Chini, L. P., Ciais, P., Currie, K., Delire, C., Doney, S. C., Friedlingstein, P., Gkritzalis, T.,  Harris, I., Hauck, J., Haverd, V., Hoppema, M., Klein Goldewijk, K., Jain, A. K., Kato, E., Körtzinger, A., Landschützer, P., Lefèvre, N.,  Lenton, A., Lienert, S., Lombardozzi, D., Melton, J. R., Metzl, N., Millero, F., Monteiro, P. M. S., Munro, D. R., Nabel, J. E. M. S., Nakaoka, S., O’Brien, K., Olsen, A., Omar, A. M.,  Ono, T., Pierrot, D., Poulter, B., Rödenbeck, C., Salisbury, J., Schuster, U., Schwinger, J., Séférian, R., Skjelvan, I., Stocker, B. D., Sutton, A. J., Takahashi, T., Tian, H., Tilbrook, B., van der Laan-Luijkx, I. T., van der Werf, G. R., Viovy, N., Walker, A. P., Wiltshire, A. J., and Zaehle, S.: Global Carbon Budget 2016, Earth Syst. Sci. Data, 8, 605-649, doi:10.5194/essd-8-605-2016, 2016. http://www.earth-syst-sci-data.net/8/605/2016/
 
 Otherwise please refer as:
 
-Global Carbon Project (2015) Carbon budget and trends 2015. [http://www.globalcarbonproject.org/carbonbudget](http://www.globalcarbonproject.org/carbonbudget) published on 7 December 2015, along with any other original peer-reviewed papers and data sources as appropriate.
+Global Carbon Project (2016) Carbon budget and trends 2016. [www.globalcarbonproject.org/carbonbudget](http://www.globalcarbonproject.org/carbonbudget) published on 14 November 2016, along with any other original peer-reviewed papers and data sources as appropriate.
 
-See also the [Global Carbon Budget Publications](http://www.globalcarbonproject.org/carbonbudget/15/publications.htm) page.
+See also the [Global Carbon Budget Publications](http://www.globalcarbonproject.org/carbonbudget/16/publications.htm) page.
 
 The source code in `scripts` and this data package itself are released under a
 [CC0 Public Dedication License](https://creativecommons.org/publicdomain/zero/1.0/).

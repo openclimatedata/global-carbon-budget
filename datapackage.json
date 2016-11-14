@@ -1,12 +1,12 @@
 {
   "sources": [
     {
-      "name": "2015 Global Budget v1.1 (December 2015)",
-      "web": "http://cdiac.ornl.gov/ftp/Global_Carbon_Project/Global_Carbon_Budget_2015_v1.1.xlsx"
+      "name": "2016 Global Budget v1.0 (10 November 2016)",
+      "web": "http://cdiac.ornl.gov/ftp/Global_Carbon_Project/Global_Carbon_Budget_2016_v1.0.xlsx"
     },
     {
-      "name": "National Emissions v1.1 (December 2015)",
-      "web": "http://cdiac.ornl.gov/ftp/Global_Carbon_Project/National_Carbon_Emissions_2015_v1.1.xlsx"
+      "name": "National Emissions v1.0 (10 November 2016)",
+      "web": "http://cdiac.ornl.gov/ftp/Global_Carbon_Project/National_Carbon_Emissions_2016_v1.0.xlsx"
     }
   ],
   "resources": [
@@ -147,21 +147,9 @@
             "unit": "GtC"
           },
           {
-            "name": "CLM4.5BGC",
-            "type": "number",
-            "description": "Oleson, K, Lawrence, D, Bonan, G, Drewniak, B, Huang, M, Koven, C, Levis, S, Li, F, Riley, W, Subin, Z, Swenson, S, Thornton, P, Bozbiyik, A, Fisher, R, Heald, C, Kluzek, E, Lamarque, J, Lawrence, P, Leung, L, Lipscomb, W, Muszala, S, Ricciuto, D, Sacks, W, Tang, J and Yang, Z 2013. Technical Description of version 45 of the Community Land Model (CLM), NCAR",
-            "unit": "GtC"
-          },
-          {
             "name": "ISAM",
             "type": "number",
             "description": "Jain, AK, Meiyappan, P, Song, Y and House, JI 2013. CO2 Emissions from Land-Use Change Affected More by Nitrogen Cycle, than by the Choice of Land Cover Data, Global Change Biology, 101111/gcb12207; Jain, AK, and Yang, X 2005. Modeling the effects of two different land cover change data sets on the carbon stocks of plants and soils in concert with CO2 and climate change Global BiogeochemCycles, 19(2), 1-20",
-            "unit": "GtC"
-          },
-          {
-            "name": "JSBACH",
-            "type": "number",
-            "description": "Reick, C. H., T. Raddatz, V. Brovkin, and Gayler, V.: The representation of natural and anthropogenic land cover change in MPI-ESM, Journal of Advances in Modeling Earth Systems, 5, 459–482, 2013",
             "unit": "GtC"
           },
           {
@@ -183,32 +171,10 @@
             "unit": "GtC"
           },
           {
-            "name": "LPJml",
-            "type": "number",
-            "description": "Bondeau, A., Smith, P., Zaehle, S., Schaphoff, S., Lucht, W., Cramer, W., Gerten, D., Lotze-Campen, H., Müller, C., Reichstein, M., and Smith, B.: Modelling the role of agriculture for the 20th century global terrestrial carbon balance, Global Change Biology, 13, 1–28,, 2007",
-            "unit": "GtC"
-          },
-          {
             "name": "OCN",
             "type": "number",
             "description": "Zaehle, S, and AD Friend, 2010. Carbon and Nitrogen Cycle Dynamics in the O-CN Land Surface Model: 1 Model Description, Site-Scale Evaluation, and Sensitivity to Parameter Estimates. Global C=Biogeocchemical Cycles 24 (1): GB1005 doi:10.1029/2009GB003521",
             "unit": "GtC"
-          },
-          {
-            "name": "ORCHIDEE",
-            "type": "number",
-            "description": "Krinner, G., Viovy, N., de Noblet, N., Ogée, J., Friedlingstein, P., Ciais, P., Sitch, S., Polcher, J., and Prentice, I. C.: A dynamic global vegetation model for studies of the coupled atmosphere-biosphere system, Global Biogeochemical Cycles, 19, 1-33, 2005"
-          },
-          {
-            "name": "VISIT",
-            "type": "number",
-            "description": "Kato, E, Kinoshita, T, Ito, A, Kawamiya, M, Yamagata, Y 2013. Evaluation of spatially explicit emission scenario of land-use change and biomass burning using a process-based biogeochemical model Journal of Land Use Science, 8(1): 104-122",
-            "unit": "GtC"
-          },
-          {
-            "name": "Mean-Model-Ensemble",
-            "type": "number",
-            "description": "Mean Model Ensemble"
           }
         ],
         "primaryKey": "Year"
@@ -322,9 +288,28 @@
             "description": "Preliminary land-use change data (data in red in Column B of original Excel sheet)."
           },
           {
+            "name": "CABLE-POP",
+            "type": "number",
+            "description": "Zhang, H. Q., Pak, B., Wang, Y. P., Zhou, X. Y., Zhang, Y. Q., and Zhang, L.: Evaluating Surface Water Cycle Simulated by the Australian Community Land Surface Model (CABLE) across Different Spatial and Temporal Domains, Journal of Hydrometeorology, 14, 1119-1138, 2013.",
+            "unit": "Gt"
+
+          },
+          {
+            "name": "CLASS-CTEM",
+            "type": "number",
+            "description": "Melton, J. R. and Arora, V. K.: Competition between plant functional types in the Canadian Terrestrial Ecosystem Model (CTEM) v. 2.0, Geosci. Model Dev., 9, 323-361, 2016.",
+            "unit": "Gt"
+          },
+          {
             "name": "CLM4.5BGC",
             "type": "number",
             "description": "CLM4.5-BGC: Oleson, K, Lawrence, D, Bonan, G, Drewniak, B, Huang, M, Koven, C, Levis, S, Li, F, Riley, W, Subin, Z, Swenson, S, Thornton, P, Bozbiyik, A, Fisher, R, Heald, C, Kluzek, E, Lamarque, J, Lawrence, P, Leung, L, Lipscomb, W, Muszala, S, Ricciuto, D, Sacks, W, Tang, J and Yang, Z 2013. Technical Description of version 45 of the Community Land Model (CLM), NCAR",
+            "unit": "GtC"
+          },
+          {
+            "name": "DLEM",
+            "type": "number",
+            "description": "Tian, H., Liu, M., Z, h. C., Ren, W., Xu, X., Chen, G., Lu, C., and Tao, B.: The Dynamic Land Ecosystem Model (DLEM) for Simulating Terrestrial Processes and Interactions in the Context of Multifactor Global Change, Acta Geographica Sinica, 65, 1027-1047, 2010.",
             "unit": "GtC"
           },
           {
@@ -364,6 +349,12 @@
             "unit": "GtC"
           },
           {
+            "name": "LPX",
+            "type": "number",
+            "description": "Stocker, B. D., Feissli, F., Strassmann, K. M., Spahni, R., and Joos, F.: Past and future carbon fluxes from land use change, shifting cultivation and wood harvest, Tellus Series B-Chemical and Physical Meteorology, 66, 2014.",
+            "unit": "GtC"
+          },
+          {
             "name": "OCN",
             "type": "number",
             "description": "OCN: Zaehle, S, and AD Friend, 2010. Carbon and Nitrogen Cycle Dynamics in the O-CN Land Surface Model: 1 Model Description, Site-Scale Evaluation, and Sensitivity to Parameter Estimates. Global C=Biogeocchemical Cycles 24 (1): GB1005 doi:10.1029/2009GB003521",
@@ -376,15 +367,15 @@
             "unit": "GtC"
           },
           {
+            "name": "SDGVM",
+            "type": "number",
+            "description": "Woodward, F. I., Smith, T. M., and Emanuel, W. R.: A GLOBAL LAND PRIMARY PRODUCTIVITY AND PHYTOGEOGRAPHY MODEL, Global Biogeochemical Cycles, 9, 471-490, 1995.",
+            "unit": "GtC"
+          },
+          {
             "name": "VISIT",
             "type": "number",
             "description": "VISIT: Kato, E, Kinoshita, T, Ito, A, Kawamiya, M, Yamagata, Y 2013. Evaluation of spatially explicit emission scenario of land-use change and biomass burning using a process-based biogeochemical model Journal of Land Use Science, 8(1): 104-122"
-          },
-          {
-            "name": "Ensemble",
-            "type": "number",
-            "description": "Mean Model Ensemble",
-            "unit": "GtC"
           }
         ],
         "primaryKey": "Year"
@@ -428,8 +419,8 @@
       }
     },
     {
-      "name": "territorial-emissions-unfccc",
-      "path": "data/territorial-emissions-unfccc.csv",
+      "name": "territorial-emissions-gcb",
+      "path": "data/territorial-emissions-gcb.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "schema": {
@@ -458,7 +449,7 @@
           {
             "name": "Source",
             "type": "string",
-            "description": "Estimates are based on CDIAC data, country reported UNFCCC data, or on trends from BP data"
+            "description": "Estimates are based on CDIAC data, country reported UNFCCC data, or on BP data"
           }
         ],
         "primaryKey": ["Name", "Year"]
@@ -573,8 +564,8 @@
     }
   ],
   "name": "global-carbon-budget",
-  "title": "Global Carbon Budget 2015",
+  "title": "Global Carbon Budget 2016",
   "description": "Global carbon cycle and emissions data, including fossil-fuel, cement, and land-use change emissions, atmospheric growth, and ocean and land sinks",
-  "version": "1.1",
+  "version": "1.0",
   "license": "The use of data is conditional on citing the original data sources."
 }

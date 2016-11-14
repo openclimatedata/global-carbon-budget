@@ -14,7 +14,7 @@ Uncertainties: see the original papers for uncertainties
 
 ##### Fossil fuel combustion and cement production emissions:
 
-Boden, TA, Marland, G and Andres, RJ 2015. Global, Regional, and National Fossil-Fuel CO2 Emissions, Carbon Dioxide Information Analysis Center, Oak Ridge National Laboratory, U.S. Department of Energy, Oak Ridge, Tenn., U.S.A.
+Boden, TA, Marland, G and Andres, RJ 2016. Global, Regional, and National Fossil-Fuel CO2 Emissions, Carbon Dioxide Information Analysis Center, Oak Ridge National Laboratory, U.S. Department of Energy, Oak Ridge, Tenn., U.S.A.
 
 ##### Land-use change emissions:
 

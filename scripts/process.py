@@ -8,11 +8,11 @@ import pandas as pd
 path = os.path.dirname(os.path.realpath(__file__))
 excel_global = os.path.join(
     path,
-    "../archive/Global_Carbon_Budget_2015_v1.1.xlsx"
+    "../archive/Global_Carbon_Budget_2016_v1.0.xlsx"
 )
 excel_national = os.path.join(
     path,
-    "../archive/National_Carbon_Emissions_2015_v1.1.xlsx"
+    "../archive/National_Carbon_Emissions_2016_v1.0.xlsx"
 )
 fossil_fuel_csv = os.path.join(path, "../data/fossil-fuel-cement.csv")
 land_use_csv = os.path.join(path, "../data/land-use-change.csv")
@@ -23,9 +23,9 @@ territorial_cdiac_csv = os.path.join(
     path,
     "../data/territorial-emissions-cdiac.csv"
 )
-territorial_unfccc_csv = os.path.join(
+territorial_gcb_csv = os.path.join(
     path,
-    "../data/territorial-emissions-unfccc.csv"
+    "../data/territorial-emissions-gcb.csv"
 )
 consumption_emissions_csv = os.path.join(
     path,
@@ -58,22 +58,48 @@ fossil_fuel_cement = pd.read_excel(
     parse_cols="A:H",
     converters=converters
 )
-fossil_fuel_cement['Source'] = np.where(
-    fossil_fuel_cement.index < 2012, 'CDIAC', 'BP')
-fossil_fuel_cement.to_csv(fossil_fuel_csv, encoding="UTF-8")
 
+categories = ["Total", "Coal", "Oil", "Gas", "Cement", "Flaring", "Per Capita"]
+fossil_fuel_cement = pd.melt(
+    fossil_fuel_cement.reset_index(),
+    id_vars=["Year"],
+    value_vars=categories,
+    var_name="Category",
+    value_name="Value"
+)
+
+fossil_fuel_cement.loc[fossil_fuel_cement.Year < 2014, "Source"] = "CDIAC"
+
+fossil_fuel_cement.loc[fossil_fuel_cement.Year > 2013, "Source"] = "BP"
+
+fossil_fuel_cement.loc[
+    (fossil_fuel_cement.Year > 2013) &
+    (fossil_fuel_cement.Category == "Cement"), "Source"
+    ] = "US Geological Survey"
+
+fossil_fuel_cement.loc[(fossil_fuel_cement.Year > 2013) &
+    (fossil_fuel_cement.Category == "Flaring"), "Source"] = ""
+
+assert(len(
+    fossil_fuel_cement[fossil_fuel_cement.Source == "US Geological Survey"] == 2
+))
+
+assert(len(
+    fossil_fuel_cement[fossil_fuel_cement.Source == ""] == 2
+))
+
+fossil_fuel_cement.to_csv(fossil_fuel_csv, encoding="UTF-8")
 
 # Land-use change emissions
 landuse_change = pd.read_excel(
     excel_global,
     sheetname="Land-Use Change Emissions",
-    skiprows=21,
+    skiprows=16,
     index_col="Year",
-    parse_cols="A:B,D,E,G:P,R"
+    parse_cols="A:B,D,E,G:K"
 )
 column_names = {
-    "in the global carbon budget": "Land-Use-Change",
-    "Ensemble": "Mean-Model-Ensemble"
+    "in the global carbon budget": "Land-Use-Change"
 }
 column_names[landuse_change.columns[2]] = "GFED4.1"
 landuse_change = landuse_change.rename(columns=column_names)
@@ -93,7 +119,7 @@ landuse_change.to_csv(
 ocean_sink = pd.read_excel(
     excel_global,
     sheetname="Ocean Sink",
-    skiprows=25,
+    skiprows=24,
     skip_footer=2,
     index_col="year",
     parse_cols="A:B,D:K,M:N"
@@ -115,7 +141,7 @@ ocean_sink.to_csv(
 terrestrial_sink = pd.read_excel(
     excel_global,
     sheetname="Terrestrial Sink",
-    skiprows=17,
+    skiprows=21,
     index_col="Year",
     parse_cols="A:B,D:M,O"
 )
@@ -196,30 +222,34 @@ territorial_cdiac.to_csv(
     index=False
 )
 
-# Territorial UNFCCC emissions
+# Territorial GCB emissions
 
-territorial_unfccc = pd.read_excel(
+territorial_gcb = pd.read_excel(
     excel_national,
-    sheetname="Territorial Emissions UNFCCC",
-    skiprows=13,
+    sheetname="Territorial Emissions GCB",
+    skiprows=14,
     index_col=0,
+    parse_cols="A:IB",
     header=[0, 1]
 )
-territorial_unfccc.index.name = "Year"
+territorial_gcb.index.name = "Year"
 
-territorial_unfccc = territorial_unfccc.T
-territorial_unfccc.index.rename(["CDIAC-Name", "Name"], inplace=True)
+territorial_gcb = territorial_gcb.T
+territorial_gcb.index.rename(["CDIAC-Name", "Name"], inplace=True)
 
-territorial_unfccc = pd.melt(
-    territorial_unfccc.reset_index(),
+territorial_gcb = pd.melt(
+    territorial_gcb.reset_index(),
     id_vars=['Name', 'CDIAC-Name'],
     var_name="Year",
     value_name="Emissions"
 )
 
-territorial_unfccc['Source'] = np.where(
-    territorial_unfccc.Year < 2012, "CDIAC", "BP")
-
+territorial_gcb['Source'] = np.where(
+    territorial_gcb.Year < 2014, "CDIAC", "BP")
+territorial_gcb.loc[
+    (territorial_gcb.Name == "China") &
+    (territorial_gcb.Year.isin(range(1990, 2016))),
+    "Source"] = "BP"
 has_data = [
     'Australia', 'Austria', 'Belarus', 'Belgium', 'Bulgaria', 'Canada',
     'Croatia', 'Cyprus', 'Czech Republic', 'Denmark', 'Estonia', 'Finland',
@@ -228,28 +258,34 @@ has_data = [
     'Luxembourg', 'Malta', 'Netherlands', 'New Zealand', 'Norway', 'Poland',
     'Portugal', 'Romania', 'Russian Federation', 'Slovakia', 'Slovenia',
     'Spain', 'Sweden', 'Switzerland', 'Turkey', 'Ukraine', 'United Kingdom',
-    'United States of America'
+    'USA'
 ]
 assert(len(has_data) == 42)
-with_data_and_in_range = (territorial_unfccc.Name.isin(has_data) &
-                          territorial_unfccc.Year.isin(range(1990, 2013)))
-territorial_unfccc.ix[with_data_and_in_range, "Source"] = "UNFCCC"
+with_data_and_in_range = (territorial_gcb.Name.isin(has_data) &
+                          territorial_gcb.Year.isin(range(1990, 2015)))
+territorial_gcb.ix[with_data_and_in_range, "Source"] = "UNFCCC"
 
 # Check
-# 42 countries have UNFCCC data available in 1990 - 2012
-assert(territorial_unfccc[(territorial_unfccc.Source == "UNFCCC") &
-                          territorial_unfccc.Name.isin(has_data) &
-                          (territorial_unfccc.Year >= 1990) &
-                          (territorial_unfccc.Year <  2013)
-                          ]["Emissions"].count() == 42 * 23)
-# In 2013 and 2014 all data is based on BP
-assert((territorial_unfccc[territorial_unfccc.Year.isin(
-    [2013, 2015])]["Source"] == "BP").all())
+# 42 countries have UNFCCC data available in 1990 - 2014
+assert(territorial_gcb[(territorial_gcb.Source == "UNFCCC") &
+                          territorial_gcb.Name.isin(has_data) &
+                          (territorial_gcb.Year >= 1990) &
+                          (territorial_gcb.Year <  2015)
+                          ]["Emissions"].count() == 42 * 25)
+# In 2015 all data is based on BP
+assert((territorial_gcb[territorial_gcb.Year.isin(
+    [2015])]["Source"] == "BP").all())
+# Total BP count should be 2014 plus 2015 plus China from 1990.
+count = len(territorial_gcb.Name.unique())
+assert(
+    len(territorial_gcb.loc[territorial_gcb.Source == 'BP']) ==
+    count + count - len(has_data)  + len(range(1990, 2014))
+)
 
-territorial_unfccc.sort_values(["Name", "Year"], inplace=True)
+territorial_gcb.sort_values(["Name", "Year"], inplace=True)
 
-territorial_unfccc.to_csv(
-    territorial_unfccc_csv,
+territorial_gcb.to_csv(
+    territorial_gcb_csv,
     encoding="UTF-8",
     float_format="%.3f",
     index=False
@@ -259,7 +295,7 @@ territorial_unfccc.to_csv(
 # Consumption emissions
 consumption_emissions = pd.read_excel(
     excel_national,
-    sheetname="Consumption Emissions UNFCCC",
+    sheetname="Consumption Emissions GCB",
     skiprows=7,
     index_col=0,
     header=[0, 1]
@@ -293,7 +329,7 @@ consumption_emissions.to_csv(
 # Emissions transfers
 emissions_transfers = pd.read_excel(
     excel_national,
-    sheetname="Emissions Transfers UNFCCC",
+    sheetname="Emissions Transfers GCB",
     skiprows=7,
     index_col=0,
     header=[0, 1]
