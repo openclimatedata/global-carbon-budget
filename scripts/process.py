@@ -78,14 +78,22 @@ fossil_fuel_cement.loc[
     ] = "US Geological Survey"
 
 fossil_fuel_cement.loc[(fossil_fuel_cement.Year > 2013) &
-    (fossil_fuel_cement.Category == "Flaring"), "Source"] = ""
+    (fossil_fuel_cement.Category == "Flaring"), "Source"] = "Constant"
+
+fossil_fuel_cement.loc[(fossil_fuel_cement.Year > 2013) &
+    (fossil_fuel_cement.Category == "Total"), "Source"] = "Combination"
+
 
 assert(len(
     fossil_fuel_cement[fossil_fuel_cement.Source == "US Geological Survey"] == 2
 ))
 
 assert(len(
-    fossil_fuel_cement[fossil_fuel_cement.Source == ""] == 2
+    fossil_fuel_cement[fossil_fuel_cement.Source == "Constant"] == 2
+))
+
+assert(len(
+    fossil_fuel_cement[fossil_fuel_cement.Source == "Combination"] == 2
 ))
 
 fossil_fuel_cement.to_csv(fossil_fuel_csv, encoding="UTF-8")
@@ -279,7 +287,7 @@ assert((territorial_gcb[territorial_gcb.Year.isin(
 count = len(territorial_gcb.Name.unique())
 assert(
     len(territorial_gcb.loc[territorial_gcb.Source == 'BP']) ==
-    count + count - len(has_data)  + len(range(1990, 2014))
+    count + count - len(has_data) + len(range(1990, 2014))
 )
 
 territorial_gcb.sort_values(["Name", "Year"], inplace=True)

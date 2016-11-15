@@ -16,9 +16,13 @@ Boden, T.A., G. Marland, and R.J. Andres. 2016. Global, Regional, and National F
 
 2014 and 2015 estimates are preliminary and are based on energy statistics published by BP . <https://www.bp.com/content/dam/bp/pdf/energy-economics/statistical-review-2016/bp-statistical-review-of-world-energy-2016-full-report.pdf>
 
-2014 and 2015 emissions from cement production are from the US Geological Survey.
+2014 and 2015 emissions are based on data on growth rates of cement production
+from the US Geological Survey.
 <http://minerals.usgs.gov/minerals/pubs/commodity/cement/>
 
-The source for 2014 and 2015 flaring is listed as BP in the GCP paper.
+The source for 2014 and 2015 flaring is listed as being kept constant in the
+GCP paper (p. 613).
+
+The totals for 2014 and 2015 are a combination of the different sources.
 
 The uncertainty around the estimate is about ±5 % for a ± 1 sigma confidence level.
