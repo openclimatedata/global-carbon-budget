@@ -50,22 +50,22 @@ This data package makes the data from the 2016 Global Carbon Budget and National
 [territorial-emissions-cdiac.csv](data/territorial-emissions-cdiac.csv)
 
 
-### Territorial Emissions UNFCCC
+### Territorial Emissions GCB
 
-[Notes and Methods](doc/territorial-emissions-unfccc.md)
+[Notes and Methods](doc/territorial-emissions-gcb.md)
 
-[territorial-emissions-unfccc.csv](data/territorial-emissions-unfccc.csv)
+[territorial-emissions-unfccc.csv](data/territorial-emissions-gcb.csv)
 
 
 
-### Consumption Emissions UNFCCC
+### Consumption Emissions GCB
 
 [Notes and Methods](doc/consumption-emissions.md)
 
 [consumption-emissions.csv](data/consumption-emissions.csv)
 
 
-### Emissions Transfers UNFCCC
+### Emissions Transfers GCB
 
 [Notes and Methods](doc/emissions-transfers.md)
 
