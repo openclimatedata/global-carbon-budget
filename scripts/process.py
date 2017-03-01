@@ -96,7 +96,7 @@ assert(len(
     fossil_fuel_cement[fossil_fuel_cement.Source == "Combination"] == 2
 ))
 
-fossil_fuel_cement.to_csv(fossil_fuel_csv, encoding="UTF-8")
+fossil_fuel_cement.to_csv(fossil_fuel_csv, encoding="UTF-8", index=False)
 
 # Land-use change emissions
 landuse_change = pd.read_excel(

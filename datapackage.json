@@ -24,51 +24,19 @@
             "description": "Year"
           },
           {
-            "name": "Total",
-            "type": "integer",
-            "description": "Total",
-            "unit": "MtC"
+            "name": "Category",
+            "type": "string",
+            "description": "Total, Coal, Oil, Gas, Cement, Flaring, or Per Capita "
           },
           {
-            "name": "Coal",
-            "type": "integer",
-            "description": "Coal",
-            "unit": "MtC"
-          },
-          {
-            "name": "Oil",
-            "type": "integer",
-            "description": "Oil",
-            "unit": "MtC"
-          },
-          {
-            "name": "Gas",
-            "type": "integer",
-            "description": "Gas",
-            "unit": "MtC"
-          },
-          {
-            "name": "Cement",
-            "type": "integer",
-            "description": "Cement",
-            "unit": "MtC"
-          },
-          {
-            "name": "Flaring",
-            "type": "integer",
-            "description": "Flaring",
-            "unit": "MtC"
-          },
-          {
-            "name": "Per Capita",
+            "name": "Value",
             "type": "number",
-            "description": "Per-Capita Emissions",
-            "unit": " tC/person/yr"
+            "description": "Value"
           },
           {
             "name": "Source",
             "type": "string",
-            "description": "Based on CDIAC estimates or using trend from BP energy-related emissions dataset"
+            "description": "Based on CDIAC estimates, using trend from BP energy-related emissions dataset, or cement production data from US Geological Survey."
           }
         ],
         "primaryKey": "Year"
