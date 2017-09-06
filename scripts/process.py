@@ -130,7 +130,7 @@ ocean_sink = pd.read_excel(
     skiprows=24,
     skip_footer=2,
     index_col="year",
-    parse_cols="A:B,D:K,M:N"
+    parse_cols="A:B,D:J,L:M"
 )
 ocean_sink.index.name = "Year"
 ocean_sink = ocean_sink.rename(columns={

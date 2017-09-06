@@ -184,13 +184,7 @@
           {
             "name": "MICOM-HAMOCC(NorESM-OC)",
             "type": "number",
-            "description": "MICOM-HAMOCC: Assmann, KM, Bentsen, M, Segschneider, J and Heinze, C 2010. An isopycnic ocean carbon cycle model. Geoscientific Model Development, 3: 143-167",
-            "unit": "GtC"
-          },
-          {
-            "name": "MPIOM-HAMOCC",
-            "type": "number",
-            "description": "MPIOM-HAMOCC: Ilyina, T, Six, K, Segschneider, J, Maier-Reimer, E, Li, H, and Núñez-Riboni, I 2013 The global ocean biogeochemistry model HAMOCC: Model architecture and performance as component of the MPI-Earth System Model in different CMIP5 experimental realizations, Journal of Advances in Modeling Earth Systems, doi: 10.1002/jame.20017",
+            "description": "MICOM-HAMOCC: Schwinger, J., Goris, N., Tjiputra, J. F., Kriest, I., Bentsen, M., Bethke, I., Ilicak, M., Assmann, K. M., and Heinze, C.: Evaluation of NorESM-OC (versions 1 and 1.2), the ocean carbon-cycle stand-alone configuration of the Norwegian Earth System Model (NorESM1), Geosci. Model Dev., 9, 2589-2622, 2016.",
             "unit": "GtC"
           },
           {
