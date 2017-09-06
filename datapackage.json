@@ -15,7 +15,6 @@
       "path": "data/fossil-fuel-cement.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "bytes": 2404,
       "schema": {
         "fields": [
           {
@@ -47,7 +46,6 @@
       "path": "data/historical-budget.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "bytes": 7112,
       "schema": {
         "fields": [
           {
@@ -88,7 +86,6 @@
       "path": "data/land-use-change.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "bytes": 4904,
       "schema": {
         "fields": [
           {
@@ -153,7 +150,6 @@
       "path": "data/ocean-sink.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "bytes": 3318,
       "schema": {
         "fields": [
           {
@@ -236,7 +232,6 @@
       "path": "data/terrestrial-sink.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "bytes": 4774,
       "schema": {
         "fields": [
           {
@@ -459,7 +454,6 @@
       "path": "data/consumption-emissions.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "bytes": 125154,
       "schema": {
         "fields": [
           {
@@ -497,7 +491,6 @@
       "path": "data/emissions-transfers.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "bytes": 127361,
       "schema": {
         "fields": [
           {
