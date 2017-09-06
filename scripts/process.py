@@ -151,7 +151,7 @@ terrestrial_sink = pd.read_excel(
     sheetname="Terrestrial Sink",
     skiprows=21,
     index_col="Year",
-    parse_cols="A:B,D:M,O"
+    parse_cols="A:B,D:Q"
 )
 terrestrial_sink = terrestrial_sink.rename(columns={
     " of the global carbon budget": "Terrestrial-Sink"

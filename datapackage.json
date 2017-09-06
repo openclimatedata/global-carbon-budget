@@ -306,19 +306,13 @@
             "unit": "GtC"
           },
           {
-            "name": "LPJml",
-            "type": "number",
-            "description": "LPJmL: Bondeau, A., Smith, P., Zaehle, S., Schaphoff, S., Lucht, W., Cramer, W., Gerten, D., Lotze-Campen, H., Müller, C., Reichstein, M., and Smith, B.: Modelling the role of agriculture for the 20th century global terrestrial carbon balance, Global Change Biology, 13, 1–28,, 2007",
-            "unit": "GtC"
-          },
-          {
             "name": "LPX",
             "type": "number",
             "description": "Stocker, B. D., Feissli, F., Strassmann, K. M., Spahni, R., and Joos, F.: Past and future carbon fluxes from land use change, shifting cultivation and wood harvest, Tellus Series B-Chemical and Physical Meteorology, 66, 2014.",
             "unit": "GtC"
           },
           {
-            "name": "OCN",
+            "name": "OCNv2",
             "type": "number",
             "description": "OCN: Zaehle, S, and AD Friend, 2010. Carbon and Nitrogen Cycle Dynamics in the O-CN Land Surface Model: 1 Model Description, Site-Scale Evaluation, and Sensitivity to Parameter Estimates. Global C=Biogeocchemical Cycles 24 (1): GB1005 doi:10.1029/2009GB003521",
             "unit": "GtC"
