@@ -136,7 +136,7 @@
             "unit": "GtC"
           },
           {
-            "name": "OCN",
+            "name": "OCNv2",
             "type": "number",
             "description": "Zaehle, S, and AD Friend, 2010. Carbon and Nitrogen Cycle Dynamics in the O-CN Land Surface Model: 1 Model Description, Site-Scale Evaluation, and Sensitivity to Parameter Estimates. Global C=Biogeocchemical Cycles 24 (1): GB1005 doi:10.1029/2009GB003521",
             "unit": "GtC"
