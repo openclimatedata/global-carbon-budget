@@ -16,6 +16,9 @@ data/%.csv: scripts/%.py scripts/util.py venv
 	@echo $@
 	@./venv/bin/python $<
 
+validate:
+	@./venv/bin/python scripts/validate.py
+
 venv: scripts/requirements.txt
 	[ -d ./venv ] || python3 -m venv venv
 	./venv/bin/pip install --upgrade pip
@@ -28,4 +31,4 @@ clean:
 clean-venv:
 	rm -rf venv
 
-.PHONY: clean
+.PHONY: clean validate
