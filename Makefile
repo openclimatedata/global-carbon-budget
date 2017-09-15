@@ -1,6 +1,20 @@
-all: venv
-	./venv/bin/python scripts/process.py
-	@git diff data
+CSV_FILES = \
+  data/fossil-fuel-cement.csv \
+  data/land-use-change.csv \
+  data/ocean-sink.csv \
+  data/terrestrial-sink.csv \
+  data/historical-budget.csv \
+  data/territorial-emissions-cdiac.csv \
+  data/territorial-emissions-gcb.csv \
+  data/consumption-emissions.csv \
+  data/emissions-transfers.csv \
+  data/country-definitions.csv
+
+all: $(CSV_FILES)
+
+data/%.csv: scripts/%.py scripts/util.py venv
+	@echo $@
+	@./venv/bin/python $<
 
 venv: scripts/requirements.txt
 	[ -d ./venv ] || python3 -m venv venv
@@ -9,6 +23,9 @@ venv: scripts/requirements.txt
 	touch venv
 
 clean:
-	rm -rf data/*.csv venv
+	rm -rf data/*.csv
+
+clean-venv:
+	rm -rf venv
 
 .PHONY: clean
