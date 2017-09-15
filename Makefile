@@ -1,5 +1,6 @@
 CSV_FILES = \
   data/fossil-fuel-cement.csv \
+  data/fossil-fuel-cement-per-capita.csv \
   data/land-use-change.csv \
   data/ocean-sink.csv \
   data/terrestrial-sink.csv \

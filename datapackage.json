@@ -25,10 +25,36 @@
           {
             "name": "Category",
             "type": "string",
-            "description": "Total, Coal, Oil, Gas, Cement, Flaring, or Per Capita "
+            "description": "Total, Coal, Oil, Gas, Cement, Flaring"
           },
           {
             "name": "Value",
+            "type": "integer",
+            "description": "Value"
+          },
+          {
+            "name": "Source",
+            "type": "string",
+            "description": "Based on CDIAC estimates, using trend from BP energy-related emissions dataset, or cement production data from US Geological Survey."
+          }
+        ],
+        "primaryKey": ["Year", "Category"]
+      }
+    },
+    {
+      "name": "fossil-fuel-cement-per-capita",
+      "path": "data/fossil-fuel-cement-per-capita.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "description": "Year"
+          },
+          {
+            "name": "Per Capita",
             "type": "number",
             "description": "Value"
           },

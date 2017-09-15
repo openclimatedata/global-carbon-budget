@@ -11,8 +11,7 @@ converters = {
     "Oil": int,
     "Gas": int,
     "Cement": int,
-    "Flaring": int,
-    "Per Capita": lambda x: round(x, 2)
+    "Flaring": int
 }
 
 fossil_fuel_cement = pd.read_excel(
@@ -20,11 +19,11 @@ fossil_fuel_cement = pd.read_excel(
     sheetname="Fossil Emissions by Fuel Type",
     skiprows=10,
     index_col="Year",
-    parse_cols="A:H",
+    parse_cols="A:G",
     converters=converters
 )
 
-categories = ["Total", "Coal", "Oil", "Gas", "Cement", "Flaring", "Per Capita"]
+categories = ["Total", "Coal", "Oil", "Gas", "Cement", "Flaring"]
 fossil_fuel_cement = pd.melt(
     fossil_fuel_cement.reset_index(),
     id_vars=["Year"],
