@@ -539,8 +539,7 @@
     }
   ],
   "name": "global-carbon-budget",
-  "title": "Global Carbon Budget 2016",
+  "title": "Global Carbon Budget",
   "description": "Global carbon cycle and emissions data, including fossil-fuel, cement, and land-use change emissions, atmospheric growth, and ocean and land sinks",
-  "version": "1.0",
   "license": "The use of data is conditional on citing the original data sources."
 }
