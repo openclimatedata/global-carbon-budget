@@ -16,10 +16,10 @@ converters = {
 
 fossil_fuel_cement = pd.read_excel(
     excel_global,
-    sheetname="Fossil Emissions by Fuel Type",
-    skiprows=10,
+    sheet_name="Fossil Emissions by Fuel Type",
+    skiprows=12,
     index_col="Year",
-    parse_cols="A:G",
+    usecols="A:G",
     converters=converters
 )
 
@@ -32,21 +32,21 @@ fossil_fuel_cement = pd.melt(
     value_name="Value"
 )
 
-fossil_fuel_cement.loc[fossil_fuel_cement.Year < 2014, "Source"] = "CDIAC"
+fossil_fuel_cement.loc[fossil_fuel_cement.Year < 2015, "Source"] = "CDIAC"
 
-fossil_fuel_cement.loc[fossil_fuel_cement.Year > 2013, "Source"] = "BP"
+fossil_fuel_cement.loc[fossil_fuel_cement.Year > 2014, "Source"] = "BP"
 
 fossil_fuel_cement.loc[
-    (fossil_fuel_cement.Year > 2013) &
+    (fossil_fuel_cement.Year > 2014) &
     (fossil_fuel_cement.Category == "Cement"), "Source"
     ] = "US Geological Survey"
 
 fossil_fuel_cement.loc[
-    (fossil_fuel_cement.Year > 2013) &
+    (fossil_fuel_cement.Year > 2014) &
     (fossil_fuel_cement.Category == "Flaring"), "Source"] = "Constant"
 
 fossil_fuel_cement.loc[
-    (fossil_fuel_cement.Year > 2013) &
+    (fossil_fuel_cement.Year > 2014) &
     (fossil_fuel_cement.Category == "Total"), "Source"] = "Combination"
 
 assert(len(fossil_fuel_cement[

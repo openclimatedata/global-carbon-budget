@@ -7,18 +7,11 @@ land_use_csv = root / "data/land-use-change.csv"
 # Land-use change emissions
 landuse_change = pd.read_excel(
     excel_global,
-    sheetname="Land-Use Change Emissions",
-    skiprows=16,
+    sheet_name="Land-Use Change Emissions",
+    skiprows=23,
     index_col="Year",
-    parse_cols="A:B,D,E,G:K"
+    usecols="A:B,D,E,G:R,T,U"
 )
-column_names = {
-    "in the global carbon budget": "Land-Use-Change"
-}
-column_names[landuse_change.columns[2]] = "GFED4.1"
-landuse_change = landuse_change.rename(columns=column_names)
-landuse_change.columns = [c.strip() for c in landuse_change.columns]
-landuse_change.head()
 
 landuse_change.to_csv(
     land_use_csv,

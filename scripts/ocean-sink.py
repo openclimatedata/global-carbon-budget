@@ -8,17 +8,13 @@ ocean_sink_csv = root / "data/ocean-sink.csv"
 
 ocean_sink = pd.read_excel(
     excel_global,
-    sheetname="Ocean Sink",
-    skiprows=24,
-    skip_footer=2,
+    sheet_name="Ocean Sink",
+    skiprows=20,
     index_col="year",
-    parse_cols="A:B,D:J,L:M"
+    usecols="A:B,D:K,M:N"
 )
 ocean_sink.index.name = "Year"
-ocean_sink = ocean_sink.rename(columns={
-    "and models used in the global carbon budget": "Ocean-Sink"
-    })
-ocean_sink.columns = [c.replace(" ", "") for c in ocean_sink.columns]
+
 ocean_sink.to_csv(
     ocean_sink_csv,
     encoding="UTF-8",

@@ -8,10 +8,10 @@ historical_budget_csv = root / "data/historical-budget.csv"
 
 historical_budget = pd.read_excel(
     excel_global,
-    sheetname="Historical Budget",
+    sheet_name="Historical Budget",
     skiprows=14,
     index_col="Year",
-    parse_cols="A:E"
+    usecols="A:E"
 )
 historical_budget = historical_budget.rename(columns={
     "fossil fuel and cement emissions": "Fossil-Fuel-Cement",
