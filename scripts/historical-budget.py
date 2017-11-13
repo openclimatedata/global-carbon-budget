@@ -14,7 +14,7 @@ historical_budget = pd.read_excel(
     usecols="A:E"
 )
 historical_budget = historical_budget.rename(columns={
-    "fossil fuel and cement emissions": "Fossil-Fuel-Cement",
+    "fossil fuel and industry": "Fossil-Fuel-Industry",
     "land-use change emissions": "Land-Use-Change",
     "atmospheric growth": "Atmospheric-Growth",
     "ocean sink": "Ocean-Sink"

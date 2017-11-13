@@ -15,6 +15,8 @@ terrestrial_sink = pd.read_excel(
     usecols="A:B,D:T"
 )
 
+terrestrial_sink.rename(columns={"GCB": "Terrestrial-Sink"}, inplace=True)
+
 terrestrial_sink.to_csv(
     terrestrial_sink_csv,
     encoding="UTF-8",

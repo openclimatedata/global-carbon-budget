@@ -13,6 +13,8 @@ landuse_change = pd.read_excel(
     usecols="A:B,D,E,G:R,T,U"
 )
 
+landuse_change.rename(columns={"GCB": "Land-Use-Change"}, inplace=True)
+
 landuse_change.to_csv(
     land_use_csv,
     float_format="%.3f",

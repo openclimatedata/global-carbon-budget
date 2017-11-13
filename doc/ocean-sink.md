@@ -4,68 +4,47 @@ All values in billion tonnes of carbon per year (GtC/yr), for the globe. For val
 
 1 billion tonnes C = 1 petagram of carbon (10^15 gC) = 1 gigatonne C = 3.664 billion tonnes of CO2
 
-
 #### Methods:
 
-The ocean CO2 sink for the 1990s is based on observations (see cited studies below). The average anomalies from the model results, normalised to the observed mean for 1990-1999 are used for the annual values.
-
+The ocean sink (uncertainty of ±0.5 GtC/yr) is estimated from the average of several global ocean biogeochemistry models that reproduce the observed mean ocean sink of the 1990s.
 
 #### Note:
-The data-based products include a pre-industrial steady state source of CO₂ (of about 0.45 GtC/yr).
+
+The data products include a pre-industrial steady state source of CO2 (of about 0.45 GtC/yr) and therefore are not directly comparable with the ocean model results.
 
 
-#### Cite individual estimates as:
+#### Cite individual estimates as
 
-##### Observational data sources used to compute the 1990-1999 average of 2.2 PgC/yr:
+##### Model results used to compute the annual values
 
-McNeil, B. I., Matear, R. J., Key, R. M., Bullister, J. L., and Sarmiento, J. L. 2003. Anthropogenic CO2 uptake by the ocean based on the global chlorofluorocarbon data set, Science, 299, 235-239, 10.1126/science.1077429.
+###### CCSM-BEC
+Doney, S. C., Lima, I., Feely, R. A., Glover, D. M., Lindsay, K., Mahowald, N., Moore, J. K., and Wanninkhof, R.: Mechanisms governing interannual variability in upper-ocean inorganic carbon system and air–sea CO2 fluxes: Physical climate and atmospheric dust, Deep-Sea Res Pt Ii, 56, 640-655, 2009.
 
-Manning, A. C., and Keeling, R. F. 2006. Global oceanic and land biotic carbon sinks from the Scripps atmospheric oxygen flask sampling network, Tellus Series B-Chemical and Physical Meteorology, 58, 95-116, 10.1111/j.1600-0889.2006.00175.x.
+###### CSIRO
+Law, R. M., Ziehn, T., Matear, R. J., Lenton, A., Chamberlain, M. A., Stevens, L. E., Wang, Y. P., Srbinovsky, J., Bi, D., Yan, H., and Vohralik, P. F.: The carbon cycle in the Australian Community Climate and Earth System Simulator (ACCESS-ESM1) – Part 1: Model description and pre-industrial simulation, Geosci. Model Dev., 10, 2567-2590, 2017.
 
-Mikaloff Fletcher, S. E., Gruber, N., Jacobson, A. R., Doney, S. C., Dutkiewicz, S., Gerber, M., Follows, M., Joos, F., Lindsay, K., Menemenlis, D., Mouchet, A., Müller, S. A., and Sarmiento, J. L. 2006. Inverse estimates of anthropogenic CO2 uptake, transport, and storage by the oceans, Global Biogeochemical Cycles, 20.
+###### MITgcm-REcoM2
+Hauck, J., Kohler, P., Wolf-Gladrow, D., and Volker, C.: Iron fertilisation and century-scale effects of open ocean dissolution of olivine in a simulated CO2 removal experiment, Environmental Research Letters, 11, 024007, 2016.
 
-##### Model results used to compute the annual values:
+###### MPIOM-HAMOCC
+Ilyina, T., Six, K., Segschneider, J., Maier-Reimer, E., Li, H., and Núñez-Riboni, I.: The global ocean biogeochemistry model HAMOCC: Model architecture and performance as component of the MPI-Earth System Model in different CMIP5 experimental realizations, Journal of Advances in Modeling Earth Systems, 5, 287-315, doi: 10.1002/jame.20017, 2013.
 
-##### NEMO-PlankTOM5:
+###### NEMO-PISCES (CNRM)
+Séférian, R., Bopp, L., Gehlen, M., Orr, J., Ethé, C., Cadule, P., Aumont, O., Salas y Mélia, D., Voldoire, A. and Madec, G.: Skill assessment of three earth system models with common marine biogeochemistry, Climate Dynamics, 40, 2549–2573, 2013.
 
-Buitenhuis, ET, Rivkin, RB, Sailley, SF, Le Quéré, C 2010. Biogeochemical fluxes through microzooplankton. Global Biogeochemical Cycles 24.
+###### NEMO-PISCES (LSCE)
+Aumont, O. and Bopp, L.: Globalizing results from ocean in situ iron fertilization studies, Global Biogeochemical Cycles, 20, GB2017, 2006.
 
-##### NEMO-PISCES (LSCE):
+###### NEMO-PlankTOM5
+Buitenhuis, E. T., Rivkin, R. B., Sailley, S., and Le Quéré, C.: Biogeochemical fluxes through microzooplankton, Global Biogeochemical Cycles, 24, 2010.
 
-Aumont, O and Bopp, L 2006. Globalizing results from ocean in situ iron fertilization studies. Global Biogeochemical Cycles 20(2).
+###### NorESM-OC
+Schwinger, J., Goris, N., Tjiputra, J. F., Kriest, I., Bentsen, M., Bethke, I., Ilicak, M., Assmann, K. M., and Heinze, C.: Evaluation of NorESM-OC (versions 1 and 1.2), the ocean carbon-cycle stand-alone configuration of the Norwegian Earth System Model (NorESM1), Geosci. Model Dev., 9, 2589-2622, 2016.
 
-##### CCSM-BEC:
+##### Data products used to evaluate the results
 
-Doney, SC, Lima, ID, Feely, RA, Glover, DM, Lindsay, K, Mahowald, N, Moore, JK and Wanninkhof, R 2009. Mechanisms governing interannual variability in upper-ocean inorganic carbon system and air-sea CO2 fluxes: physical climate and atmospheric dust. Deep-Sea Res., II(56): 640-655.
+###### Landschützer
+Landschützer, P., Gruber, N., Haumann, F. A., Rödenbeck, C., Bakker, D. C. E., van Heuven, S., Hoppema, M., Metzl, N., Sweeney, C., Takahashi, T., Tilbrook, B., and Wanninkhof, R.: The reinvigoration of the Southern Ocean carbon sink, Science, 349, 1221-1224, 2015.
 
-##### MICOM-HAMOCC:
-
-Assmann, KM, Bentsen, M, Segschneider, J and Heinze, C 2010. An isopycnic ocean carbon cycle model. Geoscientific Model Development, 3: 143-167.
-
-##### MPIOM-HAMOCC:
-
-Ilyina, T, Six, K, Segschneider, J, Maier-Reimer, E, Li, H, and Núñez-Riboni, I 2013 The global ocean biogeochemistry model HAMOCC: Model architecture and performance as component of the MPI-Earth System Model in different CMIP5 experimental realizations, Journal of Advances in Modeling Earth Systems, doi: 10.1002/jame.20017.
-
-##### NEMO-PISCES (CNRM):
-
-Séférian R, Bopp, L, Gehlen, M, Orr, J, Ethé, C, Cadule, P, Aumont, O, Salas Y Mélia, D, Voldoire, A and Madec, G 2013 Skill assessment of three earth system models with common marine biogeochemistry. Climate Dynamics, 40, 2549–2573.
-
-##### CSIRO:
-
-Oke PR, Griffin, DA, Schiller, A, Matear, R ., Fiedler, R, Mansbridge, J, Lenton, A, Cahill, M, Chamberlain, MA and Ridgway, K 2013. Evaluation of a near-global eddy-resolving ocean model. Geosci. Model Dev., 6, 591-615.
-
-##### MITgcm-REcoM2:
-
-Hauck, J, C Völker, T Wang, M Hoppema, M Losch, and Wolf-Gladrow, D A: Seasonally different carbon flux changes in the Southern Ocean in response to the southern annular mode, Global Biogeochem. Cycles, 27, 1236-1245, 2013.
-
-##### Data products used to evaluate the results:
-
-Note: the data products include a pre-industrial steady state source of CO2 (of about 0.45 GtC/yr) and therefore are not directly comparable with the ocean model results
-
-##### Landschützer:
-
-Landschützer P, Gruber N, Bakker DCE, Schuster U (2014) Recent variability of the global ocean carbon sink. Global Biogeochemical Cycles.
-
-##### Rödenbeck:
-
-Rödenbeck, C, Bakker, DCE, Metzl, N, Olsen, A, Sabine, C, Cassar, N, Reum, F, Keeling, RF, and Heimann, M 2014. Interannual sea-air CO2 flux variability from an observation-driven ocean mixed-layer scheme., Biogeosciences Discussions, doi: 10.5194/bgd-11-3167-2014, 2014. 3167-3207
+###### Rödenbeck
+Rödenbeck, C., Bakker, D. C. E., Metzl, N., Olsen, A., Sabine, C., Cassar, N., Reum, F., Keeling, R. F., and Heimann, M.: Interannual sea–air CO2 flux variability from an observation-driven ocean mixed-layer scheme, Biogeosciences, 11, 4599-4613, 2014.

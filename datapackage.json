@@ -76,7 +76,7 @@
             "description": "Year"
           },
           {
-            "name": "Fossil-Fuel-Cement",
+            "name": "Fossil-Fuel-Industry",
             "type": "number",
             "description": "Fossil fuel combustion and cement production emissions",
             "unit": "GtC"
@@ -118,49 +118,87 @@
           {
             "name": "Land-Use-Change",
             "type": "number",
-            "description": "Land-use change emissions used in the global carbon budget",
+            "description": "Land-use change emissions used in the Global Carbon Budget",
             "unit": "GtC"
           },
           {
-            "name": "Bookkeeping",
+            "name": "H&N",
             "type": "number",
-            "description": "Houghton, RA, van der Werf, GR, DeFries, RS, Hansen, MC, House, JI, Le Quéré, C, Pongratz, J and Ramankutty, N 2012. Chapter G2 Carbon emissions from land use and land-cover change, Biogeosciences, 9, 5125-5142. Doi: 10.5194/bgd-9-835-2012",
             "unit": "GtC"
           },
           {
-            "name": "GFED4.1",
+            "name": "BLUE",
             "type": "number",
-            "description": "van der Werf, GR, Randerson, JT, Giglio, L, Collatz, G J, Mu, M, Kasibhatla, P, Morton, DC, DeFries, RS, Jin, Y, and van Leeuwen, TT 2010. Global fire emissions and the contribution of deforestation, savanna, forest, agricultural, and peat fires (1997–2009), Atmospheric Chemistry and Physics, 10, 11707-11735",
+            "unit": "GtC"
+          },
+          {
+            "name": "CABLE",
+            "type": "number",
+            "unit": "GtC"
+          },
+          {
+            "name": "CLASS-CTEM",
+            "type": "number",
+            "unit": "GtC"
+          },
+          {
+            "name": "CLM4.5(BGC)",
+            "type": "number",
+            "unit": "GtC"
+          },
+          {
+            "name": "DLEM",
+            "type": "number",
             "unit": "GtC"
           },
           {
             "name": "ISAM",
             "type": "number",
-            "description": "Jain, AK, Meiyappan, P, Song, Y and House, JI 2013. CO2 Emissions from Land-Use Change Affected More by Nitrogen Cycle, than by the Choice of Land Cover Data, Global Change Biology, 101111/gcb12207; Jain, AK, and Yang, X 2005. Modeling the effects of two different land cover change data sets on the carbon stocks of plants and soils in concert with CO2 and climate change Global BiogeochemCycles, 19(2), 1-20",
             "unit": "GtC"
           },
           {
             "name": "JULES",
             "type": "number",
-            "description": "Clarke, DB, Mercado, LM, Sitch, S, Jones, CD, Gedney, N, Best, MJ, Pryor, M, Rooney, GG, Essery, RLH, Blyth, E, Boucher, O, Cox, PM, and Harding, RJ 2011. The Joint UK Land Environment Simulator (JULES), model description - Part 2: Carbon fluxes and vegetation dynamics, Geoscientific Model Development, 9, 161-18.5",
-            "unit": "GtC"
-          },
-          {
-            "name": "LPJ-GUESS",
-            "type": "number",
-            "description": "Smith, B, Prentice, IC and Sykes MT 2001. Representation of vegetation dynamics in the modelling of terrestrial ecosystems: comparing two contrasting approaches within European climate space Global Ecology and Biogeography 10(6): 621-637",
             "unit": "GtC"
           },
           {
             "name": "LPJ",
             "type": "number",
-            "description": "Sitch, S, Smith, B, Prentice, IC, Arneth, A, Bondeau, A, Cramer, W, Kaplan, JO, Levis, S, Lucht, W, Sykes, MT, Thonicke, K, Venevsky, S 2003. Evaluation of ecosystem dynamics, plant geography and terrestrial carbon cycling in the LPJ dynamic global vegetation model Global Change Biology 9(2): 161-185",
             "unit": "GtC"
           },
           {
-            "name": "OCNv2",
+            "name": "LPX-Bern",
             "type": "number",
-            "description": "Zaehle, S, and AD Friend, 2010. Carbon and Nitrogen Cycle Dynamics in the O-CN Land Surface Model: 1 Model Description, Site-Scale Evaluation, and Sensitivity to Parameter Estimates. Global C=Biogeocchemical Cycles 24 (1): GB1005 doi:10.1029/2009GB003521",
+            "unit": "GtC"
+          },
+          {
+            "name": "OCN",
+            "type": "number",
+            "unit": "GtC"
+          },
+          {
+            "name": "ORCHIDEE",
+            "type": "number",
+            "unit": "GtC"
+          },
+          {
+            "name": "ORCHIDEE-MICT",
+            "type": "number",
+            "unit": "GtC"
+          },
+          {
+            "name": "SDGVM",
+            "type": "number",
+            "unit": "GtC"
+          },
+          {
+            "name": "MME",
+            "type": "number",
+            "unit": "GtC"
+          },
+          {
+            "name": "stdev",
+            "type": "number",
             "unit": "GtC"
           }
         ],
@@ -182,62 +220,58 @@
           {
             "name": "Ocean-Sink",
             "type": "number",
-            "description": "Ocean CO2 sink based on combining observations and models used in the global carbon budget",
-            "unit": "GtC"
-          },
-          {
-            "name": "NEMO-PlankTOM5",
-            "type": "number",
-            "description": "EMO-PlankTOM5: Buitenhuis, ET, Rivkin, RB, Sailley, SF, Le Quéré, C 2010. Biogeochemical fluxes through microzooplankton. Global Biogeochemical Cycles 24",
-            "unit": "GtC"
-          },
-          {
-            "name": "NEMO-PISCES(LSCE)",
-            "type": "number",
-            "description": "NEMO-PISCES (LSCE): Aumont, O and Bopp, L 2006. Globalizing results from ocean in situ iron fertilization studies. Global Biogeochemical Cycles 20(2)",
+            "description": "Ocean CO2 sink based on combining observations and models used in the Global Carbon Budget",
             "unit": "GtC"
           },
           {
             "name": "CCSM-BEC",
             "type": "number",
-            "description": "CCSM-BEC: Doney, SC, Lima, ID, Feely, RA, Glover, DM, Lindsay, K, Mahowald, N, Moore, JK and Wanninkhof, R 2009. Mechanisms governing interannual variability in upper-ocean inorganic carbon system and air-sea CO2 fluxes: physical climate and atmospheric dust. Deep-Sea Res., II(56): 640-655",
-            "unit": "GtC"
-          },
-          {
-            "name": "MICOM-HAMOCC(NorESM-OC)",
-            "type": "number",
-            "description": "MICOM-HAMOCC: Schwinger, J., Goris, N., Tjiputra, J. F., Kriest, I., Bentsen, M., Bethke, I., Ilicak, M., Assmann, K. M., and Heinze, C.: Evaluation of NorESM-OC (versions 1 and 1.2), the ocean carbon-cycle stand-alone configuration of the Norwegian Earth System Model (NorESM1), Geosci. Model Dev., 9, 2589-2622, 2016.",
-            "unit": "GtC"
-          },
-          {
-            "name": "NEMO-PISCES(CNRM)",
-            "type": "number",
-            "description": "NEMO-PISCES (CNRM): Séférian R, Bopp, L, Gehlen, M, Orr, J, Ethé, C, Cadule, P, Aumont, O, Salas Y Mélia, D, Voldoire, A and Madec, G 2013 Skill assessment of three earth system models with common marine biogeochemistry. Climate Dynamics, 40, 2549–2573",
-            "unit": "GtC"
+            "unit": "Gt"
           },
           {
             "name": "CSIRO",
             "type": "number",
-            "description": "CSIRO: Oke PR, Griffin, DA, Schiller, A, Matear, R ., Fiedler, R, Mansbridge, J, Lenton, A, Cahill, M, Chamberlain, MA and Ridgway, K 2013. Evaluation of a near-global eddy-resolving ocean model. Geosci. Model Dev., 6, 591-615",
-            "unit": "GtC"
+            "unit": "Gt"
           },
           {
             "name": "MITgcm-REcoM2",
             "type": "number",
-            "description": "MITgcm-REcoM2: Hauck, J, C Völker, T Wang, M Hoppema, M Losch, and Wolf-Gladrow, D A: Seasonally different carbon flux changes in the Southern Ocean in response to the southern annular mode, Global Biogeochem. Cycles, 27, 1236-1245, 2013",
-            "unit": "GtC"
+            "unit": "Gt"
+          },
+          {
+            "name": "MPIOM-HAMOCC",
+            "type": "number",
+            "unit": "Gt"
+          },
+          {
+            "name": "NEMO-PISCES (CNRM)",
+            "type": "number",
+            "unit": "Gt"
+          },
+          {
+            "name": "NEMO-PISCES (LSCE)",
+            "type": "number",
+            "unit": "Gt"
+          },
+          {
+            "name": "NEMO-PlankTOM5",
+            "type": "number",
+            "unit": "Gt"
+          },
+          {
+            "name": "NorESM-OC",
+            "type": "number",
+            "unit": "Gt"
           },
           {
             "name": "Landschützer",
             "type": "number",
-            "description": "Landschützer data product used to evaluate the results: Landschützer P, Gruber N, Bakker DCE, Schuster U (2014) Recent variability of the global ocean carbon sink. Global Biogeochemical Cycles",
-            "unit": "GtC"
+            "unit": "Gt"
           },
           {
             "name": "Rödenbeck",
             "type": "number",
-            "description": "Rödenbeck data product used to evaluate the results: Rödenbeck, C, Bakker, DCE, Metzl, N, Olsen, A, Sabine, C, Cassar, N, Reum, F, Keeling, RF, and Heimann, M 2014. Interannual sea-air CO2 flux variability from an observation-driven ocean mixed-layer scheme., Biogeosciences Discussions, doi: 10.5194/bgd-11-3167-2014, 2014. 3167-3207",
-            "unit": "GtC"
+            "unit": "Gt"
           }
         ],
         "primaryKey": "Year"
@@ -262,93 +296,90 @@
             "unit": "GtC"
           },
           {
-            "name": "Preliminary",
-            "type": "boolean",
-            "description": "Preliminary land-use change data (data in red in Column B of original Excel sheet)."
-          },
-          {
-            "name": "CABLE-POP",
+            "name": "CABLE",
             "type": "number",
-            "description": "Zhang, H. Q., Pak, B., Wang, Y. P., Zhou, X. Y., Zhang, Y. Q., and Zhang, L.: Evaluating Surface Water Cycle Simulated by the Australian Community Land Surface Model (CABLE) across Different Spatial and Temporal Domains, Journal of Hydrometeorology, 14, 1119-1138, 2013.",
             "unit": "Gt"
 
           },
           {
             "name": "CLASS-CTEM",
             "type": "number",
-            "description": "Melton, J. R. and Arora, V. K.: Competition between plant functional types in the Canadian Terrestrial Ecosystem Model (CTEM) v. 2.0, Geosci. Model Dev., 9, 323-361, 2016.",
             "unit": "Gt"
           },
           {
-            "name": "CLM4.5BGC",
+            "name": "CLM4.5(BGC)",
             "type": "number",
-            "description": "CLM4.5-BGC: Oleson, K, Lawrence, D, Bonan, G, Drewniak, B, Huang, M, Koven, C, Levis, S, Li, F, Riley, W, Subin, Z, Swenson, S, Thornton, P, Bozbiyik, A, Fisher, R, Heald, C, Kluzek, E, Lamarque, J, Lawrence, P, Leung, L, Lipscomb, W, Muszala, S, Ricciuto, D, Sacks, W, Tang, J and Yang, Z 2013. Technical Description of version 45 of the Community Land Model (CLM), NCAR",
             "unit": "GtC"
           },
           {
             "name": "DLEM",
             "type": "number",
-            "description": "Tian, H., Liu, M., Z, h. C., Ren, W., Xu, X., Chen, G., Lu, C., and Tao, B.: The Dynamic Land Ecosystem Model (DLEM) for Simulating Terrestrial Processes and Interactions in the Context of Multifactor Global Change, Acta Geographica Sinica, 65, 1027-1047, 2010.",
             "unit": "GtC"
           },
           {
             "name": "ISAM",
             "type": "number",
-            "description": "ISAM: Jain, AK, Meiyappan, P, Song, Y and House, JI 2013. CO2 Emissions from Land-Use Change Affected More by Nitrogen Cycle, than by the Choice of Land Cover Data, Global Change Biology, 101111/gcb12207; Jain, AK, and Yang, X 2005. Modeling the effects of two different land cover change data sets on the carbon stocks of plants and soils in concert with CO2 and climate change Global BiogeochemCycles, 19(2), 1-20",
             "unit": "GtC"
           },
           {
             "name": "JSBACH",
             "type": "number",
-            "description": "JSBACH: Reick, C. H., T. Raddatz, V. Brovkin, and Gayler, V.: The representation of natural and anthropogenic land cover change in MPI-ESM, Journal of Advances in Modeling Earth Systems, 5, 459–482, 2013",
             "unit": "GtC"
           },
           {
             "name": "JULES",
             "type": "number",
-            "description": "JULES: Clarke, DB, Mercado, LM, Sitch, S, Jones, CD, Gedney, N, Best, MJ, Pryor, M, Rooney, GG, Essery, RLH, Blyth, E, Boucher, O, Cox, PM, and Harding, RJ 2011. The Joint UK Land Environment Simulator (JULES), model description - Part 2: Carbon fluxes and vegetation dynamics, Geoscientific Model Development, 9, 161-18.5",
             "unit": "GtC"
           },
           {
             "name": "LPJ-GUESS",
             "type": "number",
-            "description": "LPJ-GUESS: Smith, B, Prentice, IC and Sykes MT 2001. Representation of vegetation dynamics in the modelling of terrestrial ecosystems: comparing two contrasting approaches within European climate space Global Ecology and Biogeography 10(6): 621-637",
             "unit": "GtC"
           },
           {
             "name": "LPJ",
             "type": "number",
-            "description": "LPJ: Sitch, S, Smith, B, Prentice, IC, Arneth, A, Bondeau, A, Cramer, W, Kaplan, JO, Levis, S, Lucht, W, Sykes, MT, Thonicke, K, Venevsky, S 2003. Evaluation of ecosystem dynamics, plant geography and terrestrial carbon cycling in the LPJ dynamic global vegetation model Global Change Biology 9(2): 161-185",
             "unit": "GtC"
           },
           {
-            "name": "LPX",
+            "name": "LPX-Bern",
             "type": "number",
-            "description": "Stocker, B. D., Feissli, F., Strassmann, K. M., Spahni, R., and Joos, F.: Past and future carbon fluxes from land use change, shifting cultivation and wood harvest, Tellus Series B-Chemical and Physical Meteorology, 66, 2014.",
             "unit": "GtC"
           },
           {
-            "name": "OCNv2",
+            "name": "OCN",
             "type": "number",
-            "description": "OCN: Zaehle, S, and AD Friend, 2010. Carbon and Nitrogen Cycle Dynamics in the O-CN Land Surface Model: 1 Model Description, Site-Scale Evaluation, and Sensitivity to Parameter Estimates. Global C=Biogeocchemical Cycles 24 (1): GB1005 doi:10.1029/2009GB003521",
             "unit": "GtC"
           },
           {
             "name": "ORCHIDEE",
             "type": "number",
-            "description": "ORCHIDEE: Krinner, G., Viovy, N., de Noblet, N., Ogée, J., Friedlingstein, P., Ciais, P., Sitch, S., Polcher, J., and Prentice, I. C.: A dynamic global vegetation model for studies of the coupled atmosphere-biosphere system, Global Biogeochemical Cycles, 19, 1-33, 2005",
+            "unit": "GtC"
+          },
+          {
+            "name": "ORCHIDEE-MICT",
+            "type": "number",
             "unit": "GtC"
           },
           {
             "name": "SDGVM",
             "type": "number",
-            "description": "Woodward, F. I., Smith, T. M., and Emanuel, W. R.: A GLOBAL LAND PRIMARY PRODUCTIVITY AND PHYTOGEOGRAPHY MODEL, Global Biogeochemical Cycles, 9, 471-490, 1995.",
             "unit": "GtC"
           },
           {
             "name": "VISIT",
             "type": "number",
-            "description": "VISIT: Kato, E, Kinoshita, T, Ito, A, Kawamiya, M, Yamagata, Y 2013. Evaluation of spatially explicit emission scenario of land-use change and biomass burning using a process-based biogeochemical model Journal of Land Use Science, 8(1): 104-122"
+            "unit": "GtC"
+          },
+          {
+            "name": "MMM",
+            "type": "number",
+            "unit": "GtC"
+          },
+          {
+            "name": "stdev",
+            "type": "number",
+            "unit": "GtC"
           }
         ],
         "primaryKey": "Year"
@@ -381,11 +412,6 @@
             "type": "number",
             "description": "Fossil fuels and cement production emissions by country (territorial, using the region names from consumption emissions) in MtC",
             "unit": "MtC"
-          },
-          {
-            "name": "Source",
-            "type": "string",
-            "description": "Estimates are based on CDIAC data or on trends from BP data"
           }
         ],
         "primaryKey": ["Name", "Year"]
@@ -486,11 +512,6 @@
             "type": "number",
             "description": "Consumption Emissions",
             "unit": "MtC"
-          },
-          {
-            "name": "Source",
-            "type": "string",
-            "description": "Estimates are based on CDIAC, UNFCCC, or on trends from BP data"
           }
         ],
         "primaryKey": ["Name", "Year"]
@@ -523,11 +544,6 @@
             "type": "number",
             "description": "Emissions Transfers",
             "unit": "MtC"
-          },
-          {
-            "name": "Source",
-            "type": "string",
-            "description": "Estimates are based on CDIAC, UNFCCC, or on trends from BP data"
           }
         ],
         "primaryKey": ["Name", "Year"]

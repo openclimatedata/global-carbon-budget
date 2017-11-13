@@ -10,10 +10,13 @@ ocean_sink = pd.read_excel(
     excel_global,
     sheet_name="Ocean Sink",
     skiprows=20,
+    skipfooter=1,
     index_col="year",
     usecols="A:B,D:K,M:N"
 )
 ocean_sink.index.name = "Year"
+
+ocean_sink.rename(columns={"GCB": "Ocean-Sink"}, inplace=True)
 
 ocean_sink.to_csv(
     ocean_sink_csv,
