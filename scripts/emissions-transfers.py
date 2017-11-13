@@ -8,7 +8,7 @@ emissions_transfers_csv = root / "data/emissions-transfers.csv"
 # Emissions transfers
 emissions_transfers = pd.read_excel(
     excel_national,
-    sheetname="Emissions Transfers GCB",
+    sheet_name="Emissions Transfers GCB",
     skiprows=7,
     index_col=0,
     header=[0, 1]
@@ -23,25 +23,6 @@ emissions_transfers = pd.melt(
     var_name="Year",
     value_name="Emissions-Transfers"
 )
-
-has_data = [
-    'Australia', 'Austria', 'Belarus', 'Belgium', 'Bulgaria', 'Canada',
-    'Croatia', 'Cyprus', 'Czech Republic', 'Denmark', 'Estonia', 'Finland',
-    'France', 'Germany', 'Greece', 'Hungary', 'Iceland', 'Ireland', 'Italy',
-    'Japan', 'Kazakhstan', 'Latvia', 'Liechtenstein', 'Lithuania',
-    'Luxembourg', 'Malta', 'Netherlands', 'New Zealand', 'Norway', 'Poland',
-    'Portugal', 'Romania', 'Russian Federation', 'Slovakia', 'Slovenia',
-    'Spain', 'Sweden', 'Switzerland', 'Turkey', 'Ukraine', 'United Kingdom',
-    'USA'
-]
-assert(len(has_data) == 42)
-with_data_and_in_range = (emissions_transfers.Name.isin(has_data) &
-                          emissions_transfers.Year.isin(range(1990, 2015)))
-
-
-emissions_transfers['Source'] = np.where(
-    emissions_transfers.Year < 2012, "CDIAC", "BP")
-emissions_transfers.ix[with_data_and_in_range, "Source"] = "UNFCCC"
 
 emissions_transfers.dropna(inplace=True)
 

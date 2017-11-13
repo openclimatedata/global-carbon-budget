@@ -8,7 +8,7 @@ country_definitions_csv = root / "data/country-definitions.csv"
 # Country Definitions
 country_definitions = pd.read_excel(
     excel_national,
-    sheetname="Country Definitions",
+    sheet_name="Country Definitions",
     skiprows=3
 )
 

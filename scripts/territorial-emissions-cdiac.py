@@ -9,8 +9,8 @@ territorial_cdiac_csv = root / "data/territorial-emissions-cdiac.csv"
 
 territorial_cdiac = pd.read_excel(
     excel_national,
-    sheetname="Territorial Emissions CDIAC",
-    skiprows=13,
+    sheet_name="Territorial Emissions CDIAC",
+    skiprows=12,
     index_col=0,
     header=[0, 1]
 )
@@ -26,12 +26,7 @@ territorial_cdiac = pd.melt(
     value_name="Emissions"
 )
 
-territorial_cdiac['Source'] = np.where(
-    territorial_cdiac.Year < 2012, "CDIAC", "BP")
-
-# In 2012 to 2014 all data is based on BP.
-assert((territorial_cdiac[territorial_cdiac.Year.isin(
-    [2012, 2015])]["Source"] == "BP").all())
+territorial_cdiac.dropna(inplace=True)
 
 territorial_cdiac.sort_values(["Name", "Year"], inplace=True)
 

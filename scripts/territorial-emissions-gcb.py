@@ -10,10 +10,10 @@ territorial_gcb_csv = root / "data/territorial-emissions-gcb.csv"
 
 territorial_gcb = pd.read_excel(
     excel_national,
-    sheetname="Territorial Emissions GCB",
+    sheet_name="Territorial Emissions GCB",
     skiprows=14,
     index_col=0,
-    parse_cols="A:IB",
+    usecols="A:IC",
     header=[0, 1]
 )
 territorial_gcb.index.name = "Year"
@@ -29,11 +29,8 @@ territorial_gcb = pd.melt(
 )
 
 territorial_gcb['Source'] = np.where(
-    territorial_gcb.Year < 2014, "CDIAC", "BP")
-territorial_gcb.loc[
-    (territorial_gcb.Name == "China") &
-    (territorial_gcb.Year.isin(range(1990, 2016))),
-    "Source"] = "BP"
+    territorial_gcb.Year < 2015, "CDIAC", "BP")
+
 has_data = [
     'Australia', 'Austria', 'Belarus', 'Belgium', 'Bulgaria', 'Canada',
     'Croatia', 'Cyprus', 'Czech Republic', 'Denmark', 'Estonia', 'Finland',
@@ -46,25 +43,25 @@ has_data = [
 ]
 assert(len(has_data) == 42)
 with_data_and_in_range = (territorial_gcb.Name.isin(has_data) &
-                          territorial_gcb.Year.isin(range(1990, 2015)))
-territorial_gcb.ix[with_data_and_in_range, "Source"] = "UNFCCC"
+                          territorial_gcb.Year.isin(range(1990, 2016)))
+territorial_gcb.loc[with_data_and_in_range, "Source"] = "UNFCCC"
 
 # Check
-# 42 countries have UNFCCC data available in 1990 - 2014
+# 42 countries have UNFCCC data available in 1990 - 2015
 assert(territorial_gcb[
     (territorial_gcb.Source == "UNFCCC") &
     territorial_gcb.Name.isin(has_data) &
     (territorial_gcb.Year >= 1990) &
-    (territorial_gcb.Year < 2015)]["Emissions"].count() == 42 * 25)
+    (territorial_gcb.Year <= 2015)]["Emissions"].count() == len(has_data) * 26)
 
-# In 2015 all data is based on BP
+# In 2016 all data is based on BP
 assert((territorial_gcb[territorial_gcb.Year.isin(
-    [2015])]["Source"] == "BP").all())
-# Total BP count should be 2014 plus 2015 plus China from 1990.
+    [2016])]["Source"] == "BP").all())
+# Total BP count should be 2015 plus 2016.
 count = len(territorial_gcb.Name.unique())
 assert(
     len(territorial_gcb.loc[territorial_gcb.Source == 'BP']) ==
-    count + count - len(has_data) + len(range(1990, 2014))
+    2 * count - len(has_data)
 )
 
 territorial_gcb.sort_values(["Name", "Year"], inplace=True)

@@ -9,7 +9,7 @@ consumption_emissions_csv = root / "data/consumption-emissions.csv"
 # Consumption emissions
 consumption_emissions = pd.read_excel(
     excel_national,
-    sheetname="Consumption Emissions GCB",
+    sheet_name="Consumption Emissions GCB",
     skiprows=7,
     index_col=0,
     header=[0, 1]
@@ -24,24 +24,6 @@ consumption_emissions = pd.melt(
     var_name="Year",
     value_name="Consumption-Emissions"
 )
-
-has_data = [
-    'Australia', 'Austria', 'Belarus', 'Belgium', 'Bulgaria', 'Canada',
-    'Croatia', 'Cyprus', 'Czech Republic', 'Denmark', 'Estonia', 'Finland',
-    'France', 'Germany', 'Greece', 'Hungary', 'Iceland', 'Ireland', 'Italy',
-    'Japan', 'Kazakhstan', 'Latvia', 'Liechtenstein', 'Lithuania',
-    'Luxembourg', 'Malta', 'Netherlands', 'New Zealand', 'Norway', 'Poland',
-    'Portugal', 'Romania', 'Russian Federation', 'Slovakia', 'Slovenia',
-    'Spain', 'Sweden', 'Switzerland', 'Turkey', 'Ukraine', 'United Kingdom',
-    'USA'
-]
-assert(len(has_data) == 42)
-with_data_and_in_range = (consumption_emissions.Name.isin(has_data) &
-                          consumption_emissions.Year.isin(range(1990, 2015)))
-
-consumption_emissions['Source'] = np.where(
-    consumption_emissions.Year < 2012, "CDIAC", "BP")
-consumption_emissions.ix[with_data_and_in_range, "Source"] = "UNFCCC"
 
 consumption_emissions.dropna(inplace=True)
 
