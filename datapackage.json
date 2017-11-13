@@ -1,12 +1,8 @@
 {
   "sources": [
     {
-      "title": "2016 Global Budget v1.0 (10 November 2016)",
-      "web": "http://cdiac.ornl.gov/ftp/Global_Carbon_Project/Global_Carbon_Budget_2016_v1.0.xlsx"
-    },
-    {
-      "title": "National Emissions v1.0 (10 November 2016)",
-      "web": "http://cdiac.ornl.gov/ftp/Global_Carbon_Project/National_Carbon_Emissions_2016_v1.0.xlsx"
+      "title": "2017 Global Budget v1.1 (13 November 2017)",
+      "web": "https://doi.org/10.18160/GCP-2017"
     }
   ],
   "resources": [
