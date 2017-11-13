@@ -2,7 +2,7 @@ The Global Carbon Budget is an annual living data publication of carbon cycle
 sources and sinks, generated from multiple data sources and by multiple
 organisations and research groups.
 
-This data package makes the data from the 2016 Global Carbon Budget and National Emissions [Excel files](http://cdiac.ornl.gov/GCP/) available as CSV files. For updates of the original data and further information refer to the
+This data package makes the data from the 2017 Global Carbon Budget and National Emissions [Excel files](https://www.icos-cp.eu/GCP/2017) available as CSV files. For updates of the original data and further information refer to the
 [Global Carbon Budget](http://www.globalcarbonproject.org/carbonbudget/index.htm) website.
 
 
@@ -111,17 +111,17 @@ accordingly.
 
 ## License
 
-The Global Carbon Budget [data page](http://www.globalcarbonproject.org/carbonbudget/15/data.htm) states:
+The Global Carbon Budget [data page](http://www.globalcarbonproject.org/carbonbudget/17/data.htm) states:
 
 > The use of data is conditional on citing the original data sources. Full details on how to cite the data are given at the top of each page. For research projects, if the data are essential to the work, or if an important result or conclusion depends on the data, co-authorship may need to be considered. The Global Carbon Project facilitates access to data to encourage its use and promote a good understanding of the carbon cycle. Respecting original data sources is key to help secure the support of data providers to enhance, maintain and update valuable data.
 
-The primary reference for the full Global Carbon Budget 2016 is:
+The primary reference for the full Global Carbon Budget 2017 is:
 
-Le Quéré, C., Andrew, R. M., Canadell, J. G., Sitch, S., Korsbakken, J. I., Peters, G. P., Manning, A. C., Boden, T. A., Tans, P. P., Houghton, R. A., Keeling, R. F., Alin, S.,  Andrews, O. D., Anthoni, P., Barbero, L., Bopp, L., Chevallier, F., Chini, L. P., Ciais, P., Currie, K., Delire, C., Doney, S. C., Friedlingstein, P., Gkritzalis, T.,  Harris, I., Hauck, J., Haverd, V., Hoppema, M., Klein Goldewijk, K., Jain, A. K., Kato, E., Körtzinger, A., Landschützer, P., Lefèvre, N.,  Lenton, A., Lienert, S., Lombardozzi, D., Melton, J. R., Metzl, N., Millero, F., Monteiro, P. M. S., Munro, D. R., Nabel, J. E. M. S., Nakaoka, S., O’Brien, K., Olsen, A., Omar, A. M.,  Ono, T., Pierrot, D., Poulter, B., Rödenbeck, C., Salisbury, J., Schuster, U., Schwinger, J., Séférian, R., Skjelvan, I., Stocker, B. D., Sutton, A. J., Takahashi, T., Tian, H., Tilbrook, B., van der Laan-Luijkx, I. T., van der Werf, G. R., Viovy, N., Walker, A. P., Wiltshire, A. J., and Zaehle, S.: Global Carbon Budget 2016, Earth Syst. Sci. Data, 8, 605-649, doi:10.5194/essd-8-605-2016, 2016. http://www.earth-syst-sci-data.net/8/605/2016/
+Corinne Le Quéré, Robbie M. Andrew, Pierre Friedlingstein, Stephen Sitch, Julia Pongratz, Andrew C. Manning, Jan Ivar Korsbakken, Glen P. Peters, Josep G. Canadell, Robert B. Jackson, Thomas A. Boden, Pieter P. Tans, Oliver D. Andrews, Vivek Arora, Dorothee C. E. Bakker, Leticia Barbero, Meike Becker, Richard A. Betts, Laurent Bopp, Frédéric Chevallier, Louise P. Chini, Philippe Ciais, Cathy Cosca, Jessica Cross, Kim Currie, Thomas Gasser, Ian Harris, Judith Hauck, Vanessa Haverd, Richard A. Houghton, Christopher W. Hunt, George Hurtt, Tatiana Ilyina, Atul K. Jain, Etsushi Kato, Markus Kautz, Ralph F. Keeling, Kees Klein Goldewijk, Arne Körtzinger, Peter Landschützer, Nathalie Lefèvre, Andrew Lenton, Sebastian Lienert, Ivan Lima, Danica Lombardozzi, Nicolas Metzl, Frank Millero, Pedro M. S. Monteiro, David R. Munro, Julia E. M. S. Nabel, Shin-ichiro Nakaoka, Yukihiro Nojiri, X. Antoni Padin, Benjamin Pfeil, Denis Pierrot, Benjamin Poulter, Gregor Rehder, Janet Reimer, Christian Rödenbeck, Jörg Schwinger, Roland Séférian, Ingunn Skjelvan, Benjamin D. Stocker, Hanqin Tian, Bronte Tilbrook, Ingrid T. van der Laan-Luijkx, Guido R. van der Werf, Steven M. A. C. van Heuven, Nicolas Viovy, Nicolas Vuichard, Anthony P. Walker, Andrew J. Watson, Andrew J. Wiltshire, Sönke Zaehle, Dan Zhu: Global Carbon Budget 2017, Earth Syst. Sci. Data Discussions, 2017. <https://doi.org/10.5194/essd-2017-123>
 
 Otherwise please refer as:
 
-Global Carbon Project (2016) Carbon budget and trends 2016. [www.globalcarbonproject.org/carbonbudget](http://www.globalcarbonproject.org/carbonbudget) published on 14 November 2016, along with any other original peer-reviewed papers and data sources as appropriate.
+ Global Carbon Project (2017) Carbon budget and trends 2017. <www.globalcarbonproject.org/carbonbudget> published on 13 November 2017, along with any other original peer-reviewed papers and data sources as appropriate.
 
 See also the [Global Carbon Budget Publications](http://www.globalcarbonproject.org/carbonbudget/16/publications.htm) page.
 
