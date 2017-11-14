@@ -393,14 +393,9 @@
       "schema": {
         "fields": [
           {
-            "name": "Name",
+            "name": "Code",
             "type": "string",
-            "description": "Country, region or group name"
-          },
-          {
-            "name": "CDIAC-Name",
-            "type": "string",
-            "description": "Uppercase name as used in CDIAC or same as Name column"
+            "description": "Three letter code or region or group name"
           },
           {
             "name": "Year",
@@ -414,7 +409,7 @@
             "unit": "MtC"
           }
         ],
-        "primaryKey": ["Name", "Year"]
+        "primaryKey": ["Code", "Year"]
       }
     },
     {
@@ -425,14 +420,9 @@
       "schema": {
         "fields": [
           {
-            "name": "Name",
+            "name": "Code",
             "type": "string",
-            "description": "Country, region or group name"
-          },
-          {
-            "name": "CDIAC-Name",
-            "type": "string",
-            "description": "Uppercase name as used in CDIAC or same as Name column"
+            "description": "Three letter code or region or group name"
           },
           {
             "name": "Year",
@@ -451,7 +441,7 @@
             "description": "Estimates are based on CDIAC data, country reported UNFCCC data, or on BP data"
           }
         ],
-        "primaryKey": ["Name", "Year"]
+        "primaryKey": ["Code", "Year"]
       }
     },
     {
