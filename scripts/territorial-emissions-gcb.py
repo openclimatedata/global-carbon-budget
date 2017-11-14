@@ -11,19 +11,18 @@ territorial_gcb_csv = root / "data/territorial-emissions-gcb.csv"
 territorial_gcb = pd.read_excel(
     excel_national,
     sheet_name="Territorial Emissions GCB",
-    skiprows=14,
+    skiprows=15,
     index_col=0,
-    usecols="A:IC",
-    header=[0, 1]
+    usecols="A:IC"
 )
 territorial_gcb.index.name = "Year"
 
 territorial_gcb = territorial_gcb.T
-territorial_gcb.index.rename(["CDIAC-Name", "Name"], inplace=True)
+territorial_gcb.index.rename("Name", inplace=True)
 
 territorial_gcb = pd.melt(
     territorial_gcb.reset_index(),
-    id_vars=['Name', 'CDIAC-Name'],
+    id_vars=['Name'],
     var_name="Year",
     value_name="Emissions"
 )
