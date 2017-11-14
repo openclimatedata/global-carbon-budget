@@ -123,7 +123,7 @@ Corinne Le Quéré, Robbie M. Andrew, Pierre Friedlingstein, Stephen Sitch, Juli
 
 Otherwise please refer as:
 
- Global Carbon Project (2017) Carbon budget and trends 2017. <www.globalcarbonproject.org/carbonbudget> published on 13 November 2017, along with any other original peer-reviewed papers and data sources as appropriate.
+ Global Carbon Project (2017) Carbon budget and trends 2017. <http://www.globalcarbonproject.org/carbonbudget> published on 13 November 2017, along with any other original peer-reviewed papers and data sources as appropriate.
 
 See also the [Global Carbon Budget Publications](http://www.globalcarbonproject.org/carbonbudget/17/publications.htm) page.
 
