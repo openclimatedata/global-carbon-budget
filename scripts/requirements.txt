@@ -3,4 +3,4 @@ xlrd
 goodtables>=1.5
 pyicu
 git+https://github.com/alephdata/countrynames@remove-pycountry
-
+countrygroups>=0.4.0
