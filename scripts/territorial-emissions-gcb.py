@@ -2,7 +2,8 @@ import numpy as np
 import pandas as pd
 
 from util import root, excel_national
-
+from countrynames import to_code_3
+from countrygroups import ANNEX_ONE_KAZ as annex_one
 
 territorial_gcb_csv = root / "data/territorial-emissions-gcb.csv"
 
@@ -20,50 +21,50 @@ territorial_gcb.index.name = "Year"
 territorial_gcb = territorial_gcb.T
 territorial_gcb.index.rename("Name", inplace=True)
 
+territorial_gcb["Code"] = [to_code_3(i) or i for i in territorial_gcb.index]
+
+territorial_gcb = territorial_gcb.reset_index().drop("Name", axis=1)
+
 territorial_gcb = pd.melt(
-    territorial_gcb.reset_index(),
-    id_vars=['Name'],
+    territorial_gcb,
+    id_vars='Code',
     var_name="Year",
     value_name="Emissions"
 )
 
+territorial_gcb.sort_values(["Code", "Year"], inplace=True)
+
 territorial_gcb['Source'] = np.where(
     territorial_gcb.Year < 2015, "CDIAC", "BP")
 
-has_data = [
-    'Australia', 'Austria', 'Belarus', 'Belgium', 'Bulgaria', 'Canada',
-    'Croatia', 'Cyprus', 'Czech Republic', 'Denmark', 'Estonia', 'Finland',
-    'France', 'Germany', 'Greece', 'Hungary', 'Iceland', 'Ireland', 'Italy',
-    'Japan', 'Kazakhstan', 'Latvia', 'Liechtenstein', 'Lithuania',
-    'Luxembourg', 'Malta', 'Netherlands', 'New Zealand', 'Norway', 'Poland',
-    'Portugal', 'Romania', 'Russian Federation', 'Slovakia', 'Slovenia',
-    'Spain', 'Sweden', 'Switzerland', 'Turkey', 'Ukraine', 'United Kingdom',
-    'USA'
-]
-assert(len(has_data) == 42)
-with_data_and_in_range = (territorial_gcb.Name.isin(has_data) &
+
+# The Global Carbon Budget doesn't list EU as having source UNFCCC and Monaco
+# is included with France (as in CDIAC)
+annex_one.remove("EUU")
+annex_one.remove("MCO")
+assert(len(annex_one) == 42)
+
+with_data_and_in_range = (territorial_gcb.Code.isin(annex_one) &
                           territorial_gcb.Year.isin(range(1990, 2016)))
 territorial_gcb.loc[with_data_and_in_range, "Source"] = "UNFCCC"
 
 # Check
-# 42 countries have UNFCCC data available in 1990 - 2015
+# 42 countries have UNFCCC data given as source in 1990 - 2015
 assert(territorial_gcb[
     (territorial_gcb.Source == "UNFCCC") &
-    territorial_gcb.Name.isin(has_data) &
+    territorial_gcb.Code.isin(annex_one) &
     (territorial_gcb.Year >= 1990) &
-    (territorial_gcb.Year <= 2015)]["Emissions"].count() == len(has_data) * 26)
+    (territorial_gcb.Year <= 2015)]["Emissions"].count() == len(annex_one) * 26)
 
 # In 2016 all data is based on BP
 assert((territorial_gcb[territorial_gcb.Year.isin(
     [2016])]["Source"] == "BP").all())
 # Total BP count should be 2015 plus 2016.
-count = len(territorial_gcb.Name.unique())
+count = len(territorial_gcb.Code.unique())
 assert(
     len(territorial_gcb.loc[territorial_gcb.Source == 'BP']) ==
-    2 * count - len(has_data)
+    2 * count - len(annex_one)
 )
-
-territorial_gcb.sort_values(["Name", "Year"], inplace=True)
 
 territorial_gcb.to_csv(
     territorial_gcb_csv,
