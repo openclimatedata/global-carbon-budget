@@ -1,4 +1,5 @@
 CSV_FILES = \
+  data/global-carbon-budget.csv \
   data/fossil-fuel-cement.csv \
   data/fossil-fuel-cement-per-capita.csv \
   data/land-use-change.csv \
@@ -18,6 +19,7 @@ data/%.csv: scripts/%.py scripts/util.py venv
 	@./venv/bin/python $<
 
 validate:
+	@./venv/bin/python scripts/check.py
 	@./venv/bin/python scripts/validate.py
 
 venv: scripts/requirements.txt
