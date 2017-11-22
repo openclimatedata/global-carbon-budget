@@ -26,5 +26,5 @@ ocean_sink["Ocean-Sink"] = ocean_sink.loc[:, "CCSM-BEC":"NorESM-OC"].mean(
 ocean_sink.to_csv(
     ocean_sink_csv,
     encoding="UTF-8",
-    float_format="%.2f"
+    float_format="%.3f"
 )
