@@ -7,6 +7,58 @@
   ],
   "resources": [
     {
+      "name": "global-carbon-budget",
+      "path": "data/global-carbon-budget.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "description": "Year"
+          },
+          {
+            "name": "Fossil-Fuel-And-Industry",
+            "type": "number",
+            "description": "Emissions from fossil fuel combustion and industrial processes (uncertainty of ±5% for a ± 1 sigma confidence level)",
+            "unit": "GtC"
+          },
+          {
+            "name": "Land-Use-Change-Emissions",
+            "type": "number",
+            "description": "Emissions from land-use change (uncertainty of ±0.7 GtC/yr)",
+            "unit": "GtC"
+          },
+          {
+            "name": "Atmospheric-Growth",
+            "type": "number",
+            "description": "The atmospheric CO2 growth rate (variable uncertainty around 0.2 GtC/yr from 1980) is estimated directly from atmospheric CO2 concentration measurements, and provided by NOAA/ESRL",
+            "unit": "GtC"
+          },
+          {
+            "name": "Ocean-Sink",
+            "type": "number",
+            "description": "The ocean sink (uncertainty of ±0.5 GtC/yr) is estimated from the average of several global ocean biogeochemistry models that reproduce the observed mean ocean sink of the 1990s",
+            "unit": "GtC"
+          },
+          {
+            "name": "Land-Sink",
+            "type": "number",
+            "description": "The land sink (uncertainty of ±0.9 GtC/yr on average) was estimated from the average of several dynamic global vegetation models that reproduce the observed mean total land sink of the 1990s",
+            "unit": "GtC"
+          },
+          {
+            "name": "Budget-Imbalance",
+            "type": "number",
+            "description": "The budget imbalance is the sum of emissions (fossil fuel and industry + land-use change) minus (atmospheric growth + ocean sink + land sink); it is a measure of our imperfect data and understanding of the contemporary carbon cycle",
+            "unit": "GtC"
+          }
+        ],
+        "primaryKey": "Year"
+      }
+    },
+    {
       "name": "fossil-fuel-cement",
       "path": "data/fossil-fuel-cement.csv",
       "format": "csv",
