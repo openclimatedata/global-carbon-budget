@@ -8,6 +8,13 @@ This [Data Package](http://frictionlessdata.io/specs/data-package/) makes the da
 
 ## Data
 
+### Global Carbon Budget
+
+[Notes and Methods](doc/global-carbon-budget.md)
+
+[global-carbon-budget][data/global-carbon-budget.csv]]
+
+
 ### Fossil fuel and cement production emissions by fuel type
 
 [Notes and Methods](doc/fossil-fuel-cement.md)
@@ -99,9 +106,11 @@ python scripts/process.py
 
 ## Notes
 
-For the *Global Carbon Budget* data is written to the CSV files using the
-accuracy used for display in the original Excel files assuming this to be the
-implied precision.
+A bug in the Ocean-Sink Excel sheet for the model average is fixed in this CSV.
+
+The *Global Carbon Budget* data is written to CSV files using the
+accuracy used for display in the original Excel, or one digit more files
+assuming this to be the implied precision.
 
 The *National Emissions* are written to CSV files with three significant digits
 as this is the accuracy used for the CDIAC data in the Excel file, thus
