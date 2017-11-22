@@ -12,7 +12,7 @@ This [Data Package](http://frictionlessdata.io/specs/data-package/) makes the da
 
 [Notes and Methods](doc/global-carbon-budget.md)
 
-[global-carbon-budget](data/global-carbon-budget.csv)
+[global-carbon-budget.csv](data/global-carbon-budget.csv)
 
 
 ### Fossil fuel and cement production emissions by fuel type
