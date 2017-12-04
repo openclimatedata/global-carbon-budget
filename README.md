@@ -2,7 +2,7 @@ The Global Carbon Budget is an annual living data publication of carbon cycle
 sources and sinks, generated from multiple data sources and by multiple
 organisations and research groups.
 
-This [Data Package](http://frictionlessdata.io/specs/data-package/) makes the data from the 2017 Global Carbon Budget and National Emissions [Excel files](https://www.icos-cp.eu/GCP/2017) available as CSV files. For updates of the original data and further information refer to the
+This [Data Package](http://frictionlessdata.io/specs/data-package/) makes the data from the 2017 Global Carbon Budget v1.2 and National Emissions [Excel files](https://www.icos-cp.eu/GCP/2017) v1.1 available as CSV files. For updates of the original data and further information refer to the
 [Global Carbon Budget](http://www.globalcarbonproject.org/carbonbudget/index.htm) website.
 
 
@@ -105,8 +105,6 @@ python scripts/process.py
 
 
 ## Notes
-
-A bug in the Ocean-Sink Excel sheet for the model average is fixed in this CSV.
 
 The *Global Carbon Budget* data is written to CSV files using the
 accuracy used for display in the original Excel, or one digit more files
