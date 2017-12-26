@@ -63,7 +63,7 @@ This [Data Package](http://frictionlessdata.io/specs/data-package/) makes the da
 
 [Notes and Methods](doc/territorial-emissions-gcb.md)
 
-[territorial-emissions-unfccc.csv](data/territorial-emissions-gcb.csv)
+[territorial-emissions-gcb.csv](data/territorial-emissions-gcb.csv)
 
 
 
