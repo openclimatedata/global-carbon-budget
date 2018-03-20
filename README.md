@@ -5,6 +5,8 @@ organisations and research groups.
 This [Data Package](http://frictionlessdata.io/specs/data-package/) makes the data from the 2017 Global Carbon Budget v1.3 and National Emissions [Excel files](https://www.icos-cp.eu/GCP/2017) v1.1 available as CSV files. For updates of the original data and further information refer to the
 [Global Carbon Budget](http://www.globalcarbonproject.org/carbonbudget/index.htm) website.
 
+Maintainer of this Data Package is Robert Gieseke <robert.gieseke@pik-potsdam.de>
+See below for [license information](#License)
 
 ## Data
 
