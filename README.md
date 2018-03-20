@@ -6,7 +6,7 @@ This [Data Package](http://frictionlessdata.io/specs/data-package/) makes the da
 [Global Carbon Budget](http://www.globalcarbonproject.org/carbonbudget/index.htm) website.
 
 Maintainer of this Data Package is Robert Gieseke <robert.gieseke@pik-potsdam.de>
-See below for [license information](#License)
+See below for [license information](#license)
 
 ## Data
 
