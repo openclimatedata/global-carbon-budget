@@ -8,7 +8,7 @@ consumption_emissions_csv = root / "data/consumption-emissions.csv"
 # Consumption emissions
 consumption_emissions = pd.read_excel(
     excel_national,
-    sheet_name="Consumption Emissions GCB",
+    sheet_name="Consumption Emissions",
     skiprows=8,
     index_col=0
 )

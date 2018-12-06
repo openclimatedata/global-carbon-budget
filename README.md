@@ -2,7 +2,7 @@ The Global Carbon Budget is an annual living data publication of carbon cycle
 sources and sinks, generated from multiple data sources and by multiple
 organisations and research groups.
 
-This [Data Package](http://frictionlessdata.io/specs/data-package/) makes the data from the 2017 Global Carbon Budget v1.3 and National Emissions [Excel files](https://www.icos-cp.eu/GCP/2017) v1.2 available as CSV files. For updates of the original data and further information refer to the
+This [Data Package](http://frictionlessdata.io/specs/data-package/) makes the data from the 2018 Global Carbon Budget and National Emissions [Excel files](https://www.icos-cp.eu/GCP/2018) v1.0 available as CSV files. For updates of the original data and further information refer to the
 [Global Carbon Budget](http://www.globalcarbonproject.org/carbonbudget/index.htm) website.
 
 Maintainer of this Data Package is Robert Gieseke (<robert.gieseke@pik-potsdam.de>).
@@ -54,19 +54,11 @@ See below for [license information](#license)
 [historical-budget.csv](data/historical-budget.csv)
 
 
-### Territorial Emissions CDIAC
+### Territorial Emissions
 
-[Notes and Methods](doc/territorial-emissions-cdiac.md)
+[Notes and Methods](doc/territorial-emissions.md)
 
-[territorial-emissions-cdiac.csv](data/territorial-emissions-cdiac.csv)
-
-
-### Territorial Emissions GCB
-
-[Notes and Methods](doc/territorial-emissions-gcb.md)
-
-[territorial-emissions-gcb.csv](data/territorial-emissions-gcb.csv)
-
+[territorial-emissions-cdiac.csv](data/territorial-emissions.csv)
 
 
 ### Consumption Emissions GCB
@@ -122,19 +114,19 @@ accordingly.
 
 ## License
 
-The Global Carbon Budget [data page](http://www.globalcarbonproject.org/carbonbudget/17/data.htm) states:
+The Global Carbon Budget [data page](http://www.globalcarbonproject.org/carbonbudget/18/data.htm) states:
 
 > The use of data is conditional on citing the original data sources. Full details on how to cite the data are given at the top of each page. For research projects, if the data are essential to the work, or if an important result or conclusion depends on the data, co-authorship may need to be considered. The Global Carbon Project facilitates access to data to encourage its use and promote a good understanding of the carbon cycle. Respecting original data sources is key to help secure the support of data providers to enhance, maintain and update valuable data.
 
-The primary reference for the full Global Carbon Budget 2017 is:
+The primary reference for the full Global Carbon Budget 2018 is:
 
-Global Carbon Budget 2017, by Le Quéré, C., Andrew, R. M., Friedlingstein, P., Sitch, S., Pongratz, J., Manning, A. C., Korsbakken, J. I., Peters, G. P., Canadell, J. G., Jackson, R. B., Boden, T. A., Tans, P. P., Andrews, O. D., Arora, V. K., Bakker, D. C. E., Barbero, L., Becker, M., Betts, R. A., Bopp, L., Chevallier, F., Chini, L. P., Ciais, P., Cosca, C. E., Cross, J., Currie, K., Gasser, T., Harris, I., Hauck, J., Haverd, V., Houghton, R. A., Hunt, C. W., Hurtt, G., Ilyina, T., Jain, A. K., Kato, E., Kautz, M., Keeling, R. F., Klein Goldewijk, K., Körtzinger, A., Landschützer, P., Lefèvre, N., Lenton, A., Lienert, S., Lima, I., Lombardozzi, D., Metzl, N., Millero, F., Monteiro, P. M. S., Munro, D. R., Nabel, J. E. M. S., Nakaoka, S.-I., Nojiri, Y., Padin, X. A., Peregon, A., Pfeil, B., Pierrot, D., Poulter, B., Rehder, G., Reimer, J., Rödenbeck, C., Schwinger, J., Séférian, R., Skjelvan, I., Stocker, B. D., Tian, H., Tilbrook, B., Tubiello, F. N., van der Laan-Luijkx, I. T., van der Werf, G. R., van Heuven, S., Viovy, N., Vuichard, N., Walker, A. P., Watson, A. J., Wiltshire, A. J., Zaehle, S., and Zhu, D.: Global Carbon Budget 2017, Earth Syst. Sci. Data, 10, 405-448, <a href="https://doi.org/10.5194/essd-10-405-2018">https://doi.org/10.5194/essd-10-405-2018</a>, 2018.
+Global Carbon Budget 2018, by Corinne Le Quéré, Robbie M. Andrew, Pierre Friedlingstein, Stephen Sitch, Judith Hauck, Julia Pongratz, Penelope A. Pickers, Jan Ivar Korsbakken, Glen P. Peters, Josep G. Canadell, Almut Arneth, Vivek K. Arora, Leticia Barbero, Ana Bastos, Laurent Bopp, Frédéric Chevallier, Louise P. Chini, Philippe Ciais, Scott C. Doney, Thanos Gkritzalis, Daniel S. Goll, Ian Harris, Vanessa Haverd, Forrest M. Hoffman, Mario Hoppema, Richard A. Houghton, George Hurtt, Tatiana Ilyina, Atul K. Jain, Truls Johannessen, Chris D. Jones, Etsushi Kato, Ralph F. Keeling, Kees Klein Goldewijk, Peter Landschützer, Nathalie Lefèvre, Sebastian Lienert, Zhu Liu, Danica Lombardozzi, Nicolas Metzl, David R. Munro, Julia E. M. S. Nabel, Shin-ichiro Nakaoka, Craig Neill, Are Olsen, Tsueno Ono, Prabir Patra, Anna Peregon, Wouter Peters, Philippe Peylin, Benjamin Pfeil, Denis Pierrot, Benjamin Poulter, Gregor Rehder, Laure Resplandy, Eddy Robertson, Matthias Rocher, Christian Rödenbeck, Ute Schuster, Jörg Schwinger, Roland Séférian, Ingunn Skjelvan, Tobias Steinhoff, Adrienne Sutton, Pieter P. Tans, Hanqin Tian, Bronte Tilbrook, Francesco N. Tubiello, Ingrid T. van der Laan-Luijkx, Guido R. van der Werf, Nicolas Viovy, Anthony P. Walker, Andrew J. Wiltshire, Rebecca Wright, Sönke Zaehle, and Bo Zheng (2018), Earth System Science Data, 10, 1-54, 2018, <https://doi.org/10.5194/essd-10-2141-2018>
 
 Otherwise please refer as:
 
- Global Carbon Project (2017) Carbon budget and trends 2017. <http://www.globalcarbonproject.org/carbonbudget> published on 13 November 2017, along with any other original peer-reviewed papers and data sources as appropriate.
+ Global Carbon Project (2018) Carbon budget and trends 2018. <www.globalcarbonproject.org/carbonbudget> published on 5 December 2018, along with any other original peer-reviewed papers and data sources as appropriate.
 
 See also the [Global Carbon Budget Publications](http://www.globalcarbonproject.org/carbonbudget/17/publications.htm) page.
 
-The source code in `scripts` and this data package itself are released under a
+The source code in `scripts` and the metadata in this Data Package itself are released under a
 [CC0 Public Dedication License](https://creativecommons.org/publicdomain/zero/1.0/).
