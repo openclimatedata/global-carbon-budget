@@ -58,7 +58,7 @@ See below for [license information](#license)
 
 [Notes and Methods](doc/territorial-emissions.md)
 
-[territorial-emissions-cdiac.csv](data/territorial-emissions.csv)
+[territorial-emissions.csv](data/territorial-emissions.csv)
 
 
 ### Consumption Emissions GCB
