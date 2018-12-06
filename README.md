@@ -86,15 +86,17 @@ Details of the geographical information corresponding to countries and regions u
 
 To update or regenerate the CSV files the following steps need to be run:
 
-Install requirements:
-
 ```
-pip install -r scripts/requirements.txt
+make clean
 ```
 
-Run the script to generate CSV files:
 ```
-python scripts/process.py
+make
+```
+
+To validate the Data Package:
+```
+make validate
 ```
 
 
