@@ -16,7 +16,7 @@ Cite as: Boden, T. A., Marland, G., and Andres, R. J.: Global, Regional, and Nat
 
 #### Methods
 
-: By default, the 1959-2014 estimates for fossil fuels and cement are from the Carbon Dioxide Information Analysis Center (CDIAC)
+By default, the 1959-2014 estimates for fossil fuels and cement are from the Carbon Dioxide Information Analysis Center (CDIAC)
 
 Where available (42 countries) the national estimates reported by countries to the UNFCCC during 1990-2016 are overwritten (data in green).
 
