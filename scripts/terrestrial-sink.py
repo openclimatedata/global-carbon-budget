@@ -10,7 +10,7 @@ terrestrial_sink_csv = root / "data/terrestrial-sink.csv"
 terrestrial_sink = pd.read_excel(
     excel_global,
     sheet_name="Terrestrial Sink",
-    skiprows=22,
+    skiprows=23,
     index_col="Year",
     usecols="A:B,D:T"
 )

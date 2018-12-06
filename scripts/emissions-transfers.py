@@ -8,7 +8,7 @@ emissions_transfers_csv = root / "data/emissions-transfers.csv"
 # Emissions transfers
 emissions_transfers = pd.read_excel(
     excel_national,
-    sheet_name="Emissions Transfers GCB",
+    sheet_name="Emissions Transfers",
     skiprows=8,
     index_col=0
 )

@@ -6,8 +6,7 @@ CSV_FILES = \
   data/ocean-sink.csv \
   data/terrestrial-sink.csv \
   data/historical-budget.csv \
-  data/territorial-emissions-cdiac.csv \
-  data/territorial-emissions-gcb.csv \
+  data/territorial-emissions.csv \
   data/consumption-emissions.csv \
   data/emissions-transfers.csv \
   data/country-definitions.csv

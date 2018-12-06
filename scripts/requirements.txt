@@ -2,6 +2,6 @@ pandas
 xlrd
 goodtables>=1.5
 pyicu
-git+https://github.com/alephdata/countrynames@remove-pycountry
+countrynames
 countrygroups>=0.4.0
 pandas_datapackage_reader

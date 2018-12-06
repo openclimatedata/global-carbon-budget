@@ -9,10 +9,10 @@ ocean_sink_csv = root / "data/ocean-sink.csv"
 ocean_sink = pd.read_excel(
     excel_global,
     sheet_name="Ocean Sink",
-    skiprows=20,
+    skiprows=19,
     skipfooter=1,
     index_col="year",
-    usecols="A:B,D:K,M:N"
+    usecols="A:B,D:J,L:M"
 )
 ocean_sink.index.name = "Year"
 

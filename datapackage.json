@@ -184,7 +184,7 @@
             "unit": "GtC"
           },
           {
-            "name": "CABLE",
+            "name": "CABLE-POP",
             "type": "number",
             "unit": "GtC"
           },
@@ -194,7 +194,7 @@
             "unit": "GtC"
           },
           {
-            "name": "CLM4.5(BGC)",
+            "name": "CLM5.0",
             "type": "number",
             "unit": "GtC"
           },
@@ -209,7 +209,17 @@
             "unit": "GtC"
           },
           {
+            "name": "JSBACH",
+            "type": "number",
+            "unit": "GtC"
+          },
+          {
             "name": "JULES",
+            "type": "number",
+            "unit": "GtC"
+          },
+          {
+            "name": "LPJ-GUESS",
             "type": "number",
             "unit": "GtC"
           },
@@ -229,12 +239,12 @@
             "unit": "GtC"
           },
           {
-            "name": "ORCHIDEE",
+            "name": "ORCHIDEE-CNP",
             "type": "number",
             "unit": "GtC"
           },
           {
-            "name": "ORCHIDEE-MICT",
+            "name": "ORCHIDEE-Trunk",
             "type": "number",
             "unit": "GtC"
           },
@@ -244,12 +254,17 @@
             "unit": "GtC"
           },
           {
-            "name": "MME",
+            "name": "SURFEX",
             "type": "number",
             "unit": "GtC"
           },
           {
-            "name": "stdev",
+            "name": "VISIT",
+            "type": "number",
+            "unit": "GtC"
+          },
+          {
+            "name": "MMM (multi-model mean)",
             "type": "number",
             "unit": "GtC"
           }
@@ -281,11 +296,6 @@
             "unit": "Gt"
           },
           {
-            "name": "CSIRO",
-            "type": "number",
-            "unit": "Gt"
-          },
-          {
             "name": "MITgcm-REcoM2",
             "type": "number",
             "unit": "Gt"
@@ -296,12 +306,12 @@
             "unit": "Gt"
           },
           {
-            "name": "NEMO-PISCES (CNRM)",
+            "name": "NEMO3.6-PISCESv2-gas (CNRM)",
             "type": "number",
             "unit": "Gt"
           },
           {
-            "name": "NEMO-PISCES (LSCE)",
+            "name": "NEMO-PISCES (IPSL)",
             "type": "number",
             "unit": "Gt"
           },
@@ -350,16 +360,15 @@
           {
             "name": "CABLE",
             "type": "number",
-            "unit": "Gt"
-
+            "unit": "GtC"
           },
           {
             "name": "CLASS-CTEM",
             "type": "number",
-            "unit": "Gt"
+            "unit": "GtC"
           },
           {
-            "name": "CLM4.5(BGC)",
+            "name": "CLM5.0",
             "type": "number",
             "unit": "GtC"
           },
@@ -404,17 +413,22 @@
             "unit": "GtC"
           },
           {
-            "name": "ORCHIDEE",
+            "name": "ORCHIDEE-CNP",
             "type": "number",
             "unit": "GtC"
           },
           {
-            "name": "ORCHIDEE-MICT",
+            "name": "ORCHIDEE-Trunk",
             "type": "number",
             "unit": "GtC"
           },
           {
             "name": "SDGVM",
+            "type": "number",
+            "unit": "GtC"
+          },
+          {
+            "name": "SURFEX",
             "type": "number",
             "unit": "GtC"
           },
@@ -427,46 +441,14 @@
             "name": "MMM",
             "type": "number",
             "unit": "GtC"
-          },
-          {
-            "name": "stdev",
-            "type": "number",
-            "unit": "GtC"
           }
         ],
         "primaryKey": "Year"
       }
     },
     {
-      "name": "territorial-emissions-cdiac",
-      "path": "data/territorial-emissions-cdiac.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "schema": {
-        "fields": [
-          {
-            "name": "Code",
-            "type": "string",
-            "description": "Three letter code or region or group name"
-          },
-          {
-            "name": "Year",
-            "type": "integer",
-            "description": "Year"
-          },
-          {
-            "name": "Emissions",
-            "type": "number",
-            "description": "Fossil fuels and cement production emissions by country (territorial, using the region names from consumption emissions) in MtC",
-            "unit": "MtC"
-          }
-        ],
-        "primaryKey": ["Code", "Year"]
-      }
-    },
-    {
-      "name": "territorial-emissions-gcb",
-      "path": "data/territorial-emissions-gcb.csv",
+      "name": "territorial-emissions",
+      "path": "data/territorial-emissions.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "schema": {

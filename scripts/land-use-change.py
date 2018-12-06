@@ -8,9 +8,9 @@ land_use_csv = root / "data/land-use-change.csv"
 landuse_change = pd.read_excel(
     excel_global,
     sheet_name="Land-Use Change Emissions",
-    skiprows=23,
+    skiprows=27,
     index_col="Year",
-    usecols="A:B,D,E,G:R,T,U"
+    usecols="A:B,D,E,G:V,X"
 )
 
 landuse_change.rename(columns={"GCB": "Land-Use-Change"}, inplace=True)

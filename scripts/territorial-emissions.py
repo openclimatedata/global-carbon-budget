@@ -5,16 +5,16 @@ from util import root, excel_national
 from countrynames import to_code_3
 from countrygroups import ANNEX_ONE_KAZ as annex_one
 
-territorial_gcb_csv = root / "data/territorial-emissions-gcb.csv"
+territorial_gcb_csv = root / "data/territorial-emissions.csv"
 
 # Territorial GCB emissions
 
 territorial_gcb = pd.read_excel(
     excel_national,
-    sheet_name="Territorial Emissions GCB",
-    skiprows=15,
+    sheet_name="Territorial Emissions",
+    skiprows=16,
     index_col=0,
-    usecols="A:IC"
+    usecols="A:HV"
 )
 territorial_gcb.index.name = "Year"
 
@@ -45,25 +45,25 @@ annex_one.remove("MCO")
 assert(len(annex_one) == 42)
 
 with_data_and_in_range = (territorial_gcb.Code.isin(annex_one) &
-                          territorial_gcb.Year.isin(range(1990, 2016)))
+                          territorial_gcb.Year.isin(range(1990, 2017)))
 territorial_gcb.loc[with_data_and_in_range, "Source"] = "UNFCCC"
 
 # Check
-# 42 countries have UNFCCC data given as source in 1990 - 2015
+# 42 countries have UNFCCC data given as source in 1990 - 2016
 assert(territorial_gcb[
     (territorial_gcb.Source == "UNFCCC") &
     territorial_gcb.Code.isin(annex_one) &
     (territorial_gcb.Year >= 1990) &
-    (territorial_gcb.Year <= 2015)]["Emissions"].count() == len(annex_one) * 26)
+    (territorial_gcb.Year <= 2016)]["Emissions"].count() == len(annex_one) * 27)
 
-# In 2016 all data is based on BP
+# In 2017 all data is based on BP
 assert((territorial_gcb[territorial_gcb.Year.isin(
-    [2016])]["Source"] == "BP").all())
-# Total BP count should be 2015 plus 2016.
+    [2017])]["Source"] == "BP").all())
+# Total BP count should be 2015 plus 2016 plus 2017.
 count = len(territorial_gcb.Code.unique())
 assert(
     len(territorial_gcb.loc[territorial_gcb.Source == 'BP']) ==
-    2 * count - len(annex_one)
+    3 * count - 2 * len(annex_one)
 )
 
 territorial_gcb.to_csv(
