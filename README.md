@@ -111,8 +111,7 @@ as this is the accuracy used for the CDIAC data in the Excel file, thus
 rounding the numbers derived from splitting up countries or using trend data as
 with BP emissions data.
 
-If other accuracy is needed adjust the `process.py` script
-accordingly.
+If other accuracy is needed adjust the processing scripts accordingly.
 
 ## License
 
