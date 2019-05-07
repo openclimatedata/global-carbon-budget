@@ -15,7 +15,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "year",
             "description": "Year"
           },
           {
@@ -67,7 +67,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "year",
             "description": "Year"
           },
           {
@@ -98,7 +98,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "year",
             "description": "Year"
           },
           {
@@ -124,7 +124,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "year",
             "description": "Year"
           },
           {
@@ -164,7 +164,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "year",
             "description": "Year"
           },
           {
@@ -281,7 +281,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "year",
             "description": "Year"
           },
           {
@@ -348,7 +348,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "year",
             "description": "Year"
           },
           {
@@ -460,7 +460,7 @@
           },
           {
             "name": "Year",
-            "type": "integer",
+            "type": "year",
             "description": "Year"
           },
           {
@@ -523,7 +523,7 @@
           },
           {
             "name": "Year",
-            "type": "integer",
+            "type": "year",
             "description": "Year"
           },
           {
@@ -550,7 +550,7 @@
           },
           {
             "name": "Year",
-            "type": "integer",
+            "type": "year",
             "description": "Year"
           },
           {
