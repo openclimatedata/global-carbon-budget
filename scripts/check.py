@@ -9,9 +9,10 @@ dp = read_datapackage(root)
 ffi = dp["fossil-fuel-cement"].drop(
     "Source", axis=1).unstack("Category")
 ffi.columns = ffi.columns.droplevel()
+
 assert_series_equal(
     dp["global-carbon-budget"]["Fossil-Fuel-And-Industry"],
-    ffi["Total"] / 1000,  # convert to GtC
+    ffi["Total"].astype(int) / 1000,  # convert to GtC
     check_exact=False,
     check_less_precise=True,
     check_names=False

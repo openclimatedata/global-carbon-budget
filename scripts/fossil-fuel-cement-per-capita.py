@@ -18,8 +18,8 @@ fossil_fuel_cement = pd.read_excel(
     converters=converters
 )
 
-fossil_fuel_cement.loc[fossil_fuel_cement.index < 2015, "Source"] = "CDIAC"
+fossil_fuel_cement.loc[fossil_fuel_cement.index < 2017, "Source"] = "CDIAC"
 
-fossil_fuel_cement.loc[fossil_fuel_cement.index > 2014, "Source"] = "BP"
+fossil_fuel_cement.loc[fossil_fuel_cement.index >= 2018, "Source"] = "BP"
 
 fossil_fuel_cement.to_csv(fossil_fuel_per_capita, encoding="UTF-8")

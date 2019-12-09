@@ -1,8 +1,8 @@
 {
   "sources": [
     {
-      "title": "2018 Global Carbon Budget",
-      "web": "https://doi.org/10.18160/GCP-2018"
+      "title": "2019 Global Carbon Budget",
+      "web": "https://doi.org/10.18160/gcp-2019"
     }
   ],
   "resources": [
@@ -184,7 +184,7 @@
             "unit": "GtC"
           },
           {
-            "name": "CABLE-POP",
+            "name": "CABLE",
             "type": "number",
             "unit": "GtC"
           },
@@ -209,6 +209,11 @@
             "unit": "GtC"
           },
           {
+            "name": "ISBA-CTRIP",
+            "type": "number",
+            "unit": "GtC"
+          },
+          {
             "name": "JSBACH",
             "type": "number",
             "unit": "GtC"
@@ -229,12 +234,12 @@
             "unit": "GtC"
           },
           {
-            "name": "LPX-Bern",
+            "name": "LPX",
             "type": "number",
             "unit": "GtC"
           },
           {
-            "name": "OCN",
+            "name": "OCNv2",
             "type": "number",
             "unit": "GtC"
           },
@@ -250,16 +255,6 @@
           },
           {
             "name": "SDGVM",
-            "type": "number",
-            "unit": "GtC"
-          },
-          {
-            "name": "SURFEX",
-            "type": "number",
-            "unit": "GtC"
-          },
-          {
-            "name": "VISIT",
             "type": "number",
             "unit": "GtC"
           },
@@ -291,7 +286,12 @@
             "unit": "GtC"
           },
           {
-            "name": "CCSM-BEC",
+            "name": "CESM-ETH",
+            "type": "number",
+            "unit": "Gt"
+          },
+          {
+            "name": "CSIRO",
             "type": "number",
             "unit": "Gt"
           },
@@ -306,12 +306,7 @@
             "unit": "Gt"
           },
           {
-            "name": "NEMO3.6-PISCESv2-gas (CNRM)",
-            "type": "number",
-            "unit": "Gt"
-          },
-          {
-            "name": "NEMO-PISCES (IPSL)",
+            "name": "NEMO-PISCES (CNRM)",
             "type": "number",
             "unit": "Gt"
           },
@@ -326,12 +321,37 @@
             "unit": "Gt"
           },
           {
+            "name": "MOM6-COBALT (Princeton)",
+            "type": "number",
+            "unit": "Gt"
+          },
+          {
+            "name": "NEMO-PISCES (IPSL)",
+            "type": "number",
+            "unit": "Gt"
+          },
+          {
+            "name": "MMM (multi-model mean)",
+            "type": "number",
+            "unit": "Gt"
+          },
+          {
             "name": "Landschützer",
             "type": "number",
             "unit": "Gt"
           },
           {
             "name": "Rödenbeck",
+            "type": "number",
+            "unit": "Gt"
+          },
+          {
+            "name": "CMEMS",
+            "type": "number",
+            "unit": "Gt"
+          },
+          {
+            "name": "MPM (multi-product mean)",
             "type": "number",
             "unit": "Gt"
           }
@@ -383,6 +403,11 @@
             "unit": "GtC"
           },
           {
+            "name": "ISBA-CTRIP",
+            "type": "number",
+            "unit": "GtC"
+          },
+          {
             "name": "JSBACH",
             "type": "number",
             "unit": "GtC"
@@ -403,12 +428,12 @@
             "unit": "GtC"
           },
           {
-            "name": "LPX-Bern",
+            "name": "LPX",
             "type": "number",
             "unit": "GtC"
           },
           {
-            "name": "OCN",
+            "name": "OCNv2",
             "type": "number",
             "unit": "GtC"
           },
@@ -428,17 +453,12 @@
             "unit": "GtC"
           },
           {
-            "name": "SURFEX",
-            "type": "number",
-            "unit": "GtC"
-          },
-          {
             "name": "VISIT",
             "type": "number",
             "unit": "GtC"
           },
           {
-            "name": "MMM",
+            "name": "MMM (multi-model mean)",
             "type": "number",
             "unit": "GtC"
           }

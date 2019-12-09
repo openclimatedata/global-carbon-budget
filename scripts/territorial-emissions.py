@@ -14,7 +14,7 @@ territorial_gcb = pd.read_excel(
     sheet_name="Territorial Emissions",
     skiprows=16,
     index_col=0,
-    usecols="A:HV"
+    usecols="A:HW"
 )
 territorial_gcb.index.name = "Year"
 
@@ -35,7 +35,7 @@ territorial_gcb = pd.melt(
 territorial_gcb.sort_values(["Code", "Year"], inplace=True)
 
 territorial_gcb['Source'] = np.where(
-    territorial_gcb.Year < 2015, "CDIAC", "BP")
+    territorial_gcb.Year < 2017, "CDIAC", "BP")
 
 
 # The Global Carbon Budget doesn't list EU as having source UNFCCC and Monaco
@@ -45,7 +45,7 @@ annex_one.remove("MCO")
 assert(len(annex_one) == 42)
 
 with_data_and_in_range = (territorial_gcb.Code.isin(annex_one) &
-                          territorial_gcb.Year.isin(range(1990, 2017)))
+                          territorial_gcb.Year.isin(range(1990, 2018)))
 territorial_gcb.loc[with_data_and_in_range, "Source"] = "UNFCCC"
 
 # Check
@@ -54,16 +54,17 @@ assert(territorial_gcb[
     (territorial_gcb.Source == "UNFCCC") &
     territorial_gcb.Code.isin(annex_one) &
     (territorial_gcb.Year >= 1990) &
-    (territorial_gcb.Year <= 2016)]["Emissions"].count() == len(annex_one) * 27)
+    (territorial_gcb.Year <= 2017)]["Emissions"].count() == len(annex_one) * (2018 - 1990))
 
-# In 2017 all data is based on BP
+# In 2018 all data is based on BP
 assert((territorial_gcb[territorial_gcb.Year.isin(
-    [2017])]["Source"] == "BP").all())
-# Total BP count should be 2015 plus 2016 plus 2017.
+    [2018])]["Source"] == "BP").all())
+# Total BP count should be 2017 plus 2018.
 count = len(territorial_gcb.Code.unique())
+
 assert(
     len(territorial_gcb.loc[territorial_gcb.Source == 'BP']) ==
-    3 * count - 2 * len(annex_one)
+    2 * count - len(annex_one)
 )
 
 territorial_gcb.to_csv(

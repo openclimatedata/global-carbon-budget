@@ -13,7 +13,7 @@ CSV_FILES = \
 
 all: $(CSV_FILES)
 
-data/%.csv: scripts/%.py scripts/util.py venv
+data/%.csv: scripts/%.py scripts/util.py venv $(wildcard archive/*.xlsx)
 	@echo $@
 	@./venv/bin/python $<
 

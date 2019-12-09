@@ -6,21 +6,21 @@ All values in million tonnes of carbon per year. For values in million tonnes of
 
 #### Cite as:
 
-UNFCCC (June 2017) and CDIAC
+UNFCCC (June 2019) and CDIAC
 
 #### Source of UNFCCC data:
-http://unfccc.int/national_reports/annex_i_ghg_inventories/national_inventories_submissions/items/8108.php; accessed June 2018
+https://unfccc.int/process-and-meetings/transparency-and-reporting/reporting-and-review-under-the-convention/greenhouse-gas-inventories-annex-i-parties/national-inventory-submissions-2019; accessed June 2019
 
 #### Source of CDIAC data:
-Cite as: Boden, T. A., Marland, G., and Andres, R. J.: Global, Regional, and National Fossil-Fuel CO2 Emissions, Oak Ridge National Laboratory, U.S. Department of Energy, Oak Ridge, Tenn., U.S.A., doi 10.3334/CDIAC/00001_V2017, 2017; available at: http://cdiac.ess-dive.lbl.gov/trends/emis/overview_2014.html
+Gilfillan, D., Marland, G., Boden, T. and Andres, R.: Global, Regional, and National Fossil-Fuel CO2 Emissions, available at: https://energy.appstate.edu/CDIAC, last access: 27 September 2019.
 
 #### Methods
 
-By default, the 1959-2014 estimates for fossil fuels and cement are from the Carbon Dioxide Information Analysis Center (CDIAC)
+By default, the 1959-2016 estimates for fossil fuels and cement are from the Carbon Dioxide Information Analysis Center (CDIAC)
 
 Where available (42 countries) the national estimates reported by countries to the UNFCCC during 1990-2016 are overwritten (data in green).
 
-2017 (and for some countries 2015-2017) estimates are preliminary and are based on energy statistics published by BP (data in red). https://www.bp.com/content/dam/bp/en/corporate/pdf/energy-economics/statistical-review/bp-15stats-review-2018-full-report.pdf
+2018 (and for some countries 2016-2018) estimates are preliminary and are based on energy statistics published by BP (data in red). https://www.bp.com/en/global/corporate/energy-economics/statistical-review-of-world-energy.html
 
 Cement emissions are updated from Andrews (2018) https://www.earth-syst-sci-data.net/10/195/2018/
 

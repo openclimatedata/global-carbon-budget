@@ -32,21 +32,21 @@ fossil_fuel_cement = pd.melt(
     value_name="Value"
 )
 
-fossil_fuel_cement.loc[fossil_fuel_cement.Year < 2015, "Source"] = "CDIAC"
+fossil_fuel_cement.loc[fossil_fuel_cement.Year < 2017, "Source"] = "CDIAC"
 
-fossil_fuel_cement.loc[fossil_fuel_cement.Year > 2014, "Source"] = "BP"
+fossil_fuel_cement.loc[fossil_fuel_cement.Year >= 2017, "Source"] = "BP"
 
 fossil_fuel_cement.loc[
-    (fossil_fuel_cement.Year > 2014) &
+    (fossil_fuel_cement.Year >= 2017) &
     (fossil_fuel_cement.Category == "Cement"), "Source"
     ] = "US Geological Survey"
 
 fossil_fuel_cement.loc[
-    (fossil_fuel_cement.Year > 2014) &
+    (fossil_fuel_cement.Year >= 2017) &
     (fossil_fuel_cement.Category == "Flaring"), "Source"] = "Constant"
 
 fossil_fuel_cement.loc[
-    (fossil_fuel_cement.Year > 2014) &
+    (fossil_fuel_cement.Year >= 2017) &
     (fossil_fuel_cement.Category == "Total"), "Source"] = "Combination"
 
 assert(len(fossil_fuel_cement[
