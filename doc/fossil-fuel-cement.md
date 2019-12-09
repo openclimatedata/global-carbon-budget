@@ -11,11 +11,11 @@ For values in million tonnes of CO2 per year, multiply the values below by 3.664
 
 2017-2018 estimates are preliminary and are based on energy statistics published by BP (data in red in Columns B, C, D, E and H). https://www.bp.com/en/global/corporate/energy-economics/statistical-review-of-world-energy.html
 
-Cement emissions are updated from Andrews (2018) https://www.earth-syst-sci-data.net/10/195/2018/ 
+Cement emissions are updated from Andrews (2018) https://www.earth-syst-sci-data.net/10/195/2018/
 and flaring is assumed to be constant since 2014 value (data in green in Column G).
 
 The uncertainty for the global estimates is about ±5 % for a ± 1 sigma confidence level.
 
 #### Cite as
 
-Friedlingstein et al (2019; see summary tab) and Gilfillan, D., Marland, G., Boden, T. and Andres, R.: Global, Regional, and National Fossil-Fuel CO2 Emissions, available at: https://energy.appstate.edu/CDIAC, last access: 27 September 2019, 2019.
+Friedlingstein et al (2019) and Gilfillan, D., Marland, G., Boden, T. and Andres, R.: Global, Regional, and National Fossil-Fuel CO2 Emissions, available at: https://energy.appstate.edu/CDIAC, last access: 27 September 2019, 2019.

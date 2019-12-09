@@ -18,10 +18,10 @@ Note: the data products include a pre-industrial steady state source of CO2 (of 
 ##### Model results used to compute the annual values:
 
 ###### CESM_ETH
-Doney, S. C., Lima, I., Feely, R. A., Glover, D. M., Lindsay, K., Mahowald, N., Moore, J. K., and Wanninkhof, R.: Mech- anisms governing interannual variability in upper-ocean inor- ganic carbon system and air–sea CO2 fluxes: Physical cli- mate and atmospheric dust, Deep-Sea Res. Pt. II, 56, 640–655, https://doi.org/10.1016/j.dsr2.2008.12.006, 2009.
+Doney, S. C., Lima, I., Feely, R. A., Glover, D. M., Lindsay, K., Mahowald, N., Moore, J. K., and Wanninkhof, R.: Mech- anisms governing interannual variability in upper-ocean inorganic carbon system and air–sea CO2 fluxes: Physical cli- mate and atmospheric dust, Deep-Sea Res. Pt. II, 56, 640–655, https://doi.org/10.1016/j.dsr2.2008.12.006, 2009.
 
 ###### CSIRO
-Law, R. M., Ziehn, T., Matear, R. J., Lenton, A., Chamberlain, M. A., Stevens, L. E., Wang, Y.-P., Srbinovsky, J., Bi, D., Yan, H., and Vohralik, P. F.: The carbon cycle in the Australian Commu- nity Climate and Earth System Simulator (ACCESS-ESM1) – Part 1: Model description and pre-industrial simulation, Geosci. Model Dev., 10, 2567–2590, https://doi.org/10.5194/gmd-10- 2567-2017, 2017
+Law, R. M., Ziehn, T., Matear, R. J., Lenton, A., Chamberlain, M. A., Stevens, L. E., Wang, Y.-P., Srbinovsky, J., Bi, D., Yan, H., and Vohralik, P. F.: The carbon cycle in the Australian Community Climate and Earth System Simulator (ACCESS-ESM1) – Part 1: Model description and pre-industrial simulation, Geosci. Model Dev., 10, 2567–2590, https://doi.org/10.5194/gmd-10- 2567-2017, 2017
 
 ###### MITgcm-REcoM2
 Hauck, J., Lenton, A. A., Langlais, C., & Matear, R. J. (2018). The fate of carbon and nutrients exported out of the Southern Ocean. Global Biogeochemical Cycles, 32, 1556–1573. https://doi.org/10.1029/2018GB005977

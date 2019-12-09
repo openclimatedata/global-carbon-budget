@@ -27,18 +27,18 @@ Cite as: Dlugokencky, E. and Tans, P.: Trends in atmospheric carbon dioxide, Nat
 
 Estimated from the average of several global ocean biogeochemistry models that reproduce the observed mean ocean sink of the 1990s.
 
-Cite as: Friedlingstein et al. 2019 (see Summary tab).
+Cite as: Friedlingstein et al. 2019.
 
 #### The land sink (uncertainty of ±0.9 GtC/yr on average)
 Estimated from the average of several dynamic global vegetation models that reproduce the observed mean total land sink of the 1990s.
 
-Cite as: Friedlingstein et al. 2019 (see Summary tab).
+Cite as: Friedlingstein et al. 2019.
 
 #### The budget imbalance is the sum of emissions (fossil fuel and industry + land-use change) minus (atmospheric growth + ocean sink + land sink)
 
 It is a measure of our imperfect data and understanding of the contemporary carbon cycle.
 
-Cite as: Friedlingstein et al. 2019 (see Summary tab).
+Cite as: Friedlingstein et al. 2019.
 
 
 **Reference of the full global carbon budget 2018:** Pierre Friedlingstein, Matthew W. Jones, Michael O’Sullivan, Robbie M. Andrew, Judith Hauck, Glen P. Peters, Wouter Peters, Julia Pongratz, Stephen Sitch, Corinne Le Quéré, Dorothee C. E. Bakker, Josep G. Canadell, Philippe Ciais, Rob Jackson, Peter  Anthoni, Leticia Barbero, Ana Bastos, Vladislav Bastrikov, Meike Becker, Laurent Bopp, Erik Buitenhuis, Naveen Chandra, Frédéric Chevallier, Louise P. Chini, Kim I. Currie, Richard A. Feely, Marion Gehlen, Dennis Gilfillan, Thanos Gkritzalis, Daniel S. Goll, Nicolas Gruber, Sören Gutekunst, Ian Harris, Vanessa Haverd, Richard A. Houghton, George Hurtt, Tatiana Ilyina, Atul K. Jain, Emilie Joetzjer, Jed O. Kaplan, Etsushi Kato, Kees Klein Goldewijk, Jan Ivar Korsbakken, Peter Landschützer, Siv K. Lauvset, Nathalie Lefèvre, Andrew Lenton, Sebastian Lienert, Danica Lombardozzi, Gregg Marland, Patrick C. McGuire, Joe R. Melton, Nicolas Metzl, David R. Munro, Julia E. M. S. Nabel, Shin-Ichiro Nakaoka, Craig Neill, Abdirahman M. Omar, Tsuneo Ono, Anna Peregon, Denis Pierrot, Benjamin Poulter, Gregor Rehder, Laure Resplandy, Eddy Robertson, Christian Rödenbeck, Roland Séférian, Jörg Schwinger, Naomi Smith, Pieter P. Tans, Hanqin Tian, Bronte Tilbrook, Francesco N Tubiello, Guido R. van der Werf, Andrew J. Wiltshire, Sönke Zaehle: Global Carbon Budget 2019, Earth Syst. Sci. Data, 11, 1783-1838, 2019. https://doi.org/10.5194/essd-11-1783-2019

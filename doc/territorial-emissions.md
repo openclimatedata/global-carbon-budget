@@ -30,4 +30,4 @@ Cement emissions are updated from Andrews (2018) https://www.earth-syst-sci-data
 
 (3) The disaggregations of regions (e.g. the former Soviet Union prior to 1992) are based on the shares of emissions in the first year after the countries are disaggregated (e.g., 1992 for the Former Soviet).
 
-(4) The statistical difference presented on column HX is the difference between the world emissions and the sum of the emissions for each countries and for the bunker fuels.
+(4) The statistical difference presented on column HV in the original Excel sheet is the difference between the world emissions and the sum of the emissions for each countries and for the bunker fuels.
