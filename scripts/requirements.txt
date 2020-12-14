@@ -1,7 +1,7 @@
 pandas
-xlrd
+xlrd<2.0
 goodtables>=1.5
 pyicu
-countrynames
+countrynames<=1.6.1
 countrygroups>=0.4.0
 pandas_datapackage_reader
