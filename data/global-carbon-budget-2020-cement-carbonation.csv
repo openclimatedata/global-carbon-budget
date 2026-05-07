@@ -1,5 +1,5 @@
 # Global Carbon Budget 2020 — Cement Carbonation Sink
-# 
+#
 # Cement Carbonation sink (positive values represent a flux from the atmosphere to the land)
 # All values in million tonnes of carbon per year (MtC/yr). For values in million tonnes of CO2 per year, multiply the values below by 3.664
 # 1MtC = 1 million tonne of carbon = 3.664 million tonnes of CO2
@@ -7,10 +7,10 @@
 # Cite individual estimates as:
 # Cao	Cao, Z., Myers, R. J., Lupton, R. C., Duan, H., Sacchi, R., Zhou, N., Reed Miller, T., Cullen, J. M., Ge, Q., and Liu, G.: The sponge effect and carbon emission mitigation potentials of the global cement cycle, Nature Communications, 11 (1), 3777, DOI: 10.1038/s41467-020-17583-w, 2020.
 # Guo	Guo, R., Wang, J., Bing, L., Tong, D., Ciais, P., Davis, S. J., Andrew, R. M., Xi, F., and Liu, Z.: Global CO2 uptake of cement in 1930-2019, in review.
-# 
+#
 # MtC/yr
-# 
-# 
+#
+#
 # Generated with openclimatedata 0.33 from the GCB Excel file from 10.18160/gcp-2020
 # http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget
 Year,GCB,Cao,Guo

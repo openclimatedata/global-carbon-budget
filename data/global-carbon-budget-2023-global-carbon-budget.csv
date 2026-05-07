@@ -1,5 +1,5 @@
 # Global Carbon Budget 2023 — Global Carbon Budget
-# 
+#
 # Global Carbon Budget
 # All values in billion tonnes of carbon per year (GtC/yr), for the globe. For values in billion tonnes of carbon dioxide per year (GtCO2/yr) , multiply the numbers below by 3.664.
 # Note: 1 billion tonnes C = 1 petagram of carbon (10^15 gC) = 1 gigatonne C = 3.664 billion tonnes of CO2
@@ -21,8 +21,8 @@
 # The budget imbalance is the sum of emissions (fossil fuel and industry + land-use change) minus (atmospheric growth + ocean sink + land sink + cement carbonation sink); it is a measure of our imperfect data and understanding of the contemporary carbon cycle.
 # Cite as: Friedlingstein et al. 2023 (see Summary tab).
 # GtC/yr
-# 
-# 
+#
+#
 # Generated with openclimatedata 0.33 from the GCB Excel file from 10.18160/gcp-2023
 # http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget
 Year,fossil emissions excluding carbonation,land-use change emissions,atmospheric growth,ocean sink,land sink,cement carbonation sink,budget imbalance

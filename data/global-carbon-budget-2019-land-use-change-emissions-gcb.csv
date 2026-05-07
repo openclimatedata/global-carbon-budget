@@ -1,5 +1,5 @@
 # Global Carbon Budget 2019 — Land-Use Change Emissions
-# 
+#
 # Land-use change emissions
 # All values in billion tonnes of carbon per year (GtC/yr), for the globe. For values in billion tonnes of carbon dioxide per year (GtCO2/yr), multiply the numbers below by 3.664.
 # 1 billion tonnes C = 1 petagram of carbon (10^15 gC) = 1 gigatonne C = 3.664 billion tonnes of CO2
@@ -23,9 +23,9 @@
 # ORCHIDEE-CNP	Goll, D. S., Winkler, A. J., Raddatz, T., Dong, N., Colin Prentice, I., Ciais, P. and Brovkin, V.: Carbon-nitrogen interactions in idealized simulations with JSBACH (version 3.10), Geosci. Model Dev., 10(5), 2009–2030, doi:10.5194/gmd-10-2009-2017, 2017.
 # ORCHIDEE-Trunk	Krinner, G., Viovy, N., de Noblet, N., Ogée, J., Friedlingstein, P., Ciais, P., Sitch, S., Polcher, J., and Prentice, I. C.: A dynamic global vegetation model for studies of the coupled atmosphere-biosphere system, Global Biogeochemical Cycles, 19, 1-33, 2005.
 # SDGVM	Walker, A. P., Quaife, T., van Bodegom, P. M., De Kauwe, M. G., Keenan, T. F., Joiner, J., Lomas, M. R., MacBean, N., Xu, C. G., Yang, X. J., and Woodward, F. I.: The impact of alternative trait-scaling hypotheses for the maximum photosynthetic carboxylation rate (V-cmax) on global gross primary production, New Phytologist, 215, 1370-1386, 2017.
-# 
-# 
-# 
+#
+#
+#
 # Generated with openclimatedata 0.33 from the GCB Excel file from 10.18160/gcp-2019
 # http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget
 #

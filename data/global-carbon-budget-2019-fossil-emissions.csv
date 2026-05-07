@@ -1,5 +1,5 @@
 # Global Carbon Budget 2019 — Fossil Emissions by Fuel Type
-# 
+#
 # Fossil fuel and cement production emissions by fuel type
 # All values in million tonnes of carbon per year (MtC/yr), except the per capita emissions which are in tonnes of carbon per person per year (tC/person/yr). For values in million tonnes of CO2 per year, multiply the values below by 3.664
 # 1MtC = 1 million tonne of carbon = 3.664 million tonnes of CO2
@@ -10,10 +10,10 @@
 # and flaring is assumed to be constant since 2014 value (data in green in Column G).
 # The uncertainty for the global estimates is about ±5 % for a ± 1 sigma confidence level.
 # Cite as: Friedlingstein et al (2019; see summary tab) and Gilfillan, D., Marland, G., Boden, T. and Andres, R.: Global, Regional, and National Fossil-Fuel CO2 Emissions, available at: https://energy.appstate.edu/CDIAC, last access: 27 September 2019, 2019.
-# 
+#
 # MtC/yr
-# 
-# 
+#
+#
 # Generated with openclimatedata 0.33 from the GCB Excel file from 10.18160/gcp-2019
 # http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget
 Year,Total,Coal,Oil,Gas,Cement,Flaring,Per Capita

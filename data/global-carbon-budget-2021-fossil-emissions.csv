@@ -1,15 +1,15 @@
 # Global Carbon Budget 2021 — Fossil Emissions by Category
-# 
+#
 # Fossil fuel and cement production emissions by fuel type
 # All values in million tonnes of carbon per year (MtC/yr), except the per capita emissions which are in tonnes of carbon per person per year (tC/person/yr). For values in million tonnes of CO2 per year, multiply the values below by 3.664
 # 1MtC = 1 million tonne of carbon = 3.664 million tonnes of CO2
 # Methods: Full details of the method are described in Friedlingstein et al (2021) and Andrew and Peters (2021)
 # The uncertainty for the global estimates is about ±5 % for a ± 1 sigma confidence level.
 # Cite as: Friedlingstein et al (2021; see summary tab)
-# 
+#
 # MtC/yr
-# 
-# 
+#
+#
 # Generated with openclimatedata 0.33 from the GCB Excel file from 10.18160/gcp-2021
 # http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget
 Year,fossil.emissions.excluding.carbonation,Coal,Oil,Gas,Cement.emission,Flaring,Other,Per.Capita

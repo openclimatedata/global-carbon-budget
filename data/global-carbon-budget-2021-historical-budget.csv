@@ -1,5 +1,5 @@
 # Global Carbon Budget 2021 — Historical Budget
-# 
+#
 # Historical CO2 budget
 # All values in billion tonnes of carbon per year (GtC/yr), for the globe. For values in billion tonnes of carbon dioxide (CO2) per year, multiply the numbers below by 3.664.
 # 1 billion tonnes C = 1 petagram of carbon (10^15 gC) = 1 gigatonne C = 3.664 billion tonnes of CO2
@@ -13,10 +13,10 @@
 # The land sink is as in Global Carbon Budget from 1959: average of 17 dynamic global vegetation models that reproduce the observed mean total land sink of the 1990s.
 # Cement carbonation is the average of two estimates: Friedlingstein et al. (2021)
 # The budget imbalance is the sum of emissions (fossil fuel and industry + land-use change) minus (atmospheric growth + ocean sink + land sink + cement carbonation sink); it is a measure of our imperfect data and understanding of the contemporary carbon cycle.
-# 
+#
 # GtC/yr
-# 
-# 
+#
+#
 # Generated with openclimatedata 0.33 from the GCB Excel file from 10.18160/gcp-2021
 # http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget
 Year,fossil emissions excluding carbonation,land-use change emissions,atmospheric growth,ocean sink,land sink,cement carbonation sink,budget imbalance
