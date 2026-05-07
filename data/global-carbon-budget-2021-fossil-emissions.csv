@@ -10,7 +10,7 @@
 # MtC/yr
 #
 #
-# Generated with openclimatedata 0.33 from the GCB Excel file from 10.18160/gcp-2021
+# Generated with openclimatedata 0.33 from the GCB Excel file from https://doi.org/10.18160/gcp-2021
 # http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget
 Year,fossil.emissions.excluding.carbonation,Coal,Oil,Gas,Cement.emission,Flaring,Other,Per.Capita
 1959,2417.13282396274,1350.3310952112,792.950715333406,206.897209871987,39.6661173646559,25.0255273386909,2.26215884279476,0.81123377080648
