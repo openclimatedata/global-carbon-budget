@@ -18,7 +18,7 @@ single_tables = [
     {"sheet_name": "Global Carbon Budget", "slug": "global-carbon-budget"},
     {"sheet_name": "Historical Budget", "slug": "historical-budget"},
     {"sheet_name": "Fossil Emissions", "slug": "fossil-emissions"},
-    {"sheet_name": "Cement Carbonation Sink", "slug": "cement-carbonation"},
+    {"sheet_name": "Cement Carbonation Sink", "slug": "cement-carbonation-sink"},
 ]
 
 subtables = [
@@ -42,7 +42,7 @@ for version in ocd.Global_Carbon_Budget.keys():
     for item in single_tables:
         sheet_name = item["sheet_name"]
         slug = item["slug"]
-        if (slug == "cement-carbonation") and (int(version) <= 2019):
+        if (slug == "cement-carbonation-sink") and (int(version) <= 2019):
             continue
 
         if slug == "fossil-emissions":
