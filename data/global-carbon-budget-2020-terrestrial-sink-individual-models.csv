@@ -1,0 +1,92 @@
+# Global Carbon Budget 2020 — Terrestrial Sink
+# 
+# Terrestrial CO2 sink (positive values represent a flux from the atmosphere to the land)
+# All values in billion tonnes of carbon per year (GtC/yr), for the globe. For values in billion tonnes of carbon dioxide per year (GtCO2/yr), multiply the numbers below by 3.664.
+# 1 billion tonnes C = 1 petagram of carbon (10^15 gC) = 1 gigatonne C = 3.664 billion tonnes of CO2
+# Methods: The terrestrial sink (uncertainty of ±0.9 GtC/yr on average) is estimated from the average of several Dynamic Global Vegetation Models (DGVMs) that reproduce the observed mean total land uptake of the 1990s.  Cite as: Friedlingstein et al (2020; see summary tab)
+# Cite individual estimates as:
+# CABLE-POP	Haverd, V., Smith, B., Nieradzik, L., Briggs, P. R., Woodgate, W., Trudinger, C. M., Canadell, J. G., and Cuntz, M.: A new version of the CABLE land surface model (Subversion revision r4601) incorporating land use and land cover change, woody vegetation demography, and a novel optimisation-based approach to plant coordination of photosynthesis, Geosci. Model Dev., 11, 2995-3026, 2018.
+# CLASSIC	Melton, J. R., Arora, V. K., Wisernig-cojoc, E., Seiler, C., Fortier, M. and Chan, E.: CLASSIC v1 . 0 : the open-source community successor to the Canadian Land Surface Scheme ( CLASS ) and the Canadian Terrestrial Ecosystem Model ( CTEM ) – Part 1 : Model framework and site-level performance, , 2825–2850, 2020.
+# CLM5.0	Lawrence, D., Fisher, R., Koven, C., Oleson, K., Swenson, S., et al.: The Community Land Model version 5: Description of new features, benchmarking, and impact of forcing uncertainty, JAMES, accepted, 2019
+# DLEM	Tian, H., G. Chen, C. Lu, X. Xu, D. J. Hayes, W. Ren, S. Pan, D.N. Huntzinger, S.C. Wofsy: North American terrestrial CO2 uptake largely offset by CH4 and N2O emissions: Toward a full accounting of the greenhouse gas budget, Climatic Change, 129:423-426, 2015
+# IBIS	Yuan WP, Liu D, Dong WJ, Liu SG, Zhou GS, Yu GR, Zhao TB, Feng JM, Ma ZG, Chen JQ, Chen Y, Chen SP, Han SJ, Huang JP, Li LH, Liu HZ, Liu SM, Ma MG, Wang YF, Xia JZ, Xu WF, Zhang Q, Zhao XQ, Zhao L. 2014. Multiyear precipitation reduction strongly decreases carbon uptake over northern China. Journal of Geophysical Research: Biogeosciences, 119, 881-896.
+# ISAM	Meiyappan, P., Jain, A. K., and House, J. I.: Increased influence of nitrogen limitation on CO2 emissions from future land use and land use change, Global Biogeochemical Cycles, 29, 1524-1548, 2015.
+# ISBA-CTRIP	Delire, C., Séférian, R., Decharme, B., Alkama, R., Calvet, J., Carrer, D., Gibelin, A., Joetzjer, E., Morel, X., Rocher, M. and Tzanos, D.: The Global Land Carbon Cycle Simulated With ISBA‐CTRIP: Improvements Over the Last Decade, J. Adv. Model. Earth Syst., 12(9), doi:10.1029/2019MS001886, 2020.
+# JSBACH	Mauritsen, T., Bader, J., Becker, T., Behrens, J., Bittner, M., Brokopf, R., Brovkin, V., Claussen, M., Crueger, T., Esch, M., Fast, I., Fiedler, S., Popke, D., Gayler, V., Giorgetta, M., Goll, D., Haak, H., Hagemann, S., Hedemann, C., Hohenegger, C., Ilyina, T., Jahns, T., Jimenez Cuesta de la Otero, D., Jungclaus, J., Kleinen, T., Kloster, S., Kracher, D., Kinne, S., Kleberg, D., Lasslop, G., Kornblueh, L., Marotzke, J., Matei, D., Meraner, K., Mikolajewicz, U., Modali, K., Möbis, B., Müller, W., Nabel, J.E.M.S., Nam, C., Notz, D., Nyawira, S., Paulsen, H., Peters, K., Pincus, R., Pohlmann, H., Pongratz, J., Popp, M., Raddatz, T., Rast, S., Redler, R., Reick, C., Rohrschneider, T., Schemann, V., Schmidt, H., Schnur, R., Schulzweida, U., Six, K., Stein, L., Stemmler, I., Stevens, B., von Storch, J., Tian, F., Voigt, A., de Vrese, P., Wieners, K.-H., Wilkenskjeld, S., Roeckner, E. & Winkler, A. (in review). Developments in the MPI-M Earth System Model version 1.2 (MPI-ESM1.2) and its response to increasing CO2.
+# JULES-ES	Sellar, A. A., Jones, C. G., Mulcahy, J., Tang, Y., Yool, A., Wiltshire, A., O’Connor, F. M., Stringer, M., Hill, R., Palmieri, J., Woodward, S., Mora, L., Kuhlbrodt, T., Rumbold, S., Kelley, D. I., Ellis, R., Johnson, C. E., Walton, J., Abraham, N. L., Andrews, M. B., Andrews, T., Archibald, A. T., Berthou, S., Burke, E., Blockley, E., Carslaw, K., Dalvi, M., Edwards, J., Folberth, G. A., Gedney, N., Griffiths, P. T., Harper, A. B., Hendry, M. A., Hewitt, A. J., Johnson, B., Jones, A., Jones, C. D., Keeble, J., Liddicoat, S., Morgenstern, O., Parker, R. J., Predoi, V., Robertson, E., Siahaan, A., Smith, R. S., Swaminathan, R., Woodhouse, M. T., Zeng, G. and Zerroukat, M.: UKESM1: Description and evaluation of the UK Earth System Model (accepted), J. Adv. Model. Earth Syst., 2019MS001739, doi:10.1029/2019MS001739, 2019.
+# LPJ-GUESS	Smith, B., Warlind, D., Arneth, A., Hickler, T., Leadley, P., Siltberg, J., and Zaehle, S.: Implications of incorporating N cycling and N limitations on primary production in an individual-based dynamic vegetation model, Biogeosciences, 11, 2027-2054, 2014.
+# LPJ 	Poulter, B., Frank, D. C., Hodson, E. L., and Zimmermann, N. E.: Impacts of land cover and climate data selection on understanding terrestrial carbon dynamics and the CO2 airborne fraction, Biogeosciences, 8, 2027-2036, 2011.
+# LPX-Bern	Lienert, S. and Joos, F.: A Bayesian ensemble data assimilation to constrain model parameters and land-use carbon emissions, Biogeosciences, 15, 2909-2930, 2018.
+# OCNv2	Zaehle, S. and Friend, A. D.: Carbon and nitrogen cycle dynamics in the O-CN land surface model: 1. Model description, site-scale evaluation, and sensitivity to parameter estimates, Global Biogeochemical Cycles, 24, GB1005, 2010
+# ORCHIDEEv3	Vuichard, N., Messina, P., Luyssaert, S., Guenet, B., Zaehle, S., Ghattas, J., Ipsl, L. and Paris-saclay, U.: Accounting for carbon and nitrogen interactions in the global terrestrial ecosystem model ORCHIDEE ( trunk version , rev 4999 ): multi-scale evaluation of gross primary production, , 4751–4779, 2019.
+# SDGVM	Walker, A. P., Quaife, T., van Bodegom, P. M., De Kauwe, M. G., Keenan, T. F., Joiner, J., Lomas, M. R., MacBean, N., Xu, C. G., Yang, X. J., and Woodward, F. I.: The impact of alternative trait-scaling hypotheses for the maximum photosynthetic carboxylation rate (V-cmax) on global gross primary production, New Phytologist, 215, 1370-1386, 2017.
+# VISIT	Kato, E., Kinoshita, T., Ito, A., Kawamiya, M. and Yamagata, Y.: Evaluation of spatially explicit emission scenario of land-use change and biomass burning using a process-based biogeochemical model, J. Land Use Sci., 8(1), 104–122, doi:10.1080/1747423x.2011.628705, 2013.
+# YIBs	Yue, X. and Unger, N.: The Yale Interactive terrestrial Biosphere model version 1 . 0 : description , evaluation and implementation into NASA GISS, , 2399–2417, doi:10.5194/gmd-8-2399-2015, 2015.
+# 
+# 
+# Generated with openclimatedata 0.33 from the GCB Excel file from 10.18160/gcp-2020
+# http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget
+#
+# Individual models
+Year,CABLE-POP,CLASSIC,CLM5.0,DLEM,IBIS,ISAM,ISBA-CTRIP,JSBACH,JULES-ES,LPJ-GUESS,LPJ,LPX-Bern,OCNv2,ORCHIDEE-v3,SDGVM,VISIT,YIBs,MMM (multi-model mean),Model Spread (sd)
+1959,0.7,0.29,1.23,0.942562403,0.98,1.24,0.9,0.55,1.15,-0.94,-0.43,0.26,1.15,0.634,0.2,1.33,1.33,0.6774448472352941,0.6204810290399022
+1960,1.77,0.9,1.42,1.71278278,1.05,1.41,1.63,1.83,1.48,0.86,0.41,0.86,1.08,0.99,0.55,1.78,1.66,1.2583989870588235,0.43920842370732793
+1961,0.35,0.8,0.56,0.695205543,0.43,1.0,0.53,1.66,0.69,0.72,-0.46,-0.02,1.34,0.93,-0.85,1.48,1.37,0.6603062084117648,0.6428584070739826
+1962,2.86,1.36,1.24,0.944755674,1.13,1.38,1.47,2.14,1.89,1.7,0.26,-0.09,1.73,1.545,-0.17,2.36,2.19,1.408220922,0.8037055165939448
+1963,1.17,-0.13,0.82,1.310984563,0.81,1.18,1.57,1.68,1.83,0.29,-0.33,0.21,1.74,0.624,0.78,2.34,1.51,1.0238226213529413,0.7137366298130094
+1964,2.86,1.41,2.0,1.659899471,1.29,2.07,0.0,1.63,2.16,2.25,0.9,1.12,1.85,1.212,0.3,1.61,1.68,1.5295234982941177,0.6837093471149598
+1965,1.67,-0.91,1.08,0.427210617,0.57,1.21,1.35,0.41,1.39,-0.02,-0.56,-1.11,0.7,0.966,-1.51,1.32,1.19,0.4807770951176471,0.9442074938041816
+1966,1.8,2.35,1.56,1.778600884,1.28,1.35,1.14,2.16,0.82,1.45,0.18,0.92,1.59,1.215,1.88,1.34,1.57,1.434329463764706,0.5008480410596117
+1967,2.09,0.75,1.8,1.646976203,0.7,1.89,1.53,1.93,2.6,1.63,1.07,1.11,2.66,1.247,1.2,1.93,2.11,1.6408221295882353,0.5574883895999297
+1968,2.63,3.25,2.16,2.538871807,1.39,2.5,1.77,1.85,2.6,3.45,2.5,2.14,2.78,1.607,2.18,2.86,2.04,2.3674042239411763,0.5394262823916289
+1969,2.21,-0.25,1.21,0.531589094,1.05,0.39,0.65,1.33,0.0,0.46,0.3,0.38,0.69,0.918,0.56,0.7,1.59,0.7482111231764704,0.5800036978834866
+1970,1.81,0.52,1.28,0.835458389,1.83,0.73,0.42,1.32,0.46,-0.01,-0.82,0.11,0.68,0.971,-0.65,0.8,2.02,0.723909317,0.7753204966403386
+1971,1.32,2.83,1.81,2.72620123,2.08,2.48,1.78,1.56,2.89,3.18,2.16,2.03,2.87,1.851,1.84,3.0,2.44,2.2851294841176473,0.5434524298857951
+1972,1.85,1.7,0.77,1.246965184,1.8,0.76,2.02,-0.68,0.74,2.33,1.53,1.4,1.7,0.683,1.09,1.97,1.56,1.321762657882353,0.6969365852652585
+1973,3.73,3.01,1.97,2.809346711,2.25,1.84,-0.55,1.64,-0.61,3.16,0.79,0.56,2.16,1.846,2.26,0.92,2.74,1.7956086300588239,1.193247396881527
+1974,2.14,4.27,2.82,4.111279722,2.0,3.35,4.02,4.48,3.58,4.56,3.67,3.6,4.3,2.874,3.05,4.52,2.97,3.5479576307058824,0.7846820268220578
+1975,2.16,3.41,2.42,2.091391985,2.59,2.15,1.42,1.99,2.26,3.02,2.03,2.14,3.25,1.598,1.92,3.65,2.82,2.407023057941177,0.6108385947441857
+1976,2.33,2.91,3.3,2.901583887,2.04,2.81,2.7,1.45,3.52,3.18,4.34,2.32,3.74,1.689,2.59,4.36,2.6,2.869446111,0.7941682043806678
+1977,2.32,2.34,1.93,1.13076675,1.28,1.15,1.4,0.93,1.42,0.23,1.71,1.69,2.56,0.727,1.13,2.5,2.45,1.5822215735294116,0.6664275085811913
+1978,3.5,3.17,2.41,2.319484311,0.95,2.56,1.86,3.11,2.13,3.33,2.66,1.84,2.72,2.109,3.11,2.97,2.63,2.5516755477058823,0.6291998072273167
+1979,2.06,0.58,2.12,1.705777704,1.72,1.59,1.82,2.57,1.44,0.6,1.14,0.73,2.06,1.418,1.05,2.36,2.55,1.618457512,0.6208637895008288
+1980,3.13,-0.34,1.41,0.613522646,1.37,1.09,0.73,1.42,0.71,-0.9,-0.66,-1.02,1.11,1.262,-0.57,1.33,2.59,0.7809130968235294,1.1360671204206847
+1981,2.12,2.43,2.38,3.118733218,1.67,2.26,2.23,2.82,1.99,1.56,1.05,0.96,3.52,2.219,2.29,2.47,3.31,2.258690189294118,0.6824124410297546
+1982,4.1,0.38,1.85,1.883600116,1.39,2.05,1.91,0.85,1.85,2.27,1.77,0.82,2.05,1.775,0.21,2.36,2.85,1.7863882421176471,0.8960686758147962
+1983,2.59,-0.64,1.24,1.136002902,1.2,0.78,0.19,1.57,-0.17,-0.48,-0.67,-1.46,1.24,0.869,0.45,0.39,3.22,0.673823700117647,1.1538200275878587
+1984,4.47,4.1,2.49,3.539267764,1.93,2.68,2.29,2.78,1.4,3.18,2.45,2.11,3.15,3.121,1.42,3.7,3.4,2.835898103764706,0.8448581632221652
+1985,3.21,3.24,2.51,2.430604373,1.83,2.77,3.05,3.47,1.97,3.18,2.4,1.49,3.42,2.415,2.08,2.91,3.64,2.7068002572352934,0.611935832101838
+1986,3.26,2.24,3.2,2.111667745,2.51,2.23,2.02,2.22,2.51,2.41,2.11,0.0,3.17,1.524,2.12,2.8,3.49,2.3485686908823524,0.7785447751223394
+1987,3.67,-1.64,1.49,0.964380323,1.35,0.8,1.35,0.88,-0.13,-0.67,0.37,-0.68,1.53,0.754,-0.25,1.25,2.97,0.8240223719411766,1.265962238693812
+1988,4.34,1.32,2.3,3.380145504,1.92,2.25,1.23,3.47,2.49,0.65,0.24,0.87,3.04,2.137,2.07,1.79,3.85,2.1968909119999998,1.1142248184099632
+1989,3.77,4.5,2.99,3.986150585,3.63,3.17,3.16,3.0,3.69,3.57,3.19,2.94,4.09,2.745,2.62,4.1,4.55,3.5118323873529405,0.577218854389071
+1990,3.35,3.23,2.99,1.810010048,3.21,1.97,2.69,2.34,1.58,3.03,2.5,2.05,2.97,1.984,1.73,2.79,4.35,2.622000591058824,0.7063456778353266
+1991,2.57,1.31,3.04,2.252508945,1.74,2.45,2.15,2.73,2.68,0.92,1.62,0.51,3.23,1.938,1.32,2.8,4.37,2.2135593497058825,0.9147765923954727
+1992,3.41,0.87,2.75,3.100627238,2.63,3.41,1.26,0.95,2.05,3.15,3.14,0.63,2.8,1.599,1.65,1.4,4.14,2.290566308117647,1.0290798879125698
+1993,4.93,2.88,3.2,3.104705856,2.84,2.98,3.1,2.24,2.2,3.95,3.71,1.93,3.89,2.622,1.75,2.76,4.64,3.1015709327058825,0.8631223821608058
+1994,3.41,0.46,2.05,1.311120554,2.62,1.28,2.21,1.75,2.19,-0.22,0.91,0.35,2.51,1.536,0.62,2.71,4.73,1.7898306208235297,1.195755755015189
+1995,3.54,0.82,2.47,1.990277785,2.45,1.58,2.1,1.67,1.81,1.02,0.98,0.36,2.71,2.023,2.02,1.96,4.86,2.021369281470588,1.0257783425346945
+1996,3.79,3.86,2.52,2.920332079,1.94,2.73,2.44,2.42,1.97,4.77,2.98,2.96,3.42,2.937,2.8,3.7,4.11,3.0745489458235293,0.7471804926891606
+1997,3.58,4.03,2.92,3.552919356,1.41,2.52,3.21,3.62,2.74,3.59,3.78,3.1,3.83,1.95,4.11,3.47,4.07,3.2637011385882353,0.7331506897454938
+1998,4.91,2.35,2.35,1.033308803,1.91,0.72,1.38,3.99,0.11,0.57,0.56,1.22,1.92,1.612,2.03,2.19,4.15,1.9414887531176475,1.29922681188281
+1999,3.43,3.31,3.53,3.818315562,4.1,3.47,3.36,4.65,3.43,2.42,3.32,2.69,3.98,2.92,2.22,4.8,4.71,3.538724444823529,0.7292152063673045
+2000,4.22,5.76,3.28,3.829276699,2.77,3.19,3.6,4.5,3.67,3.09,3.86,3.19,4.41,2.864,2.29,4.77,4.57,3.7566633352352934,0.8464154867086691
+2001,3.22,3.8,2.83,2.292038761,2.84,2.44,2.67,2.68,2.47,1.54,2.14,1.01,3.23,1.669,2.36,3.88,4.42,2.675943456529412,0.844388228897203
+2002,5.46,0.56,2.28,1.090310587,2.97,1.47,2.15,1.15,0.99,-0.23,0.67,-0.37,2.02,1.401,0.17,1.62,4.03,1.6136065051176471,1.4497877526005314
+2003,3.82,2.74,2.69,2.745253125,2.59,2.28,2.33,3.62,1.77,1.7,1.51,0.51,3.32,1.908,3.0,2.69,4.24,2.556661948529412,0.8954503729255541
+2004,5.77,4.0,3.22,3.64333167,2.83,3.34,3.15,3.66,3.0,4.34,3.56,2.37,4.33,2.255,2.9,4.36,4.5,3.601666568823529,0.8582936360609744
+2005,4.47,1.33,2.81,2.209195765,2.82,1.59,2.31,1.76,2.06,1.06,1.71,0.44,2.73,1.587,1.76,2.25,4.52,2.2009526920588236,1.0328782780206467
+2006,4.62,3.06,2.88,3.458320955,3.3,2.68,3.25,2.88,3.01,2.5,2.69,2.17,3.86,1.997,3.91,3.77,4.67,3.2179600561764703,0.7398233149280208
+2007,4.94,2.8,3.05,2.949809022,3.53,2.48,2.8,3.95,2.88,1.81,1.95,0.87,3.49,2.508,1.61,4.24,5.05,2.9945770012941177,1.0988278027788945
+2008,5.54,3.89,2.71,3.617601383,3.48,3.46,3.06,4.37,3.58,3.91,3.21,2.24,4.32,2.851,2.1,4.72,4.69,3.6322706695882356,0.8881907278850647
+2009,4.84,3.02,2.73,2.933882254,3.45,2.4,2.78,3.5,2.36,2.13,3.5,1.84,3.64,1.873,2.41,3.83,4.35,3.0345224855294113,0.826233122003104
+2010,4.68,4.09,3.55,3.183199306,2.73,2.19,2.53,4.96,1.12,3.37,2.9,1.9,3.71,2.433,4.13,4.2,4.42,3.2997764297647065,1.0307202094365793
+2011,4.09,3.85,4.14,4.531378476,3.2,3.75,3.87,4.66,4.33,4.14,4.52,2.73,5.11,2.803,2.78,5.77,5.03,4.076728145647059,0.8312424981729848
+2012,4.64,2.01,3.01,2.222378199,3.52,2.42,3.58,2.62,3.13,1.04,2.16,1.23,3.65,1.923,1.78,4.04,5.04,2.824434011705882,1.107438129707579
+2013,6.6,4.82,3.16,3.271469165,3.69,3.02,2.83,4.65,2.26,3.5,3.64,2.5,3.78,2.612,2.43,3.93,5.27,3.6449099508823535,1.113763866272575
+2014,4.9,4.32,3.7,3.968026758,3.19,3.28,3.88,3.13,2.91,4.2,4.56,2.66,4.75,2.492,3.0,4.99,5.25,3.834119221058824,0.847067846793997
+2015,5.0,1.42,3.07,2.106529474,2.8,2.4,3.69,1.87,2.31,0.73,2.68,0.29,3.79,1.499,2.75,3.27,5.23,2.641501733764706,1.2908873706653832
+2016,5.5,3.6,3.35,3.492948076,3.52,2.53,2.32,3.55,1.11,1.85,2.73,1.77,4.23,2.512,3.71,2.35,5.99,3.1832322397647066,1.2309509211059226
+2017,5.24,5.59,3.26,3.475566504,3.61,3.27,4.38,3.9,2.55,3.47,3.43,2.4,4.3,2.965,3.11,4.53,5.63,3.8300333237647055,0.9516563914073176
+2018,6.46,2.82,3.11,3.380695647,4.28,2.84,3.49,4.45,2.93,3.64,3.46,2.35,4.36,2.788,3.46,4.75,5.63,3.776393861588235,1.0587002823757572
+2019,4.95,1.72,3.74,2.208627139,4.4,2.25,3.12,4.11,2.54,2.94,3.11,0.99,3.94,1.746,2.21,3.5,5.85,3.1367427728823536,1.231594161674994

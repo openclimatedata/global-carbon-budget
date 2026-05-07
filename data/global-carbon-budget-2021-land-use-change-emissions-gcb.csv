@@ -1,0 +1,98 @@
+# Global Carbon Budget 2021 — Land-Use Change Emissions
+# 
+# Land-use change emissions
+# All values in billion tonnes of carbon per year (GtC/yr), for the globe. For values in billion tonnes of carbon dioxide per year (GtCO2/yr), multiply the numbers below by 3.664.
+# 1 billion tonnes C = 1 petagram of carbon (10^15 gC) = 1 gigatonne C = 3.664 billion tonnes of CO2
+# Methods: The GCB estimate is the average of three bookkeeping models H&N, BLUE and OSCAR (uncertainty of ±0.7 GtC/yr). Individual results from dynamic global vegetation models are also provided but not used for the GCB estimate.  Cite as: Friedlingstein et al (2021; see summary tab)
+# Data below represents the net flux of land-use change, based on the net balance between deforestation and forest regrowth along with other land-use changes
+# Cite individual estimates as:
+# H&N	Houghton, R. A. and Nassikas, A. A.: Global and regional fluxes of carbon from land use and land cover change 1850-2015, Global Biogeochemical Cycles, 31, 456-472, 2017.
+# BLUE	Hansis, E., Davis, S. J., and Pongratz, J.: Relevance of methodological choices for accounting of land use change carbon fluxes, Global Biogeochemical Cycles, 29, 1230-1246, 2015.
+# OSCAR	Gasser, T., Crepin, L., Quilcaille, Y., Houghton, R. A., Ciais, P. and Obersteiner, M.: Historical CO 2 emissions from land use and land cover change and their uncertainty, Biogeosciences , 4075–4101, 2020.
+# 
+# CABLE-POP	Haverd, V., Smith, B., Nieradzik, L., Briggs, P. R., Woodgate, W., Trudinger, C. M., Canadell, J. G., and Cuntz, M.: A new version of the CABLE land surface model (Subversion revision r4601) incorporating land use and land cover change, woody vegetation demography, and a novel optimisation-based approach to plant coordination of photosynthesis, Geosci. Model Dev., 11, 2995-3026, 2018.
+# CLASSIC	Melton, J. R., Arora, V. K., Wisernig-cojoc, E., Seiler, C., Fortier, M. and Chan, E.: CLASSIC v1 . 0 : the open-source community successor to the Canadian Land Surface Scheme ( CLASS ) and the Canadian Terrestrial Ecosystem Model ( CTEM ) – Part 1 : Model framework and site-level performance, , 2825–2850, 2020.
+# CLM5.0	Lawrence, D., Fisher, R., Koven, C., Oleson, K., Swenson, S., et al.: The Community Land Model version 5: Description of new features, benchmarking, and impact of forcing uncertainty, JAMES, accepted, 2019
+# DLEM	Tian, H., G. Chen, C. Lu, X. Xu, D. J. Hayes, W. Ren, S. Pan, D.N. Huntzinger, S.C. Wofsy: North American terrestrial CO2 uptake largely offset by CH4 and N2O emissions: Toward a full accounting of the greenhouse gas budget, Climatic Change, 129:423-426, 2015
+# IBIS	Yuan WP, Liu D, Dong WJ, Liu SG, Zhou GS, Yu GR, Zhao TB, Feng JM, Ma ZG, Chen JQ, Chen Y, Chen SP, Han SJ, Huang JP, Li LH, Liu HZ, Liu SM, Ma MG, Wang YF, Xia JZ, Xu WF, Zhang Q, Zhao XQ, Zhao L. 2014. Multiyear precipitation reduction strongly decreases carbon uptake over northern China. Journal of Geophysical Research: Biogeosciences, 119, 881-896.
+# ISAM	Meiyappan, P., Jain, A. K., and House, J. I.: Increased influence of nitrogen limitation on CO2 emissions from future land use and land use change, Global Biogeochemical Cycles, 29, 1524-1548, 2015.
+# ISBA-CTRIP	Delire, C., Séférian, R., Decharme, B., Alkama, R., Calvet, J., Carrer, D., Gibelin, A., Joetzjer, E., Morel, X., Rocher, M. and Tzanos, D.: The Global Land Carbon Cycle Simulated With ISBA‐CTRIP: Improvements Over the Last Decade, J. Adv. Model. Earth Syst., 12(9), doi:10.1029/2019MS001886, 2020.
+# JSBACH	Mauritsen, T., Bader, J., Becker, T., Behrens, J., Bittner, M., Brokopf, R., Brovkin, V., Claussen, M., Crueger, T., Esch, M., Fast, I., Fiedler, S., Popke, D., Gayler, V., Giorgetta, M., Goll, D., Haak, H., Hagemann, S., Hedemann, C., Hohenegger, C., Ilyina, T., Jahns, T., Jimenez Cuesta de la Otero, D., Jungclaus, J., Kleinen, T., Kloster, S., Kracher, D., Kinne, S., Kleberg, D., Lasslop, G., Kornblueh, L., Marotzke, J., Matei, D., Meraner, K., Mikolajewicz, U., Modali, K., Möbis, B., Müller, W., Nabel, J.E.M.S., Nam, C., Notz, D., Nyawira, S., Paulsen, H., Peters, K., Pincus, R., Pohlmann, H., Pongratz, J., Popp, M., Raddatz, T., Rast, S., Redler, R., Reick, C., Rohrschneider, T., Schemann, V., Schmidt, H., Schnur, R., Schulzweida, U., Six, K., Stein, L., Stemmler, I., Stevens, B., von Storch, J., Tian, F., Voigt, A., de Vrese, P., Wieners, K.-H., Wilkenskjeld, S., Roeckner, E. & Winkler, A. (in review). Developments in the MPI-M Earth System Model version 1.2 (MPI-ESM1.2) and its response to increasing CO2.
+# JULES-ES	Wiltshire, A.,Burke, E., Chadburn, S., Jones, C., Cox, P., Davies-Barnard, T., Friedlingstein, P., Harper, A., Liddicoat, S., Sitch, S., Zaehle, S
+# LPJ-GUESS	Smith, B., Warlind, D., Arneth, A., Hickler, T., Leadley, P., Siltberg, J., and Zaehle, S.: Implications of incorporating N cycling and N limitations on primary production in an individual-based dynamic vegetation model, Biogeosciences, 11, 2027-2054, 2014.
+# LPJ 	Poulter, B., Frank, D. C., Hodson, E. L., and Zimmermann, N. E.: Impacts of land cover and climate data selection on understanding terrestrial carbon dynamics and the CO2 airborne fraction, Biogeosciences, 8, 2027-2036, 2011.
+# LPX-Bern	Lienert, S. and Joos, F.: A Bayesian ensemble data assimilation to constrain model parameters and land-use carbon emissions, Biogeosciences, 15, 2909-2930, 2018.
+# OCNv2	Zaehle, S. and Friend, A. D.: Carbon and nitrogen cycle dynamics in the O-CN land surface model: 1. Model description, site-scale evaluation, and sensitivity to parameter estimates, Global Biogeochemical Cycles, 24, GB1005, 2010
+# ORCHIDEEv3	Vuichard, N., Messina, P., Luyssaert, S., Guenet, B., Zaehle, S., Ghattas, J., Ipsl, L. and Paris-saclay, U.: Accounting for carbon and nitrogen interactions in the global terrestrial ecosystem model ORCHIDEE ( trunk version , rev 4999 ): multi-scale evaluation of gross primary production, , 4751–4779, 2019.
+# SDGVM	Walker, A. P., Quaife, T., van Bodegom, P. M., De Kauwe, M. G., Keenan, T. F., Joiner, J., Lomas, M. R., MacBean, N., Xu, C. G., Yang, X. J., and Woodward, F. I.: The impact of alternative trait-scaling hypotheses for the maximum photosynthetic carboxylation rate (V-cmax) on global gross primary production, New Phytologist, 215, 1370-1386, 2017.
+# VISIT	Kato, E., Kinoshita, T., Ito, A., Kawamiya, M. and Yamagata, Y.: Evaluation of spatially explicit emission scenario of land-use change and biomass burning using a process-based biogeochemical model, J. Land Use Sci., 8(1), 104–122, doi:10.1080/1747423x.2011.628705, 2013.
+# YIBs	Yue, X. and Unger, N.: The Yale Interactive terrestrial Biosphere model version 1 . 0 : description , evaluation and implementation into NASA GISS, , 2399–2417, doi:10.5194/gmd-8-2399-2015, 2015.
+# 
+# 
+# Generated with openclimatedata 0.33 from the GCB Excel file from 10.18160/gcp-2021
+# http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget
+#
+# GCB
+Year,Net,Gross Sink,Gross Source
+1959,1.84551880806033,-1.74705820497928,3.59257701303961
+1960,1.85371155937901,-1.77291343584006,3.62662499521907
+1961,1.86212030778633,-1.80003456415408,3.66215487194041
+1962,1.7905989263756,-1.82215986968412,3.61285419415803
+1963,1.65186198395652,-1.84086939603167,3.49268768958202
+1964,1.56411121199796,-1.85397125926301,3.41805812923257
+1965,1.41717257083713,-1.87838905619341,3.29556122347243
+1966,1.34886568040862,-1.89249346861791,3.24136462379337
+1967,1.3722228350952,-1.89822736454446,3.27041549480616
+1968,1.37953231304461,-1.9056840286449,3.28523377338531
+1969,1.29242437566456,-1.93270914852176,3.22517042387227
+1970,1.28651434647713,-1.95262003618275,3.23912382063002
+1971,1.27313438447573,-1.96564347670825,3.23875006384975
+1972,1.27630156830798,-1.97538132174354,3.25170135403402
+1973,1.23863708479883,-2.00036679665115,3.23904705573994
+1974,1.19226582411145,-2.00205980476549,3.19425894562051
+1975,1.4170177831211,-2.00954484406053,3.42660530463442
+1976,1.30192804195087,-2.02131849820118,3.32322492686754
+1977,1.26728447012803,-2.03946050434115,3.30670756655845
+1978,1.15395507543187,-2.04813130387395,3.20216133373965
+1979,1.16074176263712,-2.0595963128635,3.22030895848825
+1980,1.13097333121806,-2.07319511798034,3.20419537330404
+1981,1.17764639764236,-2.07812696784646,3.25571664681271
+1982,1.15548182084022,-2.08540842279141,3.24091686090011
+1983,1.27215874987299,-2.09256736506066,3.36474067460651
+1984,1.4118114260781,-2.0881547143546,3.49994819189974
+1985,1.33771324161347,-2.09510933248186,3.43277795368151
+1986,1.31774665109921,-2.11570157583894,3.43351657587654
+1987,1.26366566551294,-2.13800920197265,3.40168024164005
+1988,1.22925724110767,-2.15337248527954,3.38258202467139
+1989,1.18824099964344,-2.16613077759389,3.35433925669819
+1990,1.17335641256856,-2.19391151240923,3.36737175919923
+1991,1.14958675520657,-2.21659133056491,3.36612254171541
+1992,1.19857984873555,-2.23503702699321,3.43366799491707
+1993,1.17172268991389,-2.25298594965132,3.42468088901003
+1994,1.3141153459946,-2.27936353533313,3.59348765762135
+1995,1.30082121460812,-2.31164175557842,3.61241768398985
+1996,1.32123841059034,-2.31369928425726,3.63492637636819
+1997,1.82059021301644,-2.33830493966674,4.1588969210861
+1998,1.40131494564395,-2.3659876068379,3.76733138382755
+1999,1.38455844223987,-2.37831971248691,3.76293127220945
+2000,1.23834240280816,-2.41286709903977,3.65121915753682
+2001,1.13671228370396,-2.44234261986618,3.57900101658364
+2002,1.287697919452,-2.46661059527661,3.75431307282115
+2003,1.39010841002953,-2.48914865584041,3.8792920119282
+2004,1.24898859149629,-2.50776270897178,3.7566449057818
+2005,1.1189718644073,-2.53939061944501,3.65844866304461
+2006,1.26637114567502,-2.55379587974638,3.82012536164291
+2007,1.10442030385473,-2.5718513314798,3.67633279276984
+2008,1.12960455427765,-2.57814766058345,3.7076890634105
+2009,1.23614657040923,-2.59820434135625,3.83434838996731
+2010,1.16781151784345,-2.62791507476946,3.79574205534769
+2011,1.31854201345431,-2.62872614635465,3.94732730761658
+2012,1.27632091081112,-2.650947660219,3.92721216924545
+2013,1.17816299027291,-2.67172323473131,3.84987121743993
+2014,1.24554989124692,-2.6816342624335,3.92723302229533
+2015,1.30101140685154,-2.71384986613935,4.01480138606706
+2016,1.01080090606935,-2.72595837837561,3.73676916135861
+2017,0.999694136552438,-2.73476233064138,3.73453869774313
+2018,1.0528216985603,-2.74041769622991,3.79317861980445
+2019,1.04405312953735,-2.75047668555614,3.79458542276195
+2020,0.876089781820727,-2.76283781919355,3.63886668585802

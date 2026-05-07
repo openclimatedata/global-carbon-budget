@@ -1,0 +1,92 @@
+# Global Carbon Budget 2020 — Ocean Sink
+# 
+# Ocean CO2 sink (positive values represent a flux from the atmosphere to the ocean)
+# All values in billion tonnes of carbon per year (GtC/yr), for the globe. For values in billion tonnes of carbon dioxide per year (GtCO2/yr), multiply the numbers below by 3.664.
+# 1 billion tonnes C = 1 petagram of carbon (10^15 gC) = 1 gigatonne C = 3.664 billion tonnes of CO2
+# Methods: The ocean sink (uncertainty of ±0.4 GtC/yr on average) is estimated from the average of several global ocean biogeochemistry models that reproduce the observed mean ocean sink of the 1990s.  Cite as: Friedlingstein et al (2020; see summary tab)
+# Note: the data products include a pre-industrial steady state source of CO2 from rivers (of about 0.61 GtC/yr) and therefore are not directly comparable with the ocean model results
+# Cite individual estimates as:
+# Model results used to compute the annual values:
+# CESM_ETH	Doney, S. C., Lima, I., Feely, R. A., Glover, D. M., Lindsay, K., Mahowald, N., Moore, J. K., and Wanninkhof, R.: Mech- anisms governing interannual variability in upper-ocean inor- ganic carbon system and air–sea CO2 fluxes: Physical cli- mate and atmospheric dust, Deep-Sea Res. Pt. II, 56, 640–655, https://doi.org/10.1016/j.dsr2.2008.12.006, 2009.
+# CSIRO	Law, R. M., Ziehn, T., Matear, R. J., Lenton, A., Chamberlain, M. A., Stevens, L. E., Wang, Y.-P., Srbinovsky, J., Bi, D., Yan, H., and Vohralik, P. F.: The carbon cycle in the Australian Commu- nity Climate and Earth System Simulator (ACCESS-ESM1) – Part 1: Model description and pre-industrial simulation, Geosci. Model Dev., 10, 2567–2590, https://doi.org/10.5194/gmd-10- 2567-2017, 2017
+# FESOM-1.4-REcoM2	Hauck, J., Zeising, M., Le Quéré, C., Gruber, N., Bakker, D. C. E., Bopp, L., et al. (2020). Consistency and Challenges in the Ocean Carbon Sink Estimate for the Global Carbon Budget. Frontiers in Marine Science, 7. https://doi.org/10.3389/fmars.2020.571720
+# MPIOM-HAMOCC6	Paulsen, H., Ilyina, T., Six, K. D. and Stemmler, I.: Incorporating a prognostic representation of marine nitrogen fixers into the global ocean biogeochemical model HAMOCC, J. Adv. Model. Earth Syst., 9(1), 438–464, doi:10.1002/2016MS000737, 2017.
+# NEMO3.6-PISCESv2-gas (CNRM)	Berthet, S., Séférian, R., Bricaud, C., Chevallier, M., Voldoire, A., & Ethé, C. ( 2019). Evaluation of an online grid‐coarsening algorithm in a global eddy‐admitting ocean biogeochemical model. Journal of Advances in Modeling Earth Systems, 11, 1759– 1783. https://doi.org/10.1029/2019MS001644
+# NEMO-PlankTOM5	Buitenhuis, E. T., Hashioka, T., Le Quéré, C. (2013) Combined constraints on global ocean primary production using observations and models Global Biogeochemical Cycles 27. pp. 847-858 doi:10.1002/gbc.20074
+# MICOM-HAMOCC (NorESM-OCv1.2)	Schwinger, J., Goris, N., Tjiputra, J. F., Kriest, I., Bentsen, M., Bethke, I., Ilicak, M., Assmann, K. M., and Heinze, C.: Evaluation of NorESM-OC (versions 1 and 1.2), the ocean carbon-cycle stand-alone configuration of the Norwegian Earth System Model (NorESM1), Geosci. Model Dev., 9, 2589-2622, 2016.
+# MOM6-COBALT (Princeton)	Liao, E., Resplandy, L., Liu, J. and Bowman, K. W.: Amplification of the Ocean Carbon Sink During El Niños: Role of Poleward Ekman Transport and Influence on Atmospheric CO 2, Global Biogeochem. Cycles, 34(9), doi:10.1029/2020GB006574, 2020.
+# NEMO-PISCES (IPSL)	Aumont, O., Ethé, Tagliabue, A., Bopp, L., & Gehlen, M. (2015). PISCES-v2: an ocean biogeochemical model for carbon and ecosystem studies.
+# Data products used to evaluate the results:
+# Landschützer	Landschützer, P., Gruber, N., and Bakker, D. C. E.: Decadal variations and trends of the global ocean carbon sink, Global Biogeochem. Cy., 30, 1396–1417, https://doi.org/10.1002/2015GB005359, 2016
+# Rödenbeck	Rödenbeck, C., Bakker, D. C. E., Metzl, N., Olsen, A., Sabine, C., Cassar, N., Reum, F., Keeling, R. F., and Heimann, M.: Interannual sea–air CO2 flux variability from an observation-driven ocean mixed-layer scheme, Biogeosciences, 11, 4599-4613, 2014.
+# CMEMS	Denvil-Sommer, A., Gehlen, M., Vrac, M., and Mejia, C.: LSCE-FFNN-v1: a two-step neural network model for the reconstruction of surface ocean pCO2 over the global ocean, Geosci. Model Dev., 12, 2091–2105, https://doi.org/10.5194/gmd-12-2091-2019, 2019.
+# CSIR-ML6	Gregor, L., Lebehot, A. D., Kok, S. and Scheel Monteiro, P. M.: A comparative assessment of the uncertainties of global surface ocean CO2 estimates using a machine-learning ensemble (CSIR-ML6 version 2019a)-Have we hit the wall?, Geosci. Model Dev., 12(12), 5113–5136, doi:10.5194/gmd-12-5113-2019, 2019.
+# Watson et al.	Watson, A. J., Schuster, U., Shutler, J. D., Holding, T., Ashton, I. G. C., Landschützer, P., Woolf, D. K. and Goddijn-Murphy, L.: Revised estimates of ocean-atmosphere CO2 flux are consistent with ocean carbon inventory, Nat. Commun., 11(1), 1–6, doi:10.1038/s41467-020-18203-3, 2020.
+# 
+# 
+# Generated with openclimatedata 0.33 from the GCB Excel file from 10.18160/gcp-2020
+# http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget
+#
+# GCB
+Year,GCB,1 sigma uncertainty
+1959,0.8613677600284719,0.27
+1960,0.8390964986789451,0.24
+1961,0.7165157788158604,0.24
+1962,0.7684019670510992,0.28
+1963,0.9173647451776676,0.3
+1964,1.1113255525543564,0.28
+1965,1.2309506893908972,0.34
+1966,1.1881256406512233,0.33
+1967,0.9948415743172385,0.29
+1968,1.0675975450682718,0.3
+1969,1.1083964995285946,0.35
+1970,1.0327881693546896,0.29
+1971,1.0972820569079396,0.31
+1972,1.3335998151029456,0.39
+1973,1.3008105041228921,0.39
+1974,1.2139213155453064,0.36
+1975,1.1759591561024993,0.39
+1976,1.2820402294813853,0.43
+1977,1.3903840301462687,0.4
+1978,1.4467608211209464,0.37
+1979,1.3215336785386855,0.41
+1980,1.6335833126806323,0.39
+1981,1.6169517496686165,0.39
+1982,1.7093406769060586,0.45
+1983,1.8654547759591962,0.47
+1984,1.7311343942300657,0.41
+1985,1.628534954799948,0.47
+1986,1.7007639968018486,0.44
+1987,1.8072158620246443,0.46
+1988,1.70761160757359,0.4
+1989,1.6653753327251632,0.48
+1990,1.7926782349487058,0.46
+1991,1.90427645982539,0.47
+1992,2.1310074107327446,0.5
+1993,2.0693164039606153,0.49
+1994,1.9296573393514744,0.45
+1995,1.9241048860052363,0.44
+1996,1.8790207011574422,0.42
+1997,1.98570898824023,0.51
+1998,2.1000041077418548,0.51
+1999,1.9083523221544785,0.47
+2000,1.866525916351568,0.47
+2001,1.7710314128621798,0.48
+2002,2.159155361849104,0.51
+2003,2.235326499202207,0.52
+2004,2.136799229190508,0.53
+2005,2.2078722222984335,0.52
+2006,2.262164692661233,0.55
+2007,2.2995438409123867,0.51
+2008,2.2152855843355135,0.56
+2009,2.2833452824044476,0.54
+2010,2.27344911637993,0.53
+2011,2.385945310985491,0.54
+2012,2.4405023985942367,0.6
+2013,2.4778657260688846,0.57
+2014,2.564000039274904,0.58
+2015,2.607821039762621,0.61
+2016,2.6835066044567957,0.55
+2017,2.519991389973299,0.58
+2018,2.5610906617026004,0.61
+2019,2.6259905646281965,0.6

@@ -1,0 +1,101 @@
+# Global Carbon Budget 2023 — Ocean Sink
+# 
+# Ocean CO2 sink (positive values represent a flux from the atmosphere to the ocean)
+# All values in billion tonnes of carbon per year (GtC/yr), for the globe. For values in billion tonnes of carbon dioxide per year (GtCO2/yr), multiply the numbers below by 3.664.
+# 1 billion tonnes C = 1 petagram of carbon (10^15 gC) = 1 gigatonne C = 3.664 billion tonnes of CO2
+# Methods: The ocean sink (uncertainty of ±0.4 GtC/yr on average) is estimated from the average of 10 global ocean biogeochemistry models and 7 fCO2 data products that reproduce the observed mean ocean sink of the 1990s.  UOEx-Watson not used for the fCO2 data products average. Cite as: Friedlingstein et al 2023 (see summary tab).
+# Prior to 1990, the GCB ocean sink estimate is calculated from the GOBM multi-model mean with an offset applied. The offset is calculated as the half of the difference between GOBMs and data products in the period 1990-2001 (inclusive). This ensures no artificial jumps occur in 1990 when the data products are used to estimate the sink in conjunction with the GOBMs.
+# Note: the surface ocean fCO2-based data products are adjusted for a pre-industrial steady state source of CO2 from rivers (of 0.65 GtC/yr) to be comparable with the ocean model results and to satisfy the definition of the ocean carbon sink used in the Global Carbon Budget.
+# Cite individual estimates as:
+# Global ocean biogeochemical models:
+# NEMO3.6-PISCESv2-gas (CNRM)	Berthet, S., Séférian, R., Bricaud, C., Chevallier, M., Voldoire, A., & Ethé, C. ( 2019). Evaluation of an online grid‐coarsening algorithm in a global eddy‐admitting ocean biogeochemical model. Journal of Advances in Modeling Earth Systems, 11, 1759– 1783. https://doi.org/10.1029/2019MS001644
+# FESOM-2.1-REcoM2	Gürses, Ö., Oziel, L., Karakuş, O., Sidorenko, D., Völker, C., Ye, Y., Zeising, M., Butzin, M., and Hauck, J.: Ocean biogeochemistry in the coupled ocean–sea ice–biogeochemistry model FESOM2.1–REcoM3, Geosci. Model Dev., 16, 4883–4936, https://doi.org/10.5194/gmd-16-4883-2023, 2023.
+# NEMO-PISCES (IPSL)	Aumont, O., Ethé, Tagliabue, A., Bopp, L., & Gehlen, M. (2015). PISCES-v2: an ocean biogeochemical model for carbon and ecosystem studies.
+# MOM6-COBALT (Princeton)	Liao, E., Resplandy, L., Liu, J. and Bowman, K. W.: Amplification of the Ocean Carbon Sink During El Niños: Role of Poleward Ekman Transport and Influence on Atmospheric CO 2, Global Biogeochem. Cycles, 34(9), doi:10.1029/2020GB006574, 2020.
+# MRI-ESM2-2	Nakano, H., Tsujino, H., Hirabara, M., Yasuda, T., Motoi, T., Ishii, M., and Yamanaka, G.: Uptake mechanism of anthropogenic CO2 in the Kuroshio Extension region in an ocean general circulation model, J. Oceanogr., 67, 765–783, https://doi.org/10.1007/s10872-011-0075-7, 2011.
+# MICOM-HAMOCC (NorESM-OCv1.2)	Schwinger, J., Goris, N., Tjiputra, J. F., Kriest, I., Bentsen, M., Bethke, I., Ilicak, M., Assmann, K. M., and Heinze, C.: Evaluation of NorESM-OC (versions 1 and 1.2), the ocean carbon-cycle stand-alone configuration of the Norwegian Earth System Model (NorESM1), Geosci. Model Dev., 9, 2589-2622, 2016.
+# NEMO-PlankTOM12	Wright, R. M., Le Quéré, C., Buitenhuis, E., Pitois, S., & Gibbons, M. J. (2021). Role of jellyfish in the plankton ecosystem revealed using a global ocean biogeochemical model. Biogeosciences, 18(4), 1291-1320. https://doi.org/10.5194/bg-18-1291-2021
+# CESM-ETHZ	Doney, S. C., Lima, I., Feely, R. A., Glover, D. M., Lindsay, K., Mahowald, N., Moore, J. K., and Wanninkhof, R.: Mech- anisms governing interannual variability in upper-ocean inor- ganic carbon system and air–sea CO2 fluxes: Physical cli- mate and atmospheric dust, Deep-Sea Res. Pt. II, 56, 640–655, https://doi.org/10.1016/j.dsr2.2008.12.006, 2009.
+# MPIOM-HAMOCC6	Lacroix F., Tatiana Ilyina, Moritz Mathis, Goulven Laruelle, Pierre Regnier: Historical Increases in Land-Derived Nutrient Inputs May Alleviate Effects from a Changing Physical Climate on the Oceanic Carbon Cycle. Global Change Biology, https://doi.org/10.1111/gcb.15822, 2021
+# ACCESS (CSIRO)	Law, R. M., Ziehn, T., Matear, R. J., Lenton, A., Chamberlain, M. A., Stevens, L. E., Wang, Y.-P., Srbinovsky, J., Bi, D., Yan, H., and Vohralik, P. F.: The carbon cycle in the Australian Community Climate and Earth System Simulator (ACCESS-ESM1) – Part 1: Model description and pre-industrial simulation, Geosci. Model Dev., 10, 2567–2590, https://doi.org/10.5194/gmd-10-2567-2017, 2017.
+# 
+# fCO2-products:
+# CMEMS-LSCE-FFNNv2	Chau, T. T. T., Gehlen, M., and Chevallier, F.: A seamless ensemble-based reconstruction of surface ocean pCO2 and air–sea CO2 fluxes over the global coastal and open oceans, Biogeosciences, 19, 1087–1109, https://doi.org/10.5194/bg-19-1087-2022, 2022.
+# JMA-MLR	Iida, Y., Takatani, Y., Kojima, A., and Ishii, M.: Global trends of ocean CO2 sink and ocean acidification: an observation-based reconstruction of surface ocean inorganic carbon variables. J. Oceanogr. 77, 323–358. https://doi.org/10.1007/s10872-020-00571-5, 2021
+# LDEO-HPD	Gloege, L., Yan, M., Zheng, T., and McKinley, G. A.: Improved Quantification of Ocean Carbon Uptake by Using Machine Learning to Merge Global Models and pCO2 Data, J. Adv. Model. Earth Syst., 14, e2021MS002620, https://doi.org/10.1029/2021MS002620, 2022.
+# MPI-SOMFFN	Landschützer, P., Gruber, N., and Bakker, D. C. E.: Decadal variations and trends of the global ocean carbon sink: decadal air-sea CO2 flux variability, Global Biogeochem. Cycles, 30, 1396–1417, https://doi.org/10.1002/2015GB005359, 2016.
+# NIES-NN	Zeng, J., Nojiri, Y., Landschützer, P., Telszewski, M., Nakaoka, S.: A Global Surface Ocean fCO2 Climatology Based on a Feed-Forward Neural Network. Journal of Atmospheric and Oceanic Technology 31, 1838–1849. https://doi.org/10.1175/JTECH-D-13-00137.1, 2014.
+# OS-ETHZ-GRaCER	Gregor, L. and Gruber, N.: OceanSODA-ETHZ: a global gridded data set of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification, Earth Syst. Sci. Data, 13, 777–808, https://doi.org/10.5194/essd-13-777-2021, 2021.
+# Jena-MLS	Rödenbeck, C., DeVries, T., Hauck, J., Le Quéré, C., and Keeling, R. F.: Data-based estimates of interannual sea–air CO2 flux variations 1957–2020 and their relation to environmental drivers, Biogeosciences, 19, 2627–2652, https://doi.org/10.5194/bg-19-2627-2022, 2022.
+# UOEx-Watson	Watson, A. J., Schuster, U., Shutler, J. D., Holding, T., Ashton, I. G. C., Landschützer, P., Woolf, D. K. and Goddijn-Murphy, L.: Revised estimates of ocean-atmosphere CO2 flux are consistent with ocean carbon inventory, Nat. Commun., 11(1), 1–6, doi:10.1038/s41467-020-18203-3, 2020.
+# 
+# 
+# Generated with openclimatedata 0.33 from the GCB Excel file from 10.18160/gcp-2023
+# http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget
+#
+# Data-based products
+Year,CMEMS-LSCE-FFNN,JMA-MLR,LDEO-HPD,MPI-SOMFFN,NIES-ML3,OS_ETH_Gracer,Jena-MLS,UOEx-Watson,Average data-products (excl. Watson.),sd data-products (excl. Watson.)
+1959,,,0.783034,,,,0.69175042,,,
+1960,,,0.77951038,,,,0.76102518,,,
+1961,,,0.7426047,,,,0.5779393,,,
+1962,,,0.77024602,,,,0.6436682,,,
+1963,,,1.0219409,,,,0.88781323,,,
+1964,,,1.11899313,,,,0.93347567,,,
+1965,,,1.17042491,,,,1.03500938,,,
+1966,,,1.09058589,,,,0.91315767,,,
+1967,,,0.95767081,,,,0.74622195,,,
+1968,,,1.12773941,,,,0.86867548,,,
+1969,,,1.22209754,,,,1.03919389,,,
+1970,,,1.05605427,,,,0.98987251,,,
+1971,,,1.11062845,,,,0.9311271,,,
+1972,,,1.3870632,,,,1.20947781,,,
+1973,,,1.32950682,,,,1.1318579,,,
+1974,,,1.28083717,,,,1.05881851,,,
+1975,,,1.23417205,,,,0.99829628,,,
+1976,,,1.39012146,,,,1.1856136,,,
+1977,,,1.518085,,,,1.46651741,,,
+1978,,,1.51928688,,,,1.42162689,,,
+1979,,,1.53069929,,,,1.50135514,,,
+1980,,,2.03230422,,,,1.79808607,,,
+1981,,,1.95993651,,,,1.65227141,,,
+1982,,,2.10000213,,,,1.86792722,,,
+1983,,,2.2207871,,,,2.0051085,,,
+1984,,,2.18067494,,,,1.82826712,,,
+1985,,,2.0676845,,,,1.84690585,,,
+1986,,,2.17435498,,,,1.99785366,,,
+1987,,,2.08433831,,,,2.03469756,,,
+1988,,,1.87560227,,,,1.76652887,,,
+1989,,,2.27862225,,,,1.63690397,,,
+1990,2.03761094667969,3.18373001,2.24244308,1.99222329,1.9881414662703,2.27342227,1.76192989,3.00899313961195,2.21135727899286,0.461942436581621
+1991,2.1550844215046,3.13047969,2.59545009,2.11082795,2.05309068460644,2.35768625,2.12270429,2.98146777873299,2.36076048230158,0.38808433133369
+1992,2.18752861973956,2.99470214,2.86712562,2.1477479,1.97367396339875,2.48190531,2.49316397,2.94690352884679,2.44940678901976,0.378749448526097
+1993,2.28831401346377,2.86254652,2.62198278,2.19295576,1.94031797084497,2.53391172,2.22496035,2.93081767551117,2.38071273061553,0.309796040193596
+1994,2.26913570213428,2.80506916,2.02027859,2.08533027,1.93513831535108,2.39734111,1.86905458,2.85945418131129,2.19733538964077,0.325296726480832
+1995,2.21641330967929,2.77416483,1.97049642,1.88830593,1.96586325558575,2.35856695,1.91877689,2.68800226289231,2.15608394075215,0.322828469352222
+1996,2.20453859058855,2.70985003,1.96300479,1.83642509,2.0053407205376,2.39251017,1.93924263,2.56485468059306,2.15013028873231,0.309262290666593
+1997,2.34736944287009,2.78925666,2.24307045,1.98245468,2.05365322971341,2.506723,2.2949585,2.72074407633881,2.3167837089405,0.272997754530012
+1998,2.17285566565809,2.83783608,2.29091494,1.88234999,2.19920639732432,2.44973519,2.68002191,2.67003925849931,2.35898859614034,0.324701516292447
+1999,2.02756474617684,2.69230876,1.88545432,1.65498641,2.11164062659875,2.26357535,2.27076879,2.33190695156773,2.1294712861108,0.329170158448646
+2000,2.04176944487156,2.49224174,1.90107772,1.67517402,2.01544651043968,2.27865642,2.05510249,2.33329081615012,2.06563833504446,0.261441419248105
+2001,2.03573815391937,2.43751407,1.69134405,1.61759248,1.98186713016692,2.25076051,1.55030265,2.33275099782392,1.93787414915518,0.334818302828813
+2002,2.26771893387595,2.6290385,2.20032012,1.93913343,2.15771316050659,2.52209355,2.52558162,2.53429290269466,2.32022847348322,0.247340177516363
+2003,2.37103495577603,2.87394273,2.36215807,2.14283791,2.22358298538008,2.5194851,2.81232705,2.65125651188788,2.4721955430223,0.280461794965365
+2004,2.36427636503049,2.78935454,2.36633213,2.21629336,2.2051122088418,2.51889657,2.73027577,2.68844877325443,2.45579156341033,0.233511466841735
+2005,2.46214729485729,2.80998191,2.4158251,2.38815835,2.26769950598227,2.60836542,2.41290226,2.89005137715416,2.48072569154851,0.176921681166359
+2006,2.54377307990788,2.89934474,2.50890079,2.5625644,2.3541630204089,2.71256594,2.60242333,3.11558649679256,2.59767647147383,0.171047860035265
+2007,2.53523189884848,2.80254545,2.32087899,2.60891726,2.29338094725774,2.69427759,2.36623433,3.17372541904736,2.51735235230089,0.197037679244244
+2008,2.58240825432742,2.71134173,2.5465911,2.7173244,2.29890379946492,2.62013752,2.39138117,3.23487120265759,2.55258399625605,0.157147643863675
+2009,2.79213839622915,2.82382456,2.98798334,2.92011633,2.35588119824108,2.94438932,2.92253032,3.42339286048364,2.82098049492432,0.216185599380689
+2010,2.76714329594895,2.8084808,2.98535401,2.85708442,2.2751494082297,2.89359788,2.84392967,3.47959991706337,2.77581992631124,0.231240141405291
+2011,2.67686528150482,2.71454289,2.98883305,2.96123137,2.25350002667723,2.89639593,2.8416039,3.52922167858687,2.76185320688315,0.252856213381796
+2012,2.77385203223019,2.78474109,2.86347093,3.07338395,2.33772967433814,2.95218651,2.84167089,3.55814128516987,2.80386215379548,0.230279008628251
+2013,2.8504727688265,2.93740183,2.86894958,2.96301498,2.47946051441951,3.01950721,2.93369617,3.57620785651777,2.86464329332086,0.179028418087851
+2014,2.99580729978765,3.01125086,3.19019609,3.01804843,2.42524874525125,3.09995937,3.16278257,3.5893789351536,2.98618476643413,0.258887839258326
+2015,3.20638232207181,3.18702153,3.03251247,3.22180715,2.56223703695615,3.14075737,2.87374558,3.67120440162921,3.03206620843257,0.240838024258704
+2016,3.28806604012423,3.47894178,3.36027671,3.2525188,2.79394503636054,3.28266665,3.3339149,3.76654242457777,3.25576141664068,0.216753797365675
+2017,3.16151231542271,3.38420822,3.05401061,3.20233049,2.70673060354325,3.27314208,3.22458901,3.90653001816835,3.14378904699514,0.217517694855771
+2018,3.14801006029197,3.38782414,3.2606795,3.21740117,2.72053627729806,3.35228807,3.45242848,4.03178618947253,3.21988109965572,0.243583015327833
+2019,3.32985515238026,3.53768216,3.43267868,3.27684488,2.73603442314007,3.45100445,3.52746859,4.00580456244949,3.32736690507433,0.277753719987265
+2020,3.3499191364991,3.65823906,3.16533711,3.22572341,2.68609786544156,3.2576572,3.43390837,4.01380486545308,3.25384030742009,0.298932384945014
+2021,3.29486965714563,3.53001202,3.17589427,3.34101048,2.55064548678741,3.20042994,3.09703245,3.92653700435032,3.16998490056186,0.306684057989942
+2022,3.24329050923652,3.34221559,2.92958255,3.32272115,2.45582693810091,3.26544353,3.02407923,4.07790401710948,3.08330849961963,0.31727790009081

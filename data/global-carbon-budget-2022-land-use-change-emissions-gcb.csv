@@ -1,0 +1,98 @@
+# Global Carbon Budget 2022 — Land-Use Change Emissions
+# 
+# Land-use change emissions
+# All values in billion tonnes of carbon per year (GtC/yr), for the globe. For values in billion tonnes of carbon dioxide per year (GtCO2/yr), multiply the numbers below by 3.664.
+# 1 billion tonnes C = 1 petagram of carbon (10^15 gC) = 1 gigatonne C = 3.664 billion tonnes of CO2
+# Methods: The GCB estimate is the average of three bookkeeping models H&N, BLUE and OSCAR (uncertainty of ±0.7 GtC/yr). Individual results from dynamic global vegetation models (calculated as S3-S2; see Appendix C2.2 in Friedlingstein et al. 2022b) are also provided but not used for the GCB estimate.  Cite as: Friedlingstein et al (2022b; see summary tab)
+# Data below represents the net flux of land-use change, based on the net balance between deforestation and forest regrowth along with other land-use changes
+# Cite individual estimates as:
+# H&N	Houghton, R. A. and Nassikas, A. A.: Global and regional fluxes of carbon from land use and land cover change 1850-2015, Global Biogeochemical Cycles, 31, 456-472, 2017.
+# BLUE	Hansis, E., Davis, S. J., and Pongratz, J.: Relevance of methodological choices for accounting of land use change carbon fluxes, Global Biogeochemical Cycles, 29, 1230-1246, 2015.
+# OSCAR	Gasser, T., Crepin, L., Quilcaille, Y., Houghton, R. A., Ciais, P. and Obersteiner, M.: Historical CO 2 emissions from land use and land cover change and their uncertainty, Biogeosciences , 4075–4101, 2020.
+# 
+# CABLE-POP	Haverd, V., Smith, B., Nieradzik, L., Briggs, P. R., Woodgate, W., Trudinger, C. M., Canadell, J. G., and Cuntz, M.: A new version of the CABLE land surface model (Subversion revision r4601) incorporating land use and land cover change, woody vegetation demography, and a novel optimisation-based approach to plant coordination of photosynthesis, Geosci. Model Dev., 11, 2995-3026, 2018.
+# CLASSIC	Melton, J. R., Arora, V. K., Wisernig-cojoc, E., Seiler, C., Fortier, M. and Chan, E.: CLASSIC v1 . 0 : the open-source community successor to the Canadian Land Surface Scheme ( CLASS ) and the Canadian Terrestrial Ecosystem Model ( CTEM ) – Part 1 : Model framework and site-level performance, , 2825–2850, 2020.
+# CLM5.0	Lawrence, D., Fisher, R., Koven, C., Oleson, K., Swenson, S., et al.: The Community Land Model version 5: Description of new features, benchmarking, and impact of forcing uncertainty, JAMES, accepted, 2019
+# DLEM	Tian, H., G. Chen, C. Lu, X. Xu, D. J. Hayes, W. Ren, S. Pan, D.N. Huntzinger, S.C. Wofsy: North American terrestrial CO2 uptake largely offset by CH4 and N2O emissions: Toward a full accounting of the greenhouse gas budget, Climatic Change, 129:423-426, 2015
+# IBIS	Yuan WP, Liu D, Dong WJ, Liu SG, Zhou GS, Yu GR, Zhao TB, Feng JM, Ma ZG, Chen JQ, Chen Y, Chen SP, Han SJ, Huang JP, Li LH, Liu HZ, Liu SM, Ma MG, Wang YF, Xia JZ, Xu WF, Zhang Q, Zhao XQ, Zhao L. 2014. Multiyear precipitation reduction strongly decreases carbon uptake over northern China. Journal of Geophysical Research: Biogeosciences, 119, 881-896.
+# ISAM	Meiyappan, P., Jain, A. K., and House, J. I.: Increased influence of nitrogen limitation on CO2 emissions from future land use and land use change, Global Biogeochemical Cycles, 29, 1524-1548, 2015.
+# JSBACH	Reick, C. H., Gayler, V., Goll, D., Hagemann, S., Heidkamp, M., Nabel, J. E. M. S., Raddatz, T., Roeckner, E., Schnur, R., and Wilkenskjeld, S.: JSBACH 3 - The land component of the MPI Earth System Model: documentation of version 3.2, https://doi.org/10.17617/2.3279802, 2021.
+# JULES-ES	Wiltshire, A.,Burke, E., Chadburn, S., Jones, C., Cox, P., Davies-Barnard, T., Friedlingstein, P., Harper, A., Liddicoat, S., Sitch, S., Zaehle, S
+# LPJ-GUESS	Smith, B., Warlind, D., Arneth, A., Hickler, T., Leadley, P., Siltberg, J., and Zaehle, S.: Implications of incorporating N cycling and N limitations on primary production in an individual-based dynamic vegetation model, Biogeosciences, 11, 2027-2054, 2014.
+# LPJ 	Poulter, B., Frank, D. C., Hodson, E. L., and Zimmermann, N. E.: Impacts of land cover and climate data selection on understanding terrestrial carbon dynamics and the CO2 airborne fraction, Biogeosciences, 8, 2027-2036, 2011.
+# LPX-Bern	Lienert, S. and Joos, F.: A Bayesian ensemble data assimilation to constrain model parameters and land-use carbon emissions, Biogeosciences, 15, 2909-2930, 2018.
+# OCNv2	Zaehle, S. and Friend, A. D.: Carbon and nitrogen cycle dynamics in the O-CN land surface model: 1. Model description, site-scale evaluation, and sensitivity to parameter estimates, Global Biogeochemical Cycles, 24, GB1005, 2010
+# ORCHIDEEv3	Vuichard, N., Messina, P., Luyssaert, S., Guenet, B., Zaehle, S., Ghattas, J., Ipsl, L. and Paris-saclay, U.: Accounting for carbon and nitrogen interactions in the global terrestrial ecosystem model ORCHIDEE ( trunk version , rev 4999 ): multi-scale evaluation of gross primary production, , 4751–4779, 2019.
+# SDGVM	Walker, A. P., Quaife, T., van Bodegom, P. M., De Kauwe, M. G., Keenan, T. F., Joiner, J., Lomas, M. R., MacBean, N., Xu, C. G., Yang, X. J., and Woodward, F. I.: The impact of alternative trait-scaling hypotheses for the maximum photosynthetic carboxylation rate (V-cmax) on global gross primary production, New Phytologist, 215, 1370-1386, 2017.
+# VISIT	Kato, E., Kinoshita, T., Ito, A., Kawamiya, M. and Yamagata, Y.: Evaluation of spatially explicit emission scenario of land-use change and biomass burning using a process-based biogeochemical model, J. Land Use Sci., 8(1), 104–122, doi:10.1080/1747423x.2011.628705, 2013.
+# YIBs	Yue, X. and Unger, N.: The Yale Interactive terrestrial Biosphere model version 1 . 0 : description , evaluation and implementation into NASA GISS, , 2399–2417, doi:10.5194/gmd-8-2399-2015, 2015.
+# 
+# 
+# Generated with openclimatedata 0.33 from the GCB Excel file from 10.18160/gcp-2022
+# http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget
+#
+# GCB
+Year,Net,Gross Sink,Gross Source
+1959,1.93893333333333,-1.6788,3.61773333333333
+1960,1.7926,-1.6894,3.48196666666667
+1961,1.6665,-1.70573333333333,3.3722
+1962,1.60826666666667,-1.7188,3.3271
+1963,1.54273333333333,-1.73283333333333,3.27563333333333
+1964,1.49446666666667,-1.742,3.23653333333333
+1965,1.38283333333333,-1.7641,3.14686666666667
+1966,1.32306666666667,-1.77483333333333,3.0979
+1967,1.34413333333333,-1.7829,3.12706666666667
+1968,1.35846666666667,-1.78833333333333,3.14686666666667
+1969,1.27346666666667,-1.81423333333333,3.08766666666667
+1970,1.2551,-1.83223333333333,3.08733333333333
+1971,1.2516,-1.84573333333333,3.09733333333333
+1972,1.25286666666667,-1.854,3.1069
+1973,1.21386666666667,-1.87716666666667,3.09103333333333
+1974,1.1793,-1.8797,3.05896666666667
+1975,1.1927,-1.88806666666667,3.0808
+1976,1.1749,-1.89813333333333,3.07296666666667
+1977,1.20283333333333,-1.912,3.1148
+1978,1.15266666666667,-1.9185,3.07116666666667
+1979,1.10793333333333,-1.92953333333333,3.0375
+1980,1.1148,-1.9416,3.0564
+1981,1.19863333333333,-1.94643333333333,3.14506666666667
+1982,1.2033,-1.95376666666667,3.15703333333333
+1983,1.31136666666667,-1.95973333333333,3.2711
+1984,1.44816666666667,-1.955,3.40316666666667
+1985,1.38656666666667,-1.95896666666667,3.34553333333333
+1986,1.39646666666667,-1.97373333333333,3.37026666666667
+1987,1.39543333333333,-1.9921,3.38756666666667
+1988,1.3806,-2.00176666666667,3.3824
+1989,1.32883333333333,-2.0115,3.34033333333333
+1990,1.33113333333333,-2.03566666666667,3.36683333333333
+1991,1.29836666666667,-2.0573,3.3557
+1992,1.3348,-2.07486666666667,3.40963333333333
+1993,1.3309,-2.0938,3.4247
+1994,1.44536666666667,-2.11753333333333,3.56286666666667
+1995,1.4433,-2.14743333333333,3.59073333333333
+1996,1.44243333333333,-2.15196666666667,3.59436666666667
+1997,1.9391,-2.1786,4.11773333333333
+1998,1.49746666666667,-2.20796666666667,3.70543333333333
+1999,1.4981,-2.22413333333333,3.72223333333333
+2000,1.39626666666667,-2.2539,3.65013333333333
+2001,1.2934,-2.28476666666667,3.5782
+2002,1.413,-2.31113333333333,3.7241
+2003,1.5428,-2.33586666666667,3.8787
+2004,1.4635,-2.35126666666667,3.81473333333333
+2005,1.2873,-2.39053333333333,3.6778
+2006,1.38463333333333,-2.4091,3.7937
+2007,1.21096666666667,-2.42863333333333,3.6396
+2008,1.2672,-2.44006666666667,3.7073
+2009,1.37383333333333,-2.4624,3.83623333333333
+2010,1.32033333333333,-2.49446666666667,3.8148
+2011,1.35483333333333,-2.50406666666667,3.85886666666667
+2012,1.3174,-2.5237,3.84113333333333
+2013,1.26313333333333,-2.5479,3.81103333333333
+2014,1.34216666666667,-2.5595,3.9017
+2015,1.4699,-2.58086666666667,4.05073333333333
+2016,1.23576666666667,-2.60046666666667,3.8362
+2017,1.1823,-2.61206666666667,3.7943
+2018,1.1412,-2.6251,3.7663
+2019,1.2438,-2.64253333333333,3.88633333333333
+2020,1.10746666666667,-2.65673333333333,3.76423333333333
+2021,1.07506666666667,-2.654,3.7291

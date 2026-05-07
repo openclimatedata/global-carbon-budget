@@ -1,0 +1,90 @@
+# Global Carbon Budget 2019 — Ocean Sink
+# 
+# Ocean CO2 sink (positive values represent a flux from the atmosphere to the ocean)
+# All values in billion tonnes of carbon per year (GtC/yr), for the globe. For values in billion tonnes of carbon dioxide per year (GtCO2/yr), multiply the numbers below by 3.664.
+# 1 billion tonnes C = 1 petagram of carbon (10^15 gC) = 1 gigatonne C = 3.664 billion tonnes of CO2
+# Methods: The ocean sink (uncertainty of ±0.5 GtC/yr) is estimated from the average of several global ocean biogeochemistry models that reproduce the observed mean ocean sink of the 1990s.
+# Cite individual estimates as:
+# Model results used to compute the annual values:
+# CESM_ETH	Doney, S. C., Lima, I., Feely, R. A., Glover, D. M., Lindsay, K., Mahowald, N., Moore, J. K., and Wanninkhof, R.: Mech- anisms governing interannual variability in upper-ocean inor- ganic carbon system and air–sea CO2 fluxes: Physical cli- mate and atmospheric dust, Deep-Sea Res. Pt. II, 56, 640–655, https://doi.org/10.1016/j.dsr2.2008.12.006, 2009.
+# CSIRO	Law, R. M., Ziehn, T., Matear, R. J., Lenton, A., Chamberlain, M. A., Stevens, L. E., Wang, Y.-P., Srbinovsky, J., Bi, D., Yan, H., and Vohralik, P. F.: The carbon cycle in the Australian Commu- nity Climate and Earth System Simulator (ACCESS-ESM1) – Part 1: Model description and pre-industrial simulation, Geosci. Model Dev., 10, 2567–2590, https://doi.org/10.5194/gmd-10- 2567-2017, 2017
+# MITgcm-REcoM2	Hauck, J., Lenton, A. A., Langlais, C., & Matear, R. J. (2018). The fate of carbon and nutrients exported out of the Southern Ocean. Global Biogeochemical Cycles, 32, 1556–1573. https://doi.org/10.1029/2018GB005977
+# MPIOM-HAMOCC	Mauritsen, T., Bader, J., Becker, T., Behrens, J., Bittner, M., Brokopf, R., Brovkin, V., Claussen, M., Crueger, T., Esch, M., Fast, I., Fiedler, S., Popke, D., Gayler, V., Giorgetta, M., Goll, D., Haak, H., Hagemann, S., Hedemann, C., Hohenegger, C., Ilyina, T., Jahns, T., Jimenez Cuesta de la Otero, D., Jungclaus, J., Kleinen, T., Kloster, S., Kracher, D., Kinne, S., Kleberg, D., Lasslop, G., Kornblueh, L., Marotzke, J., Matei, D., Meraner, K., Mikolajewicz, U., Modali, K., Möbis, B., Müller, W., Nabel, J.E.M.S., Nam, C., Notz, D., Nyawira, S., Paulsen, H., Peters, K., Pincus, R., Pohlmann, H., Pongratz, J., Popp, M., Raddatz, T., Rast, S., Redler, R., Reick, C., Rohrschneider, T., Schemann, V., Schmidt, H., Schnur, R., Schulzweida, U., Six, K., Stein, L., Stemmler, I., Stevens, B., von Storch, J., Tian, F., Voigt, A., de Vrese, P., Wieners, K.-H., Wilkenskjeld, S., Roeckner, E. & Winkler, A. (2019). Developments in the MPI-M Earth System Model version 1.2 (MPI-ESM1.2) and its response to increasing CO2.
+# NEMO3.6-PISCESv2-gas (CNRM)	Berthet, S., Séférian, R., Bricaud, C., Chevallier, M., Voldoire, A., & Ethé, C. ( 2019). Evaluation of an online grid‐coarsening algorithm in a global eddy‐admitting ocean biogeochemical model. Journal of Advances in Modeling Earth Systems, 11, 1759– 1783. https://doi.org/10.1029/2019MS001644
+# NEMO-PlankTOM5	Buitenhuis, E. T., Hashioka, T., Le Quéré, C. (2013) Combined constraints on global ocean primary production using observations and models Global Biogeochemical Cycles 27. pp. 847-858 doi:10.1002/gbc.20074
+# NorESM-OC	Schwinger, J., Goris, N., Tjiputra, J. F., Kriest, I., Bentsen, M., Bethke, I., Ilicak, M., Assmann, K. M., and Heinze, C.: Evaluation of NorESM-OC (versions 1 and 1.2), the ocean carbon-cycle stand-alone configuration of the Norwegian Earth System Model (NorESM1), Geosci. Model Dev., 9, 2589-2622, 2016.
+# MOM6-COBALT (Princeton)	Xiao Liu , John P. Dunne, Charles A. Stock, Matthew J. Harrison, Alistair Adcroft, and Laure Resplandy. Simulating Water Residence Time in the Coastal Ocean: A Global Perspective (in revision in GRL).
+# NEMO-PISCES (IPSL)	Aumont, O., Ethé, Tagliabue, A., Bopp, L., & Gehlen, M. (2015). PISCES-v2: an ocean biogeochemical model for carbon and ecosystem studies.
+# Data products used to evaluate the results:
+# Landschützer	Landschützer, P., Gruber, N., and Bakker, D. C. E.: Decadal variations and trends of the global ocean carbon sink, Global Biogeochem. Cy., 30, 1396–1417, https://doi.org/10.1002/2015GB005359, 2016
+# Rödenbeck	Rödenbeck, C., Bakker, D. C. E., Metzl, N., Olsen, A., Sabine, C., Cassar, N., Reum, F., Keeling, R. F., and Heimann, M.: Interannual sea–air CO2 flux variability from an observation-driven ocean mixed-layer scheme, Biogeosciences, 11, 4599-4613, 2014.
+# CMEMS	Denvil-Sommer, A., Gehlen, M., Vrac, M., and Mejia, C.: LSCE-FFNN-v1: a two-step neural network model for the reconstruction of surface ocean pCO2 over the global ocean, Geosci. Model Dev., 12, 2091–2105, https://doi.org/10.5194/gmd-12-2091-2019, 2019.
+# Note: the data products include a pre-industrial steady state source of CO2 (of about 0.78 GtC/yr) and therefore are not directly comparable with the ocean model results.
+# 
+# 
+# 
+# Generated with openclimatedata 0.33 from the GCB Excel file from 10.18160/gcp-2019
+# http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget
+#
+# Data-based products
+Year,Landschützer,Rödenbeck,CMEMS,MPM (multi-product mean)
+1959,,,,
+1960,,,,
+1961,,,,
+1962,,,,
+1963,,,,
+1964,,,,
+1965,,,,
+1966,,,,
+1967,,,,
+1968,,,,
+1969,,,,
+1970,,,,
+1971,,,,
+1972,,,,
+1973,,,,
+1974,,,,
+1975,,,,
+1976,,,,
+1977,,,,
+1978,,,,
+1979,,,,
+1980,,,,
+1981,,,,
+1982,1.36243116268939,1.71614749407243,,1.53928932838091
+1983,1.39621044771475,1.70628457743983,,1.55124751257729
+1984,1.37369092436451,1.80491374376584,,1.589302334065175
+1985,1.26109330761332,1.81477666039844,0.912040695684639,1.3293035545654663
+1986,1.36243116268939,1.80491374376584,1.03589807411094,1.4010809935220567
+1987,1.52006782614106,1.70628457743983,1.21605426091285,1.4808022214979133
+1988,1.32865187766404,1.60765541111383,1.27235306928844,1.4028867860221033
+1989,1.21605426091285,1.38080832856403,1.2498335459382,1.28223204513836
+1990,1.36243116268939,1.45971166162483,1.36243116268939,1.39485799566787
+1991,1.47502877944058,1.87395416019404,1.52006782614106,1.6230169219252268
+1992,1.52006782614106,2.19943040906984,1.59888615786689,1.7727947976925968
+1993,1.57636663451666,1.91340582672444,1.61014591954201,1.6999727935943698
+1994,1.46376901776547,1.52875207805303,1.62140568121713,1.5379755923452099
+1995,1.31739211598892,1.57806666121603,1.62140568121713,1.5056214861406934
+1996,1.20479449923773,1.31176791213582,1.57636663451666,1.3643096819634033
+1997,1.44124949441523,1.61751832774643,1.73400329796832,1.5975903733766599
+1998,1.19353473756261,1.94299457662224,1.64392520456737,1.5934848395840735
+1999,0.923300457359758,1.48930041152263,1.4862885411157,1.299629803332696
+2000,0.934560219034877,1.43012291172703,1.4862885411157,1.2836572239592023
+2001,0.923300457359758,1.00601749652522,1.44124949441523,1.123522482766736
+2002,1.18227497588749,1.76546207723544,1.63266544289225,1.5268008320050601
+2003,1.44124949441523,2.06134957621344,1.70022401294296,1.7342743611905433
+2004,1.47502877944058,2.09093832611124,1.71148377461808,1.7591502933899668
+2005,1.61014591954201,1.75559916060283,1.75652282131856,1.7074226338211334
+2006,1.7227435362932,1.66683291090943,1.90289972309511,1.76415872343258
+2007,1.7790423446688,1.57806666121603,1.90289972309511,1.7533362429933133
+2008,1.88038019974487,1.72601041070503,1.92541924644535,1.8439366189650832
+2009,2.10557543324725,2.11066415937644,2.11683519492237,2.1110249291820202
+2010,2.04927662487165,2.16984165917204,2.11683519492237,2.1119844929886864
+2011,2.13935471827261,2.15011582590684,2.03801686319654,2.1091624691253297
+2012,2.2519523350238,2.12052707600904,2.13935471827261,2.1706113764351502
+2013,2.09431567157213,2.33751124192625,2.21817304999844,2.21666665449894
+2014,2.12809495659749,2.48545499141525,2.34203042842475,2.31852679214583
+2015,2.26321209669892,2.04162374294824,2.58974518527737,2.298193674974843
+2016,2.34203042842475,2.58408415774125,2.76990137207927,2.5653386527484234
+2017,2.36454995177499,2.44600332488485,2.85997946548022,2.5568442473800204
+2018,2.60100494695249,2.29805957539585,3.10769422233284,2.6689195815603934
