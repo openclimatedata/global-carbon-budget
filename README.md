@@ -7,7 +7,7 @@ Metadata and citation info is contained as comments at the beginning of the file
 
 In Python, they can be read with `pd.read_csv(filename, comment="#", index_col=0)`.
 
-The data is generated using the [openclimatedata](github.com/openclimatedata/openclimatedata) library.
+The data is generated using the [openclimatedata](https://github.com/openclimatedata/openclimatedata) library.
 See also the [Openclimatedata website](https://openclimatedata.net/emissions/global-carbon-budget)
 
 Maintainer of this repository is Robert Gieseke (<mail@openclimatedata.net>).
