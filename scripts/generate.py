@@ -30,7 +30,7 @@ subtables = [
 
 def comment_notes(notes):
     commented_notes = "\n".join([f"# {line}".strip() for line in notes.split("\n")])
-    commented_notes += f"\n# Generated with openclimatedata {ocd.__version__} from the GCB Excel file from {ocd.Global_Carbon_Budget[version].doi}"
+    commented_notes += f"\n# Generated with openclimatedata {ocd.__version__} from the GCB Excel file from https://doi.org/{ocd.Global_Carbon_Budget[version].doi}"
     commented_notes += f"\n# http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget"
     commented_notes += "\n"
     return commented_notes
