@@ -1,0 +1,83 @@
+# Global Carbon Budget 2025 (Preprint) — Atmospheric Growth
+#
+# Growth in atmospheric CO2
+# All values in billion tonnes of carbon per year (GtC/yr)
+# 1 billion tonnes C = 1 petagram of carbon (10^15 gC) = 1 gigatonne C = 3.664 billion tonnes of CO2
+# Methods: Full details of the method are described in Friedlingstein et al (2025). The ‘GCB' column is estimated directly from atmospheric CO2 concentration measurements, and provided by the US National Oceanic and Atmospheric Administration Earth System Research Laboratory (NOAA/ESRL).  http://www.esrl.noaa.gov/gmd/ccgg/trends/global.html. ‘GRESO’ is OCO-2 based whole atmosphere growth rates using the Growth Rate from Satellite Observations (GRESO) approach (Pandey et al., 2024). Atmospheric inversions also estimate the growth rate in atmospheric CO2 based on in-situ atmospheric measurements and/or atmospheric CO2 column. These are therefore not independent of the NOAA and GRESO estimates.
+# The uncertainty for the annual global estimates is about 0.61 GtC yr-1 for 1959-1979 and 0.17 GtC yr-1 for 1980-2024, when more measurement sites were available (Lan et al., 2025a).
+# Cite as: Friedlingstein et al (2025; see summary tab)
+#
+# GtC/yr									Individual Inversions
+#
+#
+# Generated with openclimatedata 0.34.1 from the GCB Excel file from https://doi.org/10.18160/gcp-2025
+# http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget
+#
+# GCB
+Year,GCB,GRESO,Inversions mean
+1959,2.03904,,
+1960,1.50804,,
+1961,1.65672,,
+1962,1.18944,,
+1963,1.21068,,
+1964,1.04076,,
+1965,2.3364,,
+1966,2.3364,,
+1967,1.29564,,
+1968,2.10276,,
+1969,2.80368,,
+1970,2.40012,,
+1971,1.55052,,
+1972,3.12228,,
+1973,3.10104,,
+1974,1.44432,,
+1975,2.61252,,
+1976,2.06028,,
+1977,4.07808,,
+1978,2.73996,,
+1979,4.54536,,
+1980,3.56832,,
+1981,2.4426,,
+1982,2.10276,,
+1983,3.90816,,
+1984,2.61252,,
+1985,3.5046,,
+1986,2.16648,,
+1987,5.6286,,
+1988,4.60908,,
+1989,3.10104,,
+1990,2.59128,,
+1991,1.593,,
+1992,1.52928,,
+1993,2.61252,,
+1994,3.52584,,
+1995,4.248,,
+1996,2.2302,,
+1997,4.18428,,
+1998,6.03216,,
+1999,2.84616,,
+2000,2.655,,
+2001,3.9294,,3.60100087567999
+2002,5.01264,,4.9646560156227
+2003,4.86396,,4.79770048812117
+2004,3.31344,,3.45061614811355
+2005,5.24628,,5.24331592761232
+2006,3.78072,,3.64545290868692
+2007,4.52412,,4.70981341463732
+2008,3.75948,,3.4585521057664
+2009,3.35592,,3.69127107280906
+2010,5.01264,,5.11826765270111
+2011,3.69576,,3.6416615432456
+2012,5.11884,,5.47965096308694
+2013,5.2038,,5.14793416529141
+2014,4.31172,,4.18171582094324
+2015,6.2658,6.372,6.07810127503782
+2016,6.03216,5.75604,5.9587067766023
+2017,4.54536,4.3542,4.51009269816993
+2018,5.07636,5.24628,4.94790628230069
+2019,5.31,5.841,5.77334675358995
+2020,4.94892,4.90644,5.07680404688931
+2021,5.03388,4.86396,4.99430176932553
+2022,4.86396,4.07808,4.15499454637825
+2023,5.7348,6.49944,6.41036942971952
+2024,7.92252,6.7968,7.08412358438371

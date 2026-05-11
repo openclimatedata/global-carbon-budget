@@ -1,0 +1,111 @@
+# Global Carbon Budget 2025 (Preprint) — Land-Use Change Emissions
+#
+# Land-use change emissions
+# All values in billion tonnes of carbon per year (GtC/yr), for the globe. For values in billion tonnes of carbon dioxide per year (GtCO2/yr), multiply the numbers below by 3.664.
+# 1 billion tonnes C = 1 petagram of carbon (10^15 gC) = 1 gigatonne C = 3.664 billion tonnes of CO2
+# Methods: The GCB estimate is the average of three bookkeeping models BLUE, OSCAR, and LUCE (uncertainty of ±0.7 GtC/yr). Individual results from dynamic global vegetation models (calculated as S2-S3; see Supplementary S2.2 in Friedlingstein et al. 2025) are also provided but not used for the GCB estimate.  Cite as: Friedlingstein et al (2025; see summary tab)
+# Data below represents the net flux of land-use change, based on the net balance between deforestation and forest regrowth along with other land-use changes
+# Cite individual estimates as:
+# BLUE	Hansis, E., Davis, S. J., and Pongratz, J.: Relevance of methodological choices for accounting of land use change carbon fluxes, Global Biogeochemical Cycles, 29, 1230-1246, 2015.
+# OSCAR	Gasser, T., Crepin, L., Quilcaille, Y., Houghton, R. A., Ciais, P. and Obersteiner, M.: Historical CO 2 emissions from land use and land cover change and their uncertainty, Biogeosciences , 4075–4101, 2020.
+# LUCE	Qin, Z., Zhu, Y., Canadell, J. G., Chen, M., Li, T., Mishra, U., and Yuan, W.: Global spatially explicit carbon emissions from land-use change over the past six decades (1961–2020), One Earth, 7, 835–847, https://doi.org/10.1016/j.oneear.2024.04.002, 2024
+#
+# FAO-PEAT	Conchedda, G. and Tubiello, F. N.: Drainage of organic soils and GHG emissions: validation with country data, Earth Syst. Sci. Data, 12, 3113–3137, https://doi.org/10.5194/essd-12-3113-2020, 2020. FAOSTAT Drained organic soils, available at (http://www.fao.org/faostat/en/#data/GV), 2024
+# LPX-Bern-PEAT	Müller, J. and Joos, F.: Committed and projected future changes in global peatlands – continued transient model simulations since the Last Glacial Maximum, Biogeosciences, 18, 3657–3687, https://doi.org/10.5194/bg-18-3657-2021, 2021.
+# ORCHIDEE-PEAT	Qiu, C., Ciais, P., Zhu, D., Guenet, B., Peng, S., Petrescu, A. M. R., Lauerwald, R., Makowski, D., Gallego-Sala, A. V., Charman, D. J., and Brewer, S. C.: Large historical carbon emissions from cultivated northern peatlands, Sci. Adv., 7, eabf1332, https://doi.org/10.1126/sciadv.abf1332, 2021.
+#
+# CABLE-POP	Haverd, V., Smith, B., Nieradzik, L., Briggs, P. R., Woodgate, W., Trudinger, C. M., Canadell, J. G., and Cuntz, M.: A new version of the CABLE land surface model (Subversion revision r4601) incorporating land use and land cover change, woody vegetation demography, and a novel optimisation-based approach to plant coordination of photosynthesis, Geosci. Model Dev., 11, 2995-3026, 2018.
+# CLASSIC	Melton, J. R., Arora, V. K., Wisernig-cojoc, E., Seiler, C., Fortier, M. and Chan, E.: CLASSIC v1 . 0 : the open-source community successor to the Canadian Land Surface Scheme ( CLASS ) and the Canadian Terrestrial Ecosystem Model ( CTEM ) – Part 1 : Model framework and site-level performance, , 2825–2850, 2020.
+# CLM6.0	Lawrence, D. M., Fisher, R. A., Koven,C. D., Oleson, K. W., Swenson, S. C.,Bonan, G., et al. (2019). The Community Land Model version 5:Description of new features,benchmarking, and impact of forcing uncertainty. Journal of Advances in Modeling Earth Systems, 11, 4245-4287. https://doi.org/10.1029/2018MS001583
+# CLM-FATES	Fisher, R. A., Muszala, S., Verteinstein, M., Lawrence, P., Xu, C., McDowell, N. G., Knox, R. G., Koven, C., Holm, J., Rogers, B. M., Spessa, A., Lawrence, D., and Bonan, G.: Taking off the training wheels: the properties of a dynamic vegetation model without climate envelopes, CLM4.5(ED), Geosci. Model Dev., 8, 3593–3619, https://doi.org/10.5194/gmd-8-3593-2015, 2015.
+# DLEM	Tian, H., G. Chen, C. Lu, X. Xu, D. J. Hayes, W. Ren, S. Pan, D.N. Huntzinger, S.C. Wofsy: North American terrestrial CO2 uptake largely offset by CH4 and N2O emissions: Toward a full accounting of the greenhouse gas budget, Climatic Change, 129:423-426, 2015
+# EDv3	Ma, L., Hurtt, G., Ott, L., Sahajpal, R., Fisk, J., Lamb, R., Tang, H., Flanagan, S., Chini, L., Chatterjee, A., and Sullivan, J.: Global evaluation of the Ecosystem Demography model (ED v3.0), Geosci. Model Dev., 15, 1971–1994, https://doi.org/10.5194/gmd-15-1971-2022, 2022.
+# ELM	Yang, X., Thornton, P., Ricciuto, D., Wang, Y., and Hoffman, F.: Global evaluation of terrestrial biogeochemistry in the Energy Exascale Earth System Model (E3SM) and the role of the phosphorus cycle in the historical terrestrial carbon balance, Biogeosciences, 20, 2813–2836, https://doi.org/10.5194/bg-20-2813-2023, 2023.
+# ELM-FATES	Needham, J. et al. (2025). Vertical canopy gradients of respiration drive plant carbonbudgets and leaf area index. New Phytologist (2025) 246: 144–157doi: 10.1111/nph.20423
+# GDSTEM	Felzer, B. S., & Jiang, M. (2018). Effect ofland use and land cover change in context of growth enhancements in the United States since 1700: Net source or sink? Journal of Geophysical Research:Biogeosciences, 123, 3439–3457. https://doi.org/10.1029/2017JG004378
+# IBIS	Xia JZ, Ren PY, Wang XH, Liu D, Chen XZ, Dan L, He B, He HL, Ju WM, Linag MQ, Lu XJ, Peng J, Qin ZC, Xia JZ, Zheng B, Wei J, Yue X, Yu GR, Piao SL, Yuan WP. 2024. The carbon budget of China: 1980–2021. Science Bulletin, 69, 114-124.
+# iMAPLE	Yue, X., Zhou, H., Tian, C., Ma, Y., Hu, Y., Gong, C., Zheng, H., and Liao, H.: Development and evaluation of the interactive Model for Air Pollution and Land Ecosystems (iMAPLE) version 1.0, Geosci Model Dev, 17, 4621-4642, 2024.
+# ISAM	Shu, S., Jain, A. K., Koven, C. D., and Mishra, U.: Estimation of Permafrost SOC Stock and Turnover Time Using a Land Surface Model With Vertical Heterogeneity of Permafrost Soils, Global Biogeochem. Cy., 34, e2020GB006585, https://doi.org/10.1029/2020GB006585, 2020.
+# JSBACH	Reick, C. H., Gayler, V., Goll, D., Hagemann, S., Heidkamp, M., Nabel, J. E. M. S., Raddatz, T., Roeckner, E., Schnur, R., and Wilkenskjeld, S.: JSBACH 3 - The land component of the MPI Earth System Model: documentation of version 3.2, https://doi.org/10.17617/2.3279802, 2021.
+# JULES-ES	Wiltshire, A.,Burke, E., Chadburn, S., Jones, C., Cox, P., Davies-Barnard, T., Friedlingstein, P., Harper, A., Liddicoat, S., Sitch, S., Zaehle, S
+# LPJ-EOSIM	Poulter, B., Frank, D. C., Hodson, E. L., and Zimmermann, N. E.: Impacts of land cover and climate data selection on understanding terrestrial carbon dynamics and the CO2 airborne fraction, Biogeosciences, 8, 2027-2036, 2011.
+# LPJ-GUESS	Smith, B., Warlind, D., Arneth, A., Hickler, T., Leadley, P., Siltberg, J., and Zaehle, S.: Implications of incorporating N cycling and N limitations on primary production in an individual-based dynamic vegetation model, Biogeosciences, 11, 2027-2054, 2014.
+# LPJml	Schaphoff, S., von Bloh, W., Rammig, A., Thonicke, K., Biemans, H., Forkel, M., Gerten, D., Heinke, J., Jägermeyr, J., Knauer, J., Langerwisch, F., Lucht, W., Müller, C., Rolinski, S., and Waha, K.: LPJmL4 – a dynamic global vegetation model with managed land – Part 1: Model description, Geosci. Model Dev., 11, 1343–1375, https://doi.org/10.5194/gmd-11-1343-2018, 2018.
+# LPX-Bern	Lienert, S. and Joos, F.: A Bayesian ensemble data assimilation to constrain model parameters and land-use carbon emissions, Biogeosciences, 15, 2909-2930, 2018.
+# ORCHIDEEv3	Vuichard, N., Messina, P., Luyssaert, S., Guenet, B., Zaehle, S., Ghattas, J., Ipsl, L. and Paris-saclay, U.: Accounting for carbon and nitrogen interactions in the global terrestrial ecosystem model ORCHIDEE ( trunk version , rev 4999 ): multi-scale evaluation of gross primary production, , 4751–4779, 2019.
+# SDGVM	Walker, A. P., Quaife, T., van Bodegom, P. M., De Kauwe, M. G., Keenan, T. F., Joiner, J., Lomas, M. R., MacBean, N., Xu, C. G., Yang, X. J., and Woodward, F. I.: The impact of alternative trait-scaling hypotheses for the maximum photosynthetic carboxylation rate (V-cmax) on global gross primary production, New Phytologist, 215, 1370-1386, 2017.
+# VISIT	Kato, E., Kinoshita, T., Ito, A., Kawamiya, M. and Yamagata, Y.: Evaluation of spatially explicit emission scenario of land-use change and biomass burning using a process-based biogeochemical model, J. Land Use Sci., 8(1), 104–122, doi:10.1080/1747423x.2011.628705, 2013.
+# VISIT-UT	Ito, A.: Disequilibrium of terrestrial ecosystem CO2 budget caused by disturbance-induced emissions and non-CO2 carbon export flows: a global model assessment, Earth Syst. Dynam., 10, 685–709, https://doi.org/10.5194/esd-10-685-2019, 2019.
+#
+#
+# Generated with openclimatedata 0.34.1 from the GCB Excel file from https://doi.org/10.18160/gcp-2025
+# http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget
+#
+# GCB
+Year,Net,deforestation (total),forest regrowth (total),other transitions,peat drainage & peat fires,wood harvest & other forest management
+1959,2.37248,2.17499,-0.848496666666667,0.44438,0.24217,0.359436666666667
+1960,2.07712,1.94665,-0.856023333333333,0.41888,0.19915,0.368456666666667
+1961,2.08246666666667,1.92768,-0.858703333333333,0.394193333333333,0.23475,0.38455
+1962,1.94825333333333,1.88408666666667,-0.862276666666667,0.372946666666667,0.160513333333333,0.392986666666667
+1963,1.89774333333333,1.84907666666667,-0.86546,0.338396666666667,0.17707,0.398656666666667
+1964,1.81766333333333,1.79628,-0.867693333333333,0.308826666666667,0.174023333333333,0.40622
+1965,1.74274666666667,1.74920333333333,-0.872593333333333,0.289883333333333,0.162163333333333,0.414086666666667
+1966,1.61494,1.67321,-0.87689,0.262796666666667,0.135433333333333,0.42039
+1967,1.70593,1.69624333333333,-0.87475,0.297636666666667,0.16258,0.42422
+1968,1.72683666666667,1.71236,-0.874643333333333,0.289896666666667,0.1676,0.43163
+1969,1.89425333333333,1.88129,-0.87857,0.26131,0.19479,0.435436666666667
+1970,1.82578333333333,1.82935,-0.884773333333333,0.225566666666667,0.216776666666667,0.438856666666667
+1971,1.6756,1.73864666666667,-0.882616666666667,0.220856666666667,0.156456666666667,0.442253333333333
+1972,1.75712,1.80751333333333,-0.886566666666667,0.22423,0.168256666666667,0.443683333333333
+1973,1.70695,1.77848666666667,-0.888463333333333,0.212426666666667,0.159233333333333,0.445263333333333
+1974,1.72298,1.76760666666667,-0.881846666666667,0.201783333333333,0.185976666666667,0.449453333333333
+1975,1.67126,1.74969666666667,-0.884393333333333,0.206316666666667,0.156176666666667,0.44346
+1976,1.65400666666667,1.72184666666667,-0.88254,0.189543333333333,0.1746,0.450553333333333
+1977,1.80679333333333,1.81449,-0.88511,0.243133333333333,0.183173333333333,0.45111
+1978,1.79145666666667,1.80194,-0.885103333333333,0.241283333333333,0.17744,0.455896666666667
+1979,1.59820666666667,1.68245666666667,-0.89099,0.19182,0.153,0.46192
+1980,1.63791333333333,1.69507666666667,-0.889533333333333,0.177773333333333,0.18859,0.466003333333333
+1981,1.59295333333333,1.68030333333333,-0.890456666666667,0.184006666666667,0.153976666666667,0.465123333333333
+1982,1.50970333333333,1.62469333333333,-0.892073333333333,0.160713333333333,0.151053333333333,0.46531
+1983,1.59384666666667,1.65432333333333,-0.893973333333333,0.195483333333333,0.174183333333333,0.463833333333333
+1984,1.75349333333333,1.76543,-0.88913,0.17865,0.227213333333333,0.471336666666667
+1985,1.85255,1.86396666666667,-0.889593333333333,0.16496,0.23884,0.474373333333333
+1986,1.89501,1.90566666666667,-0.895893333333333,0.164553333333333,0.245103333333333,0.475583333333333
+1987,1.77345666666667,1.83585333333333,-0.904223333333333,0.14125,0.21796,0.482626666666667
+1988,1.68031666666667,1.75026,-0.907406666666667,0.13206,0.215883333333333,0.489513333333333
+1989,1.63232,1.68472333333333,-0.908586666666667,0.137253333333333,0.220296666666667,0.49864
+1990,1.59090333333333,1.65685333333333,-0.93087,0.157346666666667,0.199333333333333,0.508243333333333
+1991,1.56121666666667,1.65185333333333,-0.945236666666667,0.147663333333333,0.187583333333333,0.519356666666667
+1992,1.62879333333333,1.70490666666667,-0.953103333333333,0.139793333333333,0.231103333333333,0.506096666666667
+1993,1.56476333333333,1.69230666666667,-0.959233333333333,0.124863333333333,0.218873333333333,0.487953333333333
+1994,1.82011666666667,1.95750333333333,-0.970636666666667,0.11495,0.248083333333333,0.47022
+1995,1.71345,1.90235666666667,-0.985636666666667,0.10855,0.231896666666667,0.456283333333333
+1996,1.78543333333333,1.89795666666667,-0.98393,0.108943333333333,0.316146666666667,0.446316666666667
+1997,2.18876,1.96243666666667,-0.99424,0.0670866666666667,0.71787,0.4356
+1998,1.85377666666667,2.12782,-1.01269,0.08284,0.22921,0.426596666666667
+1999,1.7909,2.08867,-1.02041333333333,0.0683366666666667,0.23029,0.424016666666667
+2000,1.67733666666667,2.02151666666667,-1.03869666666667,0.0650866666666667,0.191653333333333,0.437776666666667
+2001,1.49036666666667,1.91530666666667,-1.05540666666667,0.02171,0.176906666666667,0.431856666666667
+2002,1.66312666666667,1.95368666666667,-1.07418333333333,0.0773066666666667,0.271103333333333,0.435213333333333
+2003,1.99814666666667,2.27623333333333,-1.09312333333333,0.13281,0.234093333333333,0.448136666666667
+2004,1.75869666666667,2.04094666666667,-1.09879,0.139586666666667,0.219883333333333,0.457063333333333
+2005,1.61875333333333,1.94590666666667,-1.11344333333333,0.109636666666667,0.218963333333333,0.457686666666667
+2006,1.64676333333333,1.87048666666667,-1.13988333333333,0.0746633333333333,0.37954,0.461963333333333
+2007,1.52653,1.89568,-1.14649,0.0945666666666667,0.212223333333333,0.470546666666667
+2008,1.62418666666667,1.93949333333333,-1.14731333333333,0.134173333333333,0.228936666666667,0.468896666666667
+2009,1.78352,1.99945,-1.16147,0.14276,0.346946666666667,0.45583
+2010,1.77888333333333,2.04004,-1.20298,0.214743333333333,0.259626666666667,0.467443333333333
+2011,1.74469333333333,2.02177,-1.21327333333333,0.196406666666667,0.261986666666667,0.477806666666667
+2012,1.82372333333333,2.06469333333333,-1.21812333333333,0.158786666666667,0.315433333333333,0.50293
+2013,1.72476,2.03959666666667,-1.22451,0.151996666666667,0.276606666666667,0.481076666666667
+2014,1.74943,2.0471,-1.24984333333333,0.17159,0.31964,0.46095
+2015,1.77746333333333,1.99464666666667,-1.26099,0.14527,0.462456666666667,0.436083333333333
+2016,1.4674,1.94373333333333,-1.27432,0.152453333333333,0.224246666666667,0.42129
+2017,1.44862666666667,1.96242,-1.28425666666667,0.153536666666667,0.214763333333333,0.402156666666667
+2018,1.33243,1.88335666666667,-1.28609,0.102323333333333,0.21961,0.413236666666667
+2019,1.33383666666667,1.83274,-1.29884333333333,0.109866666666667,0.274746666666667,0.41532
+2020,1.23268,1.84285666666667,-1.30424,0.102776666666667,0.17833,0.412956666666667
+2021,1.27104333333333,1.87347333333333,-1.30807666666667,0.08702,0.19655,0.422076666666667
+2022,1.30605666666667,1.90669666666667,-1.31074666666667,0.0782633333333333,0.20541,0.42643
+2023,1.29518333333333,1.87733,-1.32096666666667,0.0778566666666667,0.236016666666667,0.424946666666667
+2024,1.25150333333333,1.87181666666667,-1.32628,0.0765333333333333,0.210456666666667,0.418973333333333

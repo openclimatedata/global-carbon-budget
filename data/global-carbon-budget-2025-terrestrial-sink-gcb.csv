@@ -1,0 +1,104 @@
+# Global Carbon Budget 2025 (Preprint) — Terrestrial Sink
+#
+# Terrestrial CO2 sink (positive values represent a flux from the atmosphere to the land)
+# All values in billion tonnes of carbon per year (GtC/yr), for the globe. For values in billion tonnes of carbon dioxide per year (GtCO2/yr), multiply the numbers below by 3.664.
+# 1 billion tonnes C = 1 petagram of carbon (10^15 gC) = 1 gigatonne C = 3.664 billion tonnes of CO2
+# Methods: The terrestrial sink (uncertainty of ±0.5 GtC/yr on average) is estimated from the average of 22 Dynamic Global Vegetation Models (calculated from simulation S2; see Supplementary S4.1 in Friedlingstein et al. 2025) that reproduce the observed mean total land uptake of the 1990s. GCB adjusted includes the RSS adjustment (19% reduction in SLAND) for land cover bias in the S2/SLAND simulation. For the final decade (2015-2024), GCB adjusted also includes an adjustment of -0.07 GtC/yr for land-to-ocean fluxes that are not simulated by DGVMs (see Supplementary S8.3). Cite as: Friedlingstein et al (2025; see summary tab).
+# Cite individual estimates as:
+# CABLE-POP	Haverd, V., Smith, B., Nieradzik, L., Briggs, P. R., Woodgate, W., Trudinger, C. M., Canadell, J. G., and Cuntz, M.: A new version of the CABLE land surface model (Subversion revision r4601) incorporating land use and land cover change, woody vegetation demography, and a novel optimisation-based approach to plant coordination of photosynthesis, Geosci. Model Dev., 11, 2995-3026, 2018.
+# CLASSIC	Melton, J. R., Arora, V. K., Wisernig-cojoc, E., Seiler, C., Fortier, M. and Chan, E.: CLASSIC v1 . 0 : the open-source community successor to the Canadian Land Surface Scheme ( CLASS ) and the Canadian Terrestrial Ecosystem Model ( CTEM ) – Part 1 : Model framework and site-level performance, , 2825–2850, 2020.
+# CLM6.0	Lawrence, D. M., Fisher, R. A., Koven,C. D., Oleson, K. W., Swenson, S. C.,Bonan, G., et al. (2019). The Community Land Model version 5:Description of new features,benchmarking, and impact of forcing uncertainty. Journal of Advances in Modeling Earth Systems, 11, 4245-4287. https://doi.org/10.1029/2018MS001583
+# CLM-FATES	Fisher, R. A., Muszala, S., Verteinstein, M., Lawrence, P., Xu, C., McDowell, N. G., Knox, R. G., Koven, C., Holm, J., Rogers, B. M., Spessa, A., Lawrence, D., and Bonan, G.: Taking off the training wheels: the properties of a dynamic vegetation model without climate envelopes, CLM4.5(ED), Geosci. Model Dev., 8, 3593–3619, https://doi.org/10.5194/gmd-8-3593-2015, 2015.
+# DLEM	Tian, H., G. Chen, C. Lu, X. Xu, D. J. Hayes, W. Ren, S. Pan, D.N. Huntzinger, S.C. Wofsy: North American terrestrial CO2 uptake largely offset by CH4 and N2O emissions: Toward a full accounting of the greenhouse gas budget, Climatic Change, 129:423-426, 2015
+# EDv3	Ma, L., Hurtt, G., Ott, L., Sahajpal, R., Fisk, J., Lamb, R., Tang, H., Flanagan, S., Chini, L., Chatterjee, A., and Sullivan, J.: Global evaluation of the Ecosystem Demography model (ED v3.0), Geosci. Model Dev., 15, 1971–1994, https://doi.org/10.5194/gmd-15-1971-2022, 2022.
+# ELM	Yang, X., Thornton, P., Ricciuto, D., Wang, Y., and Hoffman, F.: Global evaluation of terrestrial biogeochemistry in the Energy Exascale Earth System Model (E3SM) and the role of the phosphorus cycle in the historical terrestrial carbon balance, Biogeosciences, 20, 2813–2836, https://doi.org/10.5194/bg-20-2813-2023, 2023.
+# ELM-FATES	Needham, J. et al. (2025). Vertical canopy gradients of respiration drive plant carbonbudgets and leaf area index. New Phytologist (2025) 246: 144–157doi: 10.1111/nph.20423
+# GDSTEM	Felzer, B. S., & Jiang, M. (2018). Effect ofland use and land cover change in context of growth enhancements in the United States since 1700: Net source or sink? Journal of Geophysical Research:Biogeosciences, 123, 3439–3457. https://doi.org/10.1029/2017JG004378
+# IBIS	Xia JZ, Ren PY, Wang XH, Liu D, Chen XZ, Dan L, He B, He HL, Ju WM, Linag MQ, Lu XJ, Peng J, Qin ZC, Xia JZ, Zheng B, Wei J, Yue X, Yu GR, Piao SL, Yuan WP. 2024. The carbon budget of China: 1980–2021. Science Bulletin, 69, 114-124.
+# iMAPLE	Yue, X., Zhou, H., Tian, C., Ma, Y., Hu, Y., Gong, C., Zheng, H., and Liao, H.: Development and evaluation of the interactive Model for Air Pollution and Land Ecosystems (iMAPLE) version 1.0, Geosci Model Dev, 17, 4621-4642, 2024.
+# ISAM	Shu, S., Jain, A. K., Koven, C. D., and Mishra, U.: Estimation of Permafrost SOC Stock and Turnover Time Using a Land Surface Model With Vertical Heterogeneity of Permafrost Soils, Global Biogeochem. Cy., 34, e2020GB006585, https://doi.org/10.1029/2020GB006585, 2020.
+# JSBACH	Reick, C. H., Gayler, V., Goll, D., Hagemann, S., Heidkamp, M., Nabel, J. E. M. S., Raddatz, T., Roeckner, E., Schnur, R., and Wilkenskjeld, S.: JSBACH 3 - The land component of the MPI Earth System Model: documentation of version 3.2, https://doi.org/10.17617/2.3279802, 2021.
+# JULES-ES	Wiltshire, A.,Burke, E., Chadburn, S., Jones, C., Cox, P., Davies-Barnard, T., Friedlingstein, P., Harper, A., Liddicoat, S., Sitch, S., Zaehle, S
+# LPJ-EOSIM	Poulter, B., Frank, D. C., Hodson, E. L., and Zimmermann, N. E.: Impacts of land cover and climate data selection on understanding terrestrial carbon dynamics and the CO2 airborne fraction, Biogeosciences, 8, 2027-2036, 2011.
+# LPJ-GUESS	Smith, B., Warlind, D., Arneth, A., Hickler, T., Leadley, P., Siltberg, J., and Zaehle, S.: Implications of incorporating N cycling and N limitations on primary production in an individual-based dynamic vegetation model, Biogeosciences, 11, 2027-2054, 2014.
+# LPJml	Schaphoff, S., von Bloh, W., Rammig, A., Thonicke, K., Biemans, H., Forkel, M., Gerten, D., Heinke, J., Jägermeyr, J., Knauer, J., Langerwisch, F., Lucht, W., Müller, C., Rolinski, S., and Waha, K.: LPJmL4 – a dynamic global vegetation model with managed land – Part 1: Model description, Geosci. Model Dev., 11, 1343–1375, https://doi.org/10.5194/gmd-11-1343-2018, 2018.
+# LPX-Bern	Lienert, S. and Joos, F.: A Bayesian ensemble data assimilation to constrain model parameters and land-use carbon emissions, Biogeosciences, 15, 2909-2930, 2018.
+# ORCHIDEEv3	Vuichard, N., Messina, P., Luyssaert, S., Guenet, B., Zaehle, S., Ghattas, J., Ipsl, L. and Paris-saclay, U.: Accounting for carbon and nitrogen interactions in the global terrestrial ecosystem model ORCHIDEE ( trunk version , rev 4999 ): multi-scale evaluation of gross primary production, , 4751–4779, 2019.
+# SDGVM	Walker, A. P., Quaife, T., van Bodegom, P. M., De Kauwe, M. G., Keenan, T. F., Joiner, J., Lomas, M. R., MacBean, N., Xu, C. G., Yang, X. J., and Woodward, F. I.: The impact of alternative trait-scaling hypotheses for the maximum photosynthetic carboxylation rate (V-cmax) on global gross primary production, New Phytologist, 215, 1370-1386, 2017.
+# VISIT	Kato, E., Kinoshita, T., Ito, A., Kawamiya, M. and Yamagata, Y.: Evaluation of spatially explicit emission scenario of land-use change and biomass burning using a process-based biogeochemical model, J. Land Use Sci., 8(1), 104–122, doi:10.1080/1747423x.2011.628705, 2013.
+# VISIT-UT	Ito, A.: Disequilibrium of terrestrial ecosystem CO2 budget caused by disturbance-induced emissions and non-CO2 carbon export flows: a global model assessment, Earth Syst. Dynam., 10, 685–709, https://doi.org/10.5194/esd-10-685-2019, 2019.
+#
+# GtC/yr							Individual models
+#
+#
+# Generated with openclimatedata 0.34.1 from the GCB Excel file from https://doi.org/10.18160/gcp-2025
+# http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget
+#
+# GCB
+Year,GCB,GCB unadjusted
+1959,0.453344829624502,0.559684974845064
+1960,0.733534084300578,0.905597634938985
+1961,0.682194717898086,0.842215701108748
+1962,1.13320924266558,1.39902375637725
+1963,0.773127182753466,0.95447800339934
+1964,0.986012346438706,1.2172991931342
+1965,0.349777999112832,0.431824690262755
+1966,1.12998958488267,1.39504887022552
+1967,1.33575791876102,1.64908385032225
+1968,1.60211703941645,1.97792227088451
+1969,0.587492738064448,0.725299676622775
+1970,0.730587062035082,0.901959335845781
+1971,1.65207005646128,2.03959266229787
+1972,0.808476157546628,0.998118713020529
+1973,1.14414004644052,1.41251857585249
+1974,2.94527020301577,3.63613605310589
+1975,2.09459003425971,2.58591362254285
+1976,2.16596237061818,2.67402761804714
+1977,1.1448208933186,1.41335912755383
+1978,2.11214814734769,2.60759030536751
+1979,1.08359074777903,1.33776635528275
+1980,0.248003946412886,0.306177711620846
+1981,1.61447923414297,1.99318423968268
+1982,1.32721862940328,1.63854151778183
+1983,0.208065986174985,0.256871587870352
+1984,1.88332051008408,2.32508704948652
+1985,2.04022238591348,2.51879306902899
+1986,1.95314615615967,2.4112915508144
+1987,0.609053027323608,0.751917317683467
+1988,1.36033466506197,1.67942551242218
+1989,2.68630946723706,3.3164314410334
+1990,1.84766135368803,2.28106339961485
+1991,1.76230919287666,2.17569036157613
+1992,1.68289247238115,2.07764502763105
+1993,2.23436913722524,2.75848041632746
+1994,1.24423334295867,1.53609054686255
+1995,1.49748838125701,1.84875108797162
+1996,2.50232577530518,3.08929108062368
+1997,2.54649283804233,3.14381831857078
+1998,1.38560007953065,1.71061738213661
+1999,2.84029286780451,3.50653440469692
+2000,2.72018345982583,3.35825118497015
+2001,2.01531118742938,2.48803850299923
+2002,1.08326999467067,1.33737036379095
+2003,1.98779938383743,2.45407331337954
+2004,2.51745321335263,3.10796693006497
+2005,1.58563259713982,1.95757110758003
+2006,2.53775349801549,3.13302900989566
+2007,2.35230286282001,2.90407760841976
+2008,2.61581251859609,3.22939817110628
+2009,2.37705859590689,2.93464024186036
+2010,2.67666789314495,3.30452826314191
+2011,3.29277732563259,4.065157192139
+2012,1.84564469092019,2.27857369249406
+2013,2.71513570160663,3.35201938469955
+2014,3.03860075250083,3.75135895370472
+2015,1.77528492572452,2.27812953793151
+2016,1.98374500744933,2.53548766351769
+2017,2.84957903286799,3.60441855909628
+2018,2.87823598244018,3.63979750918541
+2019,2.38393017747699,3.02954342898394
+2020,2.10097442061803,2.68021533409633
+2021,2.59562956218391,3.29090069405422
+2022,3.1061842407254,3.92121511200666
+2023,2.01670466921629,2.57617860397072
+2024,1.94215497985298,2.48414195043578

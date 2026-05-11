@@ -1,0 +1,111 @@
+# Global Carbon Budget 2025 (Preprint) — Land-Use Change Emissions
+#
+# Land-use change emissions
+# All values in billion tonnes of carbon per year (GtC/yr), for the globe. For values in billion tonnes of carbon dioxide per year (GtCO2/yr), multiply the numbers below by 3.664.
+# 1 billion tonnes C = 1 petagram of carbon (10^15 gC) = 1 gigatonne C = 3.664 billion tonnes of CO2
+# Methods: The GCB estimate is the average of three bookkeeping models BLUE, OSCAR, and LUCE (uncertainty of ±0.7 GtC/yr). Individual results from dynamic global vegetation models (calculated as S2-S3; see Supplementary S2.2 in Friedlingstein et al. 2025) are also provided but not used for the GCB estimate.  Cite as: Friedlingstein et al (2025; see summary tab)
+# Data below represents the net flux of land-use change, based on the net balance between deforestation and forest regrowth along with other land-use changes
+# Cite individual estimates as:
+# BLUE	Hansis, E., Davis, S. J., and Pongratz, J.: Relevance of methodological choices for accounting of land use change carbon fluxes, Global Biogeochemical Cycles, 29, 1230-1246, 2015.
+# OSCAR	Gasser, T., Crepin, L., Quilcaille, Y., Houghton, R. A., Ciais, P. and Obersteiner, M.: Historical CO 2 emissions from land use and land cover change and their uncertainty, Biogeosciences , 4075–4101, 2020.
+# LUCE	Qin, Z., Zhu, Y., Canadell, J. G., Chen, M., Li, T., Mishra, U., and Yuan, W.: Global spatially explicit carbon emissions from land-use change over the past six decades (1961–2020), One Earth, 7, 835–847, https://doi.org/10.1016/j.oneear.2024.04.002, 2024
+#
+# FAO-PEAT	Conchedda, G. and Tubiello, F. N.: Drainage of organic soils and GHG emissions: validation with country data, Earth Syst. Sci. Data, 12, 3113–3137, https://doi.org/10.5194/essd-12-3113-2020, 2020. FAOSTAT Drained organic soils, available at (http://www.fao.org/faostat/en/#data/GV), 2024
+# LPX-Bern-PEAT	Müller, J. and Joos, F.: Committed and projected future changes in global peatlands – continued transient model simulations since the Last Glacial Maximum, Biogeosciences, 18, 3657–3687, https://doi.org/10.5194/bg-18-3657-2021, 2021.
+# ORCHIDEE-PEAT	Qiu, C., Ciais, P., Zhu, D., Guenet, B., Peng, S., Petrescu, A. M. R., Lauerwald, R., Makowski, D., Gallego-Sala, A. V., Charman, D. J., and Brewer, S. C.: Large historical carbon emissions from cultivated northern peatlands, Sci. Adv., 7, eabf1332, https://doi.org/10.1126/sciadv.abf1332, 2021.
+#
+# CABLE-POP	Haverd, V., Smith, B., Nieradzik, L., Briggs, P. R., Woodgate, W., Trudinger, C. M., Canadell, J. G., and Cuntz, M.: A new version of the CABLE land surface model (Subversion revision r4601) incorporating land use and land cover change, woody vegetation demography, and a novel optimisation-based approach to plant coordination of photosynthesis, Geosci. Model Dev., 11, 2995-3026, 2018.
+# CLASSIC	Melton, J. R., Arora, V. K., Wisernig-cojoc, E., Seiler, C., Fortier, M. and Chan, E.: CLASSIC v1 . 0 : the open-source community successor to the Canadian Land Surface Scheme ( CLASS ) and the Canadian Terrestrial Ecosystem Model ( CTEM ) – Part 1 : Model framework and site-level performance, , 2825–2850, 2020.
+# CLM6.0	Lawrence, D. M., Fisher, R. A., Koven,C. D., Oleson, K. W., Swenson, S. C.,Bonan, G., et al. (2019). The Community Land Model version 5:Description of new features,benchmarking, and impact of forcing uncertainty. Journal of Advances in Modeling Earth Systems, 11, 4245-4287. https://doi.org/10.1029/2018MS001583
+# CLM-FATES	Fisher, R. A., Muszala, S., Verteinstein, M., Lawrence, P., Xu, C., McDowell, N. G., Knox, R. G., Koven, C., Holm, J., Rogers, B. M., Spessa, A., Lawrence, D., and Bonan, G.: Taking off the training wheels: the properties of a dynamic vegetation model without climate envelopes, CLM4.5(ED), Geosci. Model Dev., 8, 3593–3619, https://doi.org/10.5194/gmd-8-3593-2015, 2015.
+# DLEM	Tian, H., G. Chen, C. Lu, X. Xu, D. J. Hayes, W. Ren, S. Pan, D.N. Huntzinger, S.C. Wofsy: North American terrestrial CO2 uptake largely offset by CH4 and N2O emissions: Toward a full accounting of the greenhouse gas budget, Climatic Change, 129:423-426, 2015
+# EDv3	Ma, L., Hurtt, G., Ott, L., Sahajpal, R., Fisk, J., Lamb, R., Tang, H., Flanagan, S., Chini, L., Chatterjee, A., and Sullivan, J.: Global evaluation of the Ecosystem Demography model (ED v3.0), Geosci. Model Dev., 15, 1971–1994, https://doi.org/10.5194/gmd-15-1971-2022, 2022.
+# ELM	Yang, X., Thornton, P., Ricciuto, D., Wang, Y., and Hoffman, F.: Global evaluation of terrestrial biogeochemistry in the Energy Exascale Earth System Model (E3SM) and the role of the phosphorus cycle in the historical terrestrial carbon balance, Biogeosciences, 20, 2813–2836, https://doi.org/10.5194/bg-20-2813-2023, 2023.
+# ELM-FATES	Needham, J. et al. (2025). Vertical canopy gradients of respiration drive plant carbonbudgets and leaf area index. New Phytologist (2025) 246: 144–157doi: 10.1111/nph.20423
+# GDSTEM	Felzer, B. S., & Jiang, M. (2018). Effect ofland use and land cover change in context of growth enhancements in the United States since 1700: Net source or sink? Journal of Geophysical Research:Biogeosciences, 123, 3439–3457. https://doi.org/10.1029/2017JG004378
+# IBIS	Xia JZ, Ren PY, Wang XH, Liu D, Chen XZ, Dan L, He B, He HL, Ju WM, Linag MQ, Lu XJ, Peng J, Qin ZC, Xia JZ, Zheng B, Wei J, Yue X, Yu GR, Piao SL, Yuan WP. 2024. The carbon budget of China: 1980–2021. Science Bulletin, 69, 114-124.
+# iMAPLE	Yue, X., Zhou, H., Tian, C., Ma, Y., Hu, Y., Gong, C., Zheng, H., and Liao, H.: Development and evaluation of the interactive Model for Air Pollution and Land Ecosystems (iMAPLE) version 1.0, Geosci Model Dev, 17, 4621-4642, 2024.
+# ISAM	Shu, S., Jain, A. K., Koven, C. D., and Mishra, U.: Estimation of Permafrost SOC Stock and Turnover Time Using a Land Surface Model With Vertical Heterogeneity of Permafrost Soils, Global Biogeochem. Cy., 34, e2020GB006585, https://doi.org/10.1029/2020GB006585, 2020.
+# JSBACH	Reick, C. H., Gayler, V., Goll, D., Hagemann, S., Heidkamp, M., Nabel, J. E. M. S., Raddatz, T., Roeckner, E., Schnur, R., and Wilkenskjeld, S.: JSBACH 3 - The land component of the MPI Earth System Model: documentation of version 3.2, https://doi.org/10.17617/2.3279802, 2021.
+# JULES-ES	Wiltshire, A.,Burke, E., Chadburn, S., Jones, C., Cox, P., Davies-Barnard, T., Friedlingstein, P., Harper, A., Liddicoat, S., Sitch, S., Zaehle, S
+# LPJ-EOSIM	Poulter, B., Frank, D. C., Hodson, E. L., and Zimmermann, N. E.: Impacts of land cover and climate data selection on understanding terrestrial carbon dynamics and the CO2 airborne fraction, Biogeosciences, 8, 2027-2036, 2011.
+# LPJ-GUESS	Smith, B., Warlind, D., Arneth, A., Hickler, T., Leadley, P., Siltberg, J., and Zaehle, S.: Implications of incorporating N cycling and N limitations on primary production in an individual-based dynamic vegetation model, Biogeosciences, 11, 2027-2054, 2014.
+# LPJml	Schaphoff, S., von Bloh, W., Rammig, A., Thonicke, K., Biemans, H., Forkel, M., Gerten, D., Heinke, J., Jägermeyr, J., Knauer, J., Langerwisch, F., Lucht, W., Müller, C., Rolinski, S., and Waha, K.: LPJmL4 – a dynamic global vegetation model with managed land – Part 1: Model description, Geosci. Model Dev., 11, 1343–1375, https://doi.org/10.5194/gmd-11-1343-2018, 2018.
+# LPX-Bern	Lienert, S. and Joos, F.: A Bayesian ensemble data assimilation to constrain model parameters and land-use carbon emissions, Biogeosciences, 15, 2909-2930, 2018.
+# ORCHIDEEv3	Vuichard, N., Messina, P., Luyssaert, S., Guenet, B., Zaehle, S., Ghattas, J., Ipsl, L. and Paris-saclay, U.: Accounting for carbon and nitrogen interactions in the global terrestrial ecosystem model ORCHIDEE ( trunk version , rev 4999 ): multi-scale evaluation of gross primary production, , 4751–4779, 2019.
+# SDGVM	Walker, A. P., Quaife, T., van Bodegom, P. M., De Kauwe, M. G., Keenan, T. F., Joiner, J., Lomas, M. R., MacBean, N., Xu, C. G., Yang, X. J., and Woodward, F. I.: The impact of alternative trait-scaling hypotheses for the maximum photosynthetic carboxylation rate (V-cmax) on global gross primary production, New Phytologist, 215, 1370-1386, 2017.
+# VISIT	Kato, E., Kinoshita, T., Ito, A., Kawamiya, M. and Yamagata, Y.: Evaluation of spatially explicit emission scenario of land-use change and biomass burning using a process-based biogeochemical model, J. Land Use Sci., 8(1), 104–122, doi:10.1080/1747423x.2011.628705, 2013.
+# VISIT-UT	Ito, A.: Disequilibrium of terrestrial ecosystem CO2 budget caused by disturbance-induced emissions and non-CO2 carbon export flows: a global model assessment, Earth Syst. Dynam., 10, 685–709, https://doi.org/10.5194/esd-10-685-2019, 2019.
+#
+#
+# Generated with openclimatedata 0.34.1 from the GCB Excel file from https://doi.org/10.18160/gcp-2025
+# http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget
+#
+# LUCE
+Year,Net,deforestation (total),forest regrowth (total),other transitions,wood harvest & other forest management
+1959,2.35341,2.02742,-0.82734,0.4223,0.48886
+1960,2.01396,1.76508,-0.82993,0.3842,0.49546
+1961,2.02635,1.73248,-0.83471,0.37852,0.51531
+1962,1.89033,1.67968,-0.83389,0.36082,0.52321
+1963,1.82236,1.6275,-0.83497,0.32296,0.5298
+1964,1.75197,1.58639,-0.83458,0.28931,0.53682
+1965,1.67645,1.52311,-0.83643,0.27865,0.54895
+1966,1.53545,1.43689,-0.83548,0.23912,0.55948
+1967,1.67595,1.49772,-0.83234,0.2776,0.57038
+1968,1.71531,1.52939,-0.82872,0.26696,0.58009
+1969,1.92799,1.73332,-0.83028,0.24291,0.58726
+1970,1.78294,1.6349,-0.83266,0.16621,0.5977
+1971,1.60361,1.5176,-0.82975,0.15622,0.60308
+1972,1.7047,1.58729,-0.82724,0.17372,0.60268
+1973,1.64291,1.54037,-0.82282,0.15813,0.608
+1974,1.66098,1.55106,-0.81753,0.13129,0.61017
+1975,1.61138,1.53734,-0.81526,0.12668,0.60644
+1976,1.60315,1.52525,-0.81061,0.10109,0.61282
+1977,1.78704,1.60465,-0.8067,0.18919,0.61674
+1978,1.76431,1.57991,-0.80398,0.18723,0.62371
+1979,1.54807,1.4497,-0.80223,0.11417,0.63343
+1980,1.60461,1.46681,-0.79952,0.1075,0.64123
+1981,1.54976,1.44561,-0.79854,0.10386,0.64486
+1982,1.46281,1.38522,-0.79706,0.07968,0.64391
+1983,1.55278,1.39934,-0.79505,0.1308,0.64351
+1984,1.73273,1.54215,-0.79338,0.1115,0.64526
+1985,1.85848,1.6716,-0.79321,0.09612,0.64513
+1986,1.87025,1.68947,-0.79894,0.08115,0.65347
+1987,1.72892,1.59875,-0.79906,0.04886,0.66242
+1988,1.60214,1.46162,-0.80073,0.04723,0.67814
+1989,1.56733,1.38829,-0.80197,0.06671,0.69402
+1990,1.54135,1.33806,-0.81053,0.10728,0.70721
+1991,1.53932,1.34452,-0.81817,0.10236,0.72303
+1992,1.61623,1.42977,-0.82364,0.08911,0.68989
+1993,1.52188,1.38602,-0.82279,0.08467,0.65511
+1994,1.85383,1.74755,-0.82992,0.06543,0.62269
+1995,1.64742,1.61252,-0.83904,0.04581,0.59623
+1996,1.71802,1.58965,-0.8382,0.07984,0.57058
+1997,2.11492,1.67619,-0.83926,0.00211,0.558
+1998,1.81581,1.88507,-0.84827,0.0059,0.54391
+1999,1.68019,1.7966,-0.85596,-0.02971,0.53896
+2000,1.54354,1.70065,-0.86541,-0.03669,0.55333
+2001,1.32473,1.58204,-0.87,-0.10686,0.54265
+2002,1.58199,1.65401,-0.87919,-0.02502,0.56108
+2003,2.12112,2.14062,-0.89125,0.05774,0.57992
+2004,1.72429,1.72218,-0.88765,0.07038,0.59949
+2005,1.58993,1.62259,-0.8912,0.02949,0.61009
+2006,1.5382,1.49808,-0.91987,-0.04084,0.6213
+2007,1.47887,1.52624,-0.91938,0.01428,0.64551
+2008,1.60828,1.56875,-0.91878,0.09176,0.63761
+2009,1.76378,1.63323,-0.92039,0.08046,0.62353
+2010,1.75249,1.64951,-0.95543,0.148,0.65078
+2011,1.74694,1.65002,-0.97037,0.13428,0.67102
+2012,1.89401,1.71186,-0.96606,0.10998,0.7228
+2013,1.70401,1.65711,-0.96576,0.10925,0.62681
+2014,1.72224,1.65398,-0.98366,0.14184,0.59045
+2015,1.6817,1.58722,-0.98276,0.10659,0.5082
+2016,1.3387,1.52692,-0.99107,0.13778,0.44083
+2017,1.30607,1.54828,-0.99954,0.14378,0.39877
+2018,1.13713,1.44418,-0.99489,0.06816,0.40007
+2019,1.16157,1.39263,-0.99718,0.09795,0.39342
+2020,1.08944,1.41467,-0.9957,0.08726,0.40488
+2021,1.18599,1.47692,-0.99531,0.07566,0.43217
+2022,1.23544,1.5148,-0.99457,0.06404,0.44575
+2023,1.22255,1.45792,-0.9921,0.06294,0.45778
+2024,1.19329,1.44687,-0.98983,0.06271,0.46308
