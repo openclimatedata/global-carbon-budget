@@ -1,7 +1,7 @@
 # /// script
 # requires-python = ">=3.14"
 # dependencies = [
-#     "openclimatedata>=0.33",
+#     "openclimatedata==0.34.1",
 # ]
 # ///
 
@@ -25,6 +25,7 @@ subtables = [
     {"sheet_name": "Land-Use Change Emissions", "slug": "land-use-change-emissions"},
     {"sheet_name": "Ocean Sink", "slug": "ocean-sink"},
     {"sheet_name": "Terrestrial Sink", "slug": "terrestrial-sink"},
+    {"sheet_name": "Atmospheric Growth", "slug": "atmospheric-growth"},
 ]
 
 
@@ -70,6 +71,8 @@ for version in ocd.Global_Carbon_Budget.keys():
 
         print(f"Sheet: {sheet_name}")
 
+        if sheet_name not in ocd.Global_Carbon_Budget[version]:
+            continue 
         notes = ocd.Global_Carbon_Budget[version][sheet_name].__repr__()
         commented_notes = comment_notes(notes)
 
