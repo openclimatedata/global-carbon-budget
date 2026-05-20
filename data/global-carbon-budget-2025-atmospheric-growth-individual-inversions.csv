@@ -1,16 +1,16 @@
-# Global Carbon Budget 2025 (Preprint) — Atmospheric Growth
+# Global Carbon Budget 2025 — Atmospheric Growth
 #
 # Growth in atmospheric CO2
 # All values in billion tonnes of carbon per year (GtC/yr)
 # 1 billion tonnes C = 1 petagram of carbon (10^15 gC) = 1 gigatonne C = 3.664 billion tonnes of CO2
-# Methods: Full details of the method are described in Friedlingstein et al (2025). The ‘GCB' column is estimated directly from atmospheric CO2 concentration measurements, and provided by the US National Oceanic and Atmospheric Administration Earth System Research Laboratory (NOAA/ESRL).  http://www.esrl.noaa.gov/gmd/ccgg/trends/global.html. ‘GRESO’ is OCO-2 based whole atmosphere growth rates using the Growth Rate from Satellite Observations (GRESO) approach (Pandey et al., 2024). Atmospheric inversions also estimate the growth rate in atmospheric CO2 based on in-situ atmospheric measurements and/or atmospheric CO2 column. These are therefore not independent of the NOAA and GRESO estimates.
-# The uncertainty for the annual global estimates is about 0.61 GtC yr-1 for 1959-1979 and 0.17 GtC yr-1 for 1980-2024, when more measurement sites were available (Lan et al., 2025a).
+# Methods: GCB (NOAA), GRESO OCO2, Inversions.…
+# The uncertainty for the global estimates is
 # Cite as: Friedlingstein et al (2025; see summary tab)
 #
 # GtC/yr									Individual Inversions
 #
 #
-# Generated with openclimatedata 0.34.1 from the GCB Excel file from https://doi.org/10.18160/gcp-2025
+# Generated with openclimatedata 0.36 from the GCB Excel file from https://doi.org/10.18160/gcp-2025
 # http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget
 #
 # Individual Inversions

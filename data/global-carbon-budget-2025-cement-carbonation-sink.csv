@@ -1,17 +1,17 @@
-# Global Carbon Budget 2025 (Preprint) — Cement Carbonation Sink
+# Global Carbon Budget 2025 — Cement Carbonation Sink
 #
 # Cement Carbonation sink (positive values represent a flux from the atmosphere to the land)
-# All values in million tonnes of carbon per year (GtC/yr). For values in million tonnes of CO2 per year, multiply the values below by 3.664
-# 1MtC = 1 million tonne of carbon = 3.664 million tonnes of CO2
+# All values in billion tonnes of carbon per year (GtC/yr), except the per capita emissions which are in tonnes of carbon per person per year (tC/person/yr). For values in billion tonnes of CO2 per year, multiply the values below by 3.664
+# 1 billion tonnes C = 1 petagram of carbon (10^15 gC) = 1 gigatonne C = 3.664 billion tonnes of CO2
 # Methods: Full details of the method are described in Friedlingstein et al (2025).
 # Cite individual estimates as:
-# Cao	Cao, Z., Myers, R. J., Lupton, R. C., Duan, H., Sacchi, R., Zhou, N., Reed Miller, T., Cullen, J. M., Ge, Q., and Liu, G.: The sponge effect and carbon emission mitigation potentials of the global cement cycle, Nature Communications, 11 (1), 3777, DOI: 10.1038/s41467-020-17583-w, 2020.
-# Huang	Huang, Z., Wang, J., Bing, L., Qiu, Y., Guo, R., Yu, Y., Ma, M., Niu, L., Tong, D., Andrew, R.M., Friedlingstein, P., Canadell, J.G., Xi, F., Liu, Z., 2023. Global carbon uptake of cement carbonation accounts 1930-2021. Earth System Science Data 15 (11), 4947–4958. DOI: 10.5194/essd-15-4947-2023.
+# Cao	Cao, Z., Myers, R. J., Lupton, R. C., Duan, H., Sacchi, R., Zhou, N., Reed Miller, T., Cullen, J. M., Ge, Q., and Liu, G.: The sponge effect and carbon emission mitigation potentials of the global cement cycle, Nature Comm
+# Huang	Huang, Z., Wang, J., Bing, L., Qiu, Y., Guo, R., Yu, Y., Ma, M., Niu, L., Tong, D., Andrew, R.M., Friedlingstein, P., Canadell, J.G., Xi, F., Liu, Z.: Global carbon uptake of cement carbonation accounts 1930-2021. Earth System Science Data 15 (11), 4947–4958, https://doi.org/10.5194/essd-15-4947-2023, 2023.
 #
 # GtC/yr
 #
 #
-# Generated with openclimatedata 0.34.1 from the GCB Excel file from https://doi.org/10.18160/gcp-2025
+# Generated with openclimatedata 0.36 from the GCB Excel file from https://doi.org/10.18160/gcp-2025
 # http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget
 Year,GCB,Cao,Huang
 1959,0.013422795,0.010207389,0.014876905

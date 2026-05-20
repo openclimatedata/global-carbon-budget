@@ -1,4 +1,4 @@
-# Global Carbon Budget 2025 (Preprint) — Historical Budget
+# Global Carbon Budget 2025 — Historical Budget
 #
 # Historical CO2 budget
 # All values in billion tonnes of carbon per year (GtC/yr), for the globe. For values in billion tonnes of carbon dioxide (CO2) per year, multiply the numbers below by 3.664.
@@ -17,7 +17,7 @@
 # GtC/yr
 #
 #
-# Generated with openclimatedata 0.34.1 from the GCB Excel file from https://doi.org/10.18160/gcp-2025
+# Generated with openclimatedata 0.36 from the GCB Excel file from https://doi.org/10.18160/gcp-2025
 # http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget
 Year,fossil emissions excluding carbonation,land-use change emissions,atmospheric growth,ocean sink,land sink,cement carbonation sink,budget imbalance
 1750,0.00253982996724891,,,,0.266305033654918,,
