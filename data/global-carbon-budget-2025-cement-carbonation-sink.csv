@@ -11,7 +11,7 @@
 # GtC/yr
 #
 #
-# Generated with openclimatedata 0.36 from the GCB Excel file from https://doi.org/10.18160/gcp-2025
+# Generated with openclimatedata 0.36 from the GCB Excel file 'Global_Carbon_Budget_2025_v1.0.xlsx' from https://doi.org/10.18160/gcp-2025
 # http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget
 Year,GCB,Cao,Huang
 1959,0.013422795,0.010207389,0.014876905

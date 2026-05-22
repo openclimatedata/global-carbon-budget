@@ -23,7 +23,7 @@
 # GtC/yr
 #
 #
-# Generated with openclimatedata 0.36 from the GCB Excel file from https://doi.org/10.18160/gcp-2025
+# Generated with openclimatedata 0.36 from the GCB Excel file 'Global_Carbon_Budget_2025_v1.0.xlsx' from https://doi.org/10.18160/gcp-2025
 # http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget
 Year,fossil emissions excluding carbonation,land-use change emissions,atmospheric growth,ocean sink,land sink,cement carbonation sink,budget imbalance
 1959,2.41678824533062,2.37248,2.03904,1.11508070269876,0.453344829624502,0.0134227952138527,1.1683799177935
