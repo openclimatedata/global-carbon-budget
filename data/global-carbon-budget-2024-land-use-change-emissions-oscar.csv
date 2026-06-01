@@ -1,4 +1,4 @@
-# Global Carbon Budget 2024 — Land-Use Change Emissions
+# Global Carbon Budget 2024 — Global_Carbon_Budget_2024_v1.1.xlsx  — Land-Use Change Emissions
 #
 # Land-use change emissions
 # All values in billion tonnes of carbon per year (GtC/yr), for the globe. For values in billion tonnes of carbon dioxide per year (GtCO2/yr), multiply the numbers below by 3.664.
@@ -35,9 +35,7 @@
 # ORCHIDEEv3	Vuichard, N., Messina, P., Luyssaert, S., Guenet, B., Zaehle, S., Ghattas, J., Ipsl, L. and Paris-saclay, U.: Accounting for carbon and nitrogen interactions in the global terrestrial ecosystem model ORCHIDEE ( trunk version , rev 4999 ): multi-scale evaluation of gross primary production, , 4751–4779, 2019.
 # SDGVM	Walker, A. P., Quaife, T., van Bodegom, P. M., De Kauwe, M. G., Keenan, T. F., Joiner, J., Lomas, M. R., MacBean, N., Xu, C. G., Yang, X. J., and Woodward, F. I.: The impact of alternative trait-scaling hypotheses for the maximum photosynthetic carboxylation rate (V-cmax) on global gross primary production, New Phytologist, 215, 1370-1386, 2017.
 # VISIT	Kato, E., Kinoshita, T., Ito, A., Kawamiya, M. and Yamagata, Y.: Evaluation of spatially explicit emission scenario of land-use change and biomass burning using a process-based biogeochemical model, J. Land Use Sci., 8(1), 104–122, doi:10.1080/1747423x.2011.628705, 2013.
-#
-#
-# Generated with openclimatedata 0.36 from the GCB Excel file 'Global_Carbon_Budget_2024_v1.1.xlsx' from https://doi.org/10.18160/gcp-2024
+# Generated with openclimatedata 0.38 from the GCB Excel file 'Global_Carbon_Budget_2024_v1.1.xlsx' from https://doi.org/10.18160/gcp-2024
 # http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget
 #
 # OSCAR

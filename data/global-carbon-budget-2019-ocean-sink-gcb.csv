@@ -1,4 +1,4 @@
-# Global Carbon Budget 2019 — Ocean Sink
+# Global Carbon Budget 2019 — Global_Carbon_Budget_2019v1.0.xlsx  — Ocean Sink
 #
 # Ocean CO2 sink (positive values represent a flux from the atmosphere to the ocean)
 # All values in billion tonnes of carbon per year (GtC/yr), for the globe. For values in billion tonnes of carbon dioxide per year (GtCO2/yr), multiply the numbers below by 3.664.
@@ -20,10 +20,7 @@
 # Rödenbeck	Rödenbeck, C., Bakker, D. C. E., Metzl, N., Olsen, A., Sabine, C., Cassar, N., Reum, F., Keeling, R. F., and Heimann, M.: Interannual sea–air CO2 flux variability from an observation-driven ocean mixed-layer scheme, Biogeosciences, 11, 4599-4613, 2014.
 # CMEMS	Denvil-Sommer, A., Gehlen, M., Vrac, M., and Mejia, C.: LSCE-FFNN-v1: a two-step neural network model for the reconstruction of surface ocean pCO2 over the global ocean, Geosci. Model Dev., 12, 2091–2105, https://doi.org/10.5194/gmd-12-2091-2019, 2019.
 # Note: the data products include a pre-industrial steady state source of CO2 (of about 0.78 GtC/yr) and therefore are not directly comparable with the ocean model results.
-#
-#
-#
-# Generated with openclimatedata 0.36 from the GCB Excel file 'Global_Carbon_Budget_2019v1.0.xlsx' from https://doi.org/10.18160/gcp-2019
+# Generated with openclimatedata 0.38 from the GCB Excel file 'Global_Carbon_Budget_2019v1.0.xlsx' from https://doi.org/10.18160/gcp-2019
 # http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget
 #
 # GCB

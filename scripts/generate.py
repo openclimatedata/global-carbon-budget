@@ -1,7 +1,7 @@
 # /// script
 # requires-python = ">=3.14"
 # dependencies = [
-#     "openclimatedata==0.36",
+#     "openclimatedata==0.38",
 # ]
 # ///
 
@@ -31,7 +31,7 @@ subtables = [
 
 def comment_notes(notes):
     commented_notes = "\n".join([f"# {line}".strip() for line in notes.split("\n")])
-    commented_notes += f"\n# Generated with openclimatedata {ocd.__version__} from the GCB Excel file '{ocd.Global_Carbon_Budget[version].filename}' from https://doi.org/{ocd.Global_Carbon_Budget[version].doi}"
+    commented_notes += f"\n# Generated with openclimatedata {ocd.__version__} from the GCB Excel file '{ocd.Global_Carbon_Budget[version].Global_Budget.filename}' from https://doi.org/{ocd.Global_Carbon_Budget[version].doi}"
     commented_notes += "\n# http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget"
     commented_notes += "\n"
     return commented_notes
@@ -54,9 +54,9 @@ for version in ocd.Global_Carbon_Budget.keys():
 
         print(f"Sheet: {sheet_name}")
 
-        notes = ocd.Global_Carbon_Budget[version][sheet_name].__repr__()
+        notes = ocd.Global_Carbon_Budget[version].Global_Budget[sheet_name].__repr__()
         commented_notes = comment_notes(notes)
-        csv_data = ocd.Global_Carbon_Budget[version][sheet_name].to_dataframe().to_csv()
+        csv_data = ocd.Global_Carbon_Budget[version].Global_Budget[sheet_name].to_dataframe().to_csv()
 
         filepath = f"data/global-carbon-budget-{version}-{slug}.csv"
         print(filepath)
@@ -71,14 +71,14 @@ for version in ocd.Global_Carbon_Budget.keys():
 
         print(f"Sheet: {sheet_name}")
 
-        if sheet_name not in ocd.Global_Carbon_Budget[version]:
+        if sheet_name not in ocd.Global_Carbon_Budget[version].Global_Budget:
             continue
-        notes = ocd.Global_Carbon_Budget[version][sheet_name].__repr__()
+        notes = ocd.Global_Carbon_Budget[version].Global_Budget[sheet_name].__repr__()
         commented_notes = comment_notes(notes)
 
-        for subtable in ocd.Global_Carbon_Budget[version][sheet_name]:
+        for subtable in ocd.Global_Carbon_Budget[version].Global_Budget[sheet_name]:
             csv_data = (
-                ocd.Global_Carbon_Budget[version][sheet_name][subtable]
+                ocd.Global_Carbon_Budget[version].Global_Budget[sheet_name][subtable]
                 .to_dataframe()
                 .to_csv()
             )

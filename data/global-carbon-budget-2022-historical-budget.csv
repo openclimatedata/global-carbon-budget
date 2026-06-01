@@ -1,4 +1,4 @@
-# Global Carbon Budget 2022 — Historical Budget
+# Global Carbon Budget 2022 — Global_Carbon_Budget_2022v1.0.xlsx  — Historical Budget
 #
 # Historical CO2 budget
 # All values in billion tonnes of carbon per year (GtC/yr), for the globe. For values in billion tonnes of carbon dioxide (CO2) per year, multiply the numbers below by 3.664.
@@ -15,9 +15,7 @@
 # The budget imbalance is the sum of emissions (fossil fuel and industry + land-use change) minus (atmospheric growth + ocean sink + land sink + cement carbonation sink); it is a measure of our imperfect data and understanding of the contemporary carbon cycle.
 #
 # GtC/yr
-#
-#
-# Generated with openclimatedata 0.36 from the GCB Excel file 'Global_Carbon_Budget_2022v1.0.xlsx' from https://doi.org/10.18160/gcp-2022
+# Generated with openclimatedata 0.38 from the GCB Excel file 'Global_Carbon_Budget_2022v1.0.xlsx' from https://doi.org/10.18160/gcp-2022
 # http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget
 Year,fossil emissions excluding carbonation,land-use change emissions,atmospheric growth,ocean sink,land sink,cement carbonation sink,budget imbalance
 1750,0.002552,,,,0.232276319322494,,

@@ -1,4 +1,4 @@
-# Global Carbon Budget 2025 — Fossil Emissions by Category
+# Global Carbon Budget 2025 — Global_Carbon_Budget_2025_v1.0.xlsx  — Fossil Emissions by Category
 #
 # Fossil fuel and cement production emissions by fuel type
 # All values in billion tonnes of carbon per year (GtC/yr), except the per capita emissions which are in tonnes of carbon per person per year (tC/person/yr). For values in billion tonnes of CO2 per year, multiply the values below by 3.664
@@ -8,9 +8,7 @@
 # Cite as: Friedlingstein et al (2025; see summary tab)
 #
 # GtC/yr
-#
-#
-# Generated with openclimatedata 0.36 from the GCB Excel file 'Global_Carbon_Budget_2025_v1.0.xlsx' from https://doi.org/10.18160/gcp-2025
+# Generated with openclimatedata 0.38 from the GCB Excel file 'Global_Carbon_Budget_2025_v1.0.xlsx' from https://doi.org/10.18160/gcp-2025
 # http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget
 Year,fossil.emissions.excluding.carbonation,Coal,Oil,Gas,Cement.emission,Flaring,Other,Per.Capita
 1850,0.0537247802539048,0.0537247802539048,0.0,0.0,0.0,0.0,0.0,0.04254814522784411
