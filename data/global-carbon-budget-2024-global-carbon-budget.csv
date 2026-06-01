@@ -21,7 +21,7 @@
 # The budget imbalance is the sum of emissions (fossil fuel and industry + land-use change) minus (atmospheric growth + ocean sink + land sink + cement carbonation sink); it is a measure of our imperfect data and understanding of the contemporary carbon cycle.
 # Cite as: Friedlingstein et al. 2024 (see Summary tab).
 # GtC/yr
-# Generated with openclimatedata 0.38 from the GCB Excel file 'Global_Carbon_Budget_2024_v1.1.xlsx' from https://doi.org/10.18160/gcp-2024
+# Generated with openclimatedata 0.38.1 from the GCB Excel file 'Global_Carbon_Budget_2024_v1.1.xlsx' from https://doi.org/10.18160/gcp-2024
 # http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget
 Year,fossil emissions excluding carbonation,land-use change emissions,atmospheric growth,ocean sink,land sink,cement carbonation sink,budget imbalance
 1959,2.41667280224566,2.1134525,2.03904,1.00844107356389,0.368378445686921,0.0125421466923516,1.10172363630249

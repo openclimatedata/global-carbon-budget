@@ -26,7 +26,7 @@
 # SDGVM	Walker, A. P., Quaife, T., van Bodegom, P. M., De Kauwe, M. G., Keenan, T. F., Joiner, J., Lomas, M. R., MacBean, N., Xu, C. G., Yang, X. J., and Woodward, F. I.: The impact of alternative trait-scaling hypotheses for the maximum photosynthetic carboxylation rate (V-cmax) on global gross primary production, New Phytologist, 215, 1370-1386, 2017.
 # VISIT	Kato, E., Kinoshita, T., Ito, A., Kawamiya, M. and Yamagata, Y.: Evaluation of spatially explicit emission scenario of land-use change and biomass burning using a process-based biogeochemical model, J. Land Use Sci., 8(1), 104–122, doi:10.1080/1747423x.2011.628705, 2013.
 # YIBs	Yue, X. and Unger, N.: The Yale Interactive terrestrial Biosphere model version 1 . 0 : description , evaluation and implementation into NASA GISS, , 2399–2417, doi:10.5194/gmd-8-2399-2015, 2015.
-# Generated with openclimatedata 0.38 from the GCB Excel file 'Global_Carbon_Budget_2022v1.0.xlsx' from https://doi.org/10.18160/gcp-2022
+# Generated with openclimatedata 0.38.1 from the GCB Excel file 'Global_Carbon_Budget_2022v1.0.xlsx' from https://doi.org/10.18160/gcp-2022
 # http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget
 #
 # Individual models

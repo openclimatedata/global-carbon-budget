@@ -9,7 +9,7 @@
 # Guo	Guo, R., Wang, J., Bing, L., Tong, D., Ciais, P., Davis, S. J., Andrew, R. M., Xi, F., and Liu, Z.: Global CO2 uptake of cement in 1930-2019, 13, 1791–1805, https://doi.org/10.5194/essd-13-1791-2021, 2021.
 #
 # MtC/yr
-# Generated with openclimatedata 0.38 from the GCB Excel file 'Global_Carbon_Budget_2022v1.0.xlsx' from https://doi.org/10.18160/gcp-2022
+# Generated with openclimatedata 0.38.1 from the GCB Excel file 'Global_Carbon_Budget_2022v1.0.xlsx' from https://doi.org/10.18160/gcp-2022
 # http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget
 Year,GCB,Cao,Guo
 1959,12.684256,10.207389,15.161123

@@ -29,7 +29,7 @@
 # Jena-MLS	Rödenbeck, C., DeVries, T., Hauck, J., Le Quéré, C., and Keeling, R. F.: Data-based estimates of interannual sea–air CO2 flux variations 1957–2020 and their relation to environmental drivers, Biogeosciences, 19, 2627–2652, https://doi.org/10.5194/bg-19-2627-2022, 2022.
 # CSIR-ML6	Gregor, L., Lebehot, A. D., Kok, S., and Scheel Monteiro, P. M.: A comparative assessment of the uncertainties of global surface ocean CO2 estimates using a machine-learning ensemble (CSIR-ML6 version 2019a) – have we hit the wall?, Geosci. Model Dev., 12, 5113–5136, https://doi.org/10.5194/gmd-12-5113-2019, 2019.
 # UExP-FNN-U	Watson, A. J., Schuster, U., Shutler, J. D., Holding, T., Ashton, I. G. C., Landschützer, P., Woolf, D. K. and Goddijn-Murphy, L.: Revised estimates of ocean-atmosphere CO2 flux are consistent with ocean carbon inventory, Nat. Commun., 11(1), 1–6, doi:10.1038/s41467-020-18203-3, 2020.
-# Generated with openclimatedata 0.38 from the GCB Excel file 'Global_Carbon_Budget_2024_v1.1.xlsx' from https://doi.org/10.18160/gcp-2024
+# Generated with openclimatedata 0.38.1 from the GCB Excel file 'Global_Carbon_Budget_2024_v1.1.xlsx' from https://doi.org/10.18160/gcp-2024
 # http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget
 #
 # GCB
