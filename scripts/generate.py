@@ -55,8 +55,15 @@ for version in ocd.Global_Carbon_Budget.keys():
         print(f"Sheet: {sheet_name}")
 
         notes = ocd.Global_Carbon_Budget[version].Global_Budget[sheet_name].__repr__()
-        commented_notes = comment_notes(notes, ocd.Global_Carbon_Budget[version].Global_Budget.filename)
-        csv_data = ocd.Global_Carbon_Budget[version].Global_Budget[sheet_name].to_dataframe().to_csv()
+        commented_notes = comment_notes(
+            notes, ocd.Global_Carbon_Budget[version].Global_Budget.filename
+        )
+        csv_data = (
+            ocd.Global_Carbon_Budget[version]
+            .Global_Budget[sheet_name]
+            .to_dataframe()
+            .to_csv()
+        )
 
         filepath = f"data/global-carbon-budget-{version}-{slug}.csv"
         print(filepath)
@@ -74,11 +81,14 @@ for version in ocd.Global_Carbon_Budget.keys():
         if sheet_name not in ocd.Global_Carbon_Budget[version].Global_Budget:
             continue
         notes = ocd.Global_Carbon_Budget[version].Global_Budget[sheet_name].__repr__()
-        commented_notes = comment_notes(notes, ocd.Global_Carbon_Budget[version].Global_Budget.filename)
+        commented_notes = comment_notes(
+            notes, ocd.Global_Carbon_Budget[version].Global_Budget.filename
+        )
 
         for subtable in ocd.Global_Carbon_Budget[version].Global_Budget[sheet_name]:
             csv_data = (
-                ocd.Global_Carbon_Budget[version].Global_Budget[sheet_name][subtable]
+                ocd.Global_Carbon_Budget[version]
+                .Global_Budget[sheet_name][subtable]
                 .to_dataframe()
                 .to_csv()
             )
@@ -117,7 +127,7 @@ for version in ocd.Global_Carbon_Budget.keys():
             .to_csv()
         )
 
-        filepath = f"data/global-carbon-budget-{version}-national-fossil-emissions-{slug}.csv"
+        filepath = f"data/global-carbon-budget-{version}-national-fossil-{slug}.csv"
         print(filepath)
 
         with open(root / filepath, "w") as f:
