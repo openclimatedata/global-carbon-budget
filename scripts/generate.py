@@ -117,7 +117,7 @@ for version in ocd.Global_Carbon_Budget.keys():
             .to_csv()
         )
 
-        filepath = f"data/national-fossil-emissions-{version}-{slug}.csv"
+        filepath = f"data/global-carbon-budget-{version}-national-fossil-emissions-{slug}.csv"
         print(filepath)
 
         with open(root / filepath, "w") as f:
@@ -147,7 +147,7 @@ for version in ocd.Global_Carbon_Budget.keys():
                 .to_csv()
             )
 
-            filepath = f"data/national-landuse-change-emissions-{version}-{slug}.csv"
+            filepath = f"data/global-carbon-budget-{version}-national-landuse-change-emissions-{slug}.csv"
             print(filepath)
 
             with open(root / filepath, "w") as f:
