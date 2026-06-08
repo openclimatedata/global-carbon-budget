@@ -25,7 +25,7 @@
 # NIES-NN	Zeng, J., Nojiri, Y., Landschützer, P., Telszewski, M., Nakaoka, S.: A Global Surface Ocean fCO2 Climatology Based on a Feed-Forward Neural Network. Journal of Atmospheric and Oceanic Technology 31, 1838–1849. https://doi.org/10.1175/JTECH-D-13-00137.1, 2014.
 # JMA-MLR	Iida, Y., Takatani, Y., Kojima, A., and Ishii, M.: Global trends of ocean CO2 sink and ocean acidification: an observation-based reconstruction of surface ocean inorganic carbon variables. J. Oceanogr. 77, 323–358. https://doi.org/10.1007/s10872-020-00571-5, 2021
 # OS-ETHZ-GRaCER	Gregor, L. and Gruber, N.: OceanSODA-ETHZ: a global gridded data set of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification, Earth Syst. Sci. Data, 13, 777–808, https://doi.org/10.5194/essd-13-777-2021, 2021.
-# Generated with openclimatedata 0.38.1 from the GCB Excel file 'Global_Carbon_Budget_2021v1.0.xlsx' from https://doi.org/10.18160/gcp-2021
+# Generated with openclimatedata 0.40.1 from the GCB Excel file 'Global_Carbon_Budget_2021v1.0.xlsx' from https://doi.org/10.18160/gcp-2021
 # http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget
 #
 # GCB

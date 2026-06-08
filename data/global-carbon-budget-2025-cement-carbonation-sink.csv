@@ -9,7 +9,7 @@
 # Huang	Huang, Z., Wang, J., Bing, L., Qiu, Y., Guo, R., Yu, Y., Ma, M., Niu, L., Tong, D., Andrew, R.M., Friedlingstein, P., Canadell, J.G., Xi, F., Liu, Z.: Global carbon uptake of cement carbonation accounts 1930-2021. Earth System Science Data 15 (11), 4947–4958, https://doi.org/10.5194/essd-15-4947-2023, 2023.
 #
 # GtC/yr
-# Generated with openclimatedata 0.38.1 from the GCB Excel file 'Global_Carbon_Budget_2025_v1.0.xlsx' from https://doi.org/10.18160/gcp-2025
+# Generated with openclimatedata 0.40.1 from the GCB Excel file 'Global_Carbon_Budget_2025_v1.0.xlsx' from https://doi.org/10.18160/gcp-2025
 # http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget
 Year,GCB,Cao,Huang
 1959,0.013422795,0.010207389,0.014876905

@@ -29,7 +29,7 @@
 # UExP-FNN-U	Ford, D. J., Blannin, J., Watts, J., Watson, A. J., Landschützer, P., Jersild, A., & Shutler, J. D.: A comprehensive analysis of air-sea CO2 flux uncertainties constructed from surface ocean data products. Global Biogeochemical Cycles, 38, e2024GB008188. https://doi.org/10.1029/2024GB008188, 2024.
 # Jena-MLS	Rödenbeck, C., DeVries, T., Hauck, J., Le Quéré, C., and Keeling, R. F.: Data-based estimates of interannual sea-air CO2 flux variations 1957-2020 and their relation to environmental drivers, Biogeosciences, 19, 2627-2652, https://doi.org/10.5194/bg-19-2627-2022, 2022.
 # CSIR-ML6	Gregor, L., Lebehot, A. D., Kok, S., and Scheel Monteiro, P. M.: A comparative assessment of the uncertainties of global surface ocean CO2 estimates using a machine-learning ensemble (CSIR-ML6 version 2019a) - have we hit the wall?, Geosci. Model Dev., 12, 5113-5136, https://doi.org/10.5194/gmd-12-5113-2019, 2019.
-# Generated with openclimatedata 0.38.1 from the GCB Excel file 'Global_Carbon_Budget_2025_v1.0.xlsx' from https://doi.org/10.18160/gcp-2025
+# Generated with openclimatedata 0.40.1 from the GCB Excel file 'Global_Carbon_Budget_2025_v1.0.xlsx' from https://doi.org/10.18160/gcp-2025
 # http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget
 #
 # GCB

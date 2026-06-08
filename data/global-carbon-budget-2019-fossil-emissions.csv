@@ -12,7 +12,7 @@
 # Cite as: Friedlingstein et al (2019; see summary tab) and Gilfillan, D., Marland, G., Boden, T. and Andres, R.: Global, Regional, and National Fossil-Fuel CO2 Emissions, available at: https://energy.appstate.edu/CDIAC, last access: 27 September 2019, 2019.
 #
 # MtC/yr
-# Generated with openclimatedata 0.38.1 from the GCB Excel file 'Global_Carbon_Budget_2019v1.0.xlsx' from https://doi.org/10.18160/gcp-2019
+# Generated with openclimatedata 0.40.1 from the GCB Excel file 'Global_Carbon_Budget_2019v1.0.xlsx' from https://doi.org/10.18160/gcp-2019
 # http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget
 Year,Total,Coal,Oil,Gas,Cement,Flaring,Per Capita
 1959,2417.2400738251113,1351.5681167678417,793.6654716218121,207.1440124704158,39.83694562635042,25.025527338690875,0.8112697658123856

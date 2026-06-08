@@ -13,7 +13,7 @@
 # The land sink is the average of several dynamic global vegetation models that reproduce the observed mean total land sink of the 1990s.
 # Cement carbonation is the average of two estimates: Friedlingstein et al. (2020)
 # The budget imbalance is the sum of emissions (fossil fuel and industry + land-use change) minus (atmospheric growth + ocean sink + land sink + cement carbonation sink); it is a measure of our imperfect data and understanding of the contemporary carbon cycle.
-# Generated with openclimatedata 0.38.1 from the GCB Excel file 'Global_Carbon_Budget_2020v1.0.xlsx' from https://doi.org/10.18160/gcp-2020
+# Generated with openclimatedata 0.40.1 from the GCB Excel file 'Global_Carbon_Budget_2020v1.0.xlsx' from https://doi.org/10.18160/gcp-2020
 # http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget
 Year,fossil emissions excluding carbonation,land-use change emissions,atmospheric growth,ocean sink,land sink,cement carbonation sink,budget imbalance
 1750,0.002552,,-0.077592,,0.173772963684118,,

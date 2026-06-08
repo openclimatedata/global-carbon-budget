@@ -1,0 +1,83 @@
+# Global Carbon Budget 2018 — Global_Carbon_Budget_2018v1.0.xlsx  — Ocean Sink
+#
+# Ocean CO2 sink (positive values represent a flux from the atmosphere to the ocean)
+# All values in billion tonnes of carbon per year (GtC/yr), for the globe. For values in billion tonnes of carbon dioxide per year (GtCO2/yr), multiply the numbers below by 3.664.
+# 1 billion tonnes C = 1 petagram of carbon (10^15 gC) = 1 gigatonne C = 3.664 billion tonnes of CO2
+# Methods: The ocean sink (uncertainty of ±0.5 GtC/yr) is estimated from the average of several global ocean biogeochemistry models that reproduce the observed mean ocean sink of the 1990s.
+# Cite individual estimates as:
+# Model results used to compute the annual values:
+# CCSM-BEC	Doney, S. C., Lima, I., Feely, R. A., Glover, D. M., Lindsay, K., Mahowald, N., Moore, J. K., and Wanninkhof, R.: Mechanisms governing interannual variability in upper-ocean inorganic carbon system and air–sea CO2 fluxes: Physical climate and atmospheric dust, Deep-Sea Res Pt Ii, 56, 640-655, 2009.
+# NorESM-OC	Schwinger, J., Goris, N., Tjiputra, J. F., Kriest, I., Bentsen, M., Bethke, I., Ilicak, M., Assmann, K. M., and Heinze, C.: Evaluation of NorESM-OC (versions 1 and 1.2), the ocean carbon-cycle stand-alone configuration of the Norwegian Earth System Model (NorESM1), Geosci. Model Dev., 9, 2589-2622, 2016.
+# MITgcm-REcoM2	Hauck, J., Kohler, P., Wolf-Gladrow, D., and Volker, C.: Iron fertilisation and century-scale effects of open ocean dissolution of olivine in a simulated CO2 removal experiment, Environmental Research Letters, 11, 024007, 2016.
+# MPIOM-HAMOCC	Mauritsen, T., Bader, J., Becker, T., Behrens, J., Bittner, M., Brokopf, R., Brovkin, V., Claussen, M., Crueger, T., Esch, M., Fast, I., Fiedler, S., Popke, D., Gayler, V., Giorgetta, M., Goll, D., Haak, H., Hagemann, S., Hedemann, C., Hohenegger, C., Ilyina, T., Jahns, T., Jimenez Cuesta de la Otero, D., Jungclaus, J., Kleinen, T., Kloster, S., Kracher, D., Kinne, S., Kleberg, D., Lasslop, G., Kornblueh, L., Marotzke, J., Matei, D., Meraner, K., Mikolajewicz, U., Modali, K., Möbis, B., Müller, W., Nabel, J.E.M.S., Nam, C., Notz, D., Nyawira, S., Paulsen, H., Peters, K., Pincus, R., Pohlmann, H., Pongratz, J., Popp, M., Raddatz, T., Rast, S., Redler, R., Reick, C., Rohrschneider, T., Schemann, V., Schmidt, H., Schnur, R., Schulzweida, U., Six, K., Stein, L., Stemmler, I., Stevens, B., von Storch, J., Tian, F., Voigt, A., de Vrese, P., Wieners, K.-H., Wilkenskjeld, S., Roeckner, E. & Winkler, A. (in review). Developments in the MPI-M Earth System Model version 1.2 (MPI-ESM1.2) and its response to increasing CO2.
+# NEMO3.6-PISCESv2-gas (CNRM)	Berthet, S., Séférian, R., Bricaud, C., Chevallier, M., Voldoire, A., Ethé, C. : On the benefits of increasing resolution for biogeochemistry climate modelling. Global Biogeochemical Cycles, submitted.
+# NEMO-PISCES (IPSL)	Aumont, O. and Bopp, L.: Globalizing results from ocean in situ iron fertilization studies, Global Biogeochemical Cycles, 20, GB2017, 2006.
+# NEMO-PlankTOM5	Buitenhuis, E. T., Rivkin, R. B., Sailley, S., and Le Quéré, C.: Biogeochemical fluxes through microzooplankton, Global Biogeochemical Cycles, 24, 2010.
+# Data products used to evaluate the results:
+# Landschützer	Landschützer, P., Gruber, N., and Bakker, D. C. E.: Decadal variations and trends of the global ocean carbon sink, Global Biogeochem. Cy., 30, 1396–1417, https://doi.org/10.1002/2015GB005359, 2016
+# Rödenbeck	Rödenbeck, C., Bakker, D. C. E., Metzl, N., Olsen, A., Sabine, C., Cassar, N., Reum, F., Keeling, R. F., and Heimann, M.: Interannual sea–air CO2 flux variability from an observation-driven ocean mixed-layer scheme, Biogeosciences, 11, 4599-4613, 2014.
+# Note: the data products include a pre-industrial steady state source of CO2 (of about 0.78 GtC/yr) and therefore are not directly comparable with the ocean model results.
+# Generated with openclimatedata 0.40.1 from the GCB Excel file 'Global_Carbon_Budget_2018v1.0.xlsx' from https://doi.org/10.18160/gcp-2018 
+# http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget
+#
+# Individual models
+Year,CCSM-BEC,MITgcm-REcoM2,MPIOM-HAMOCC,NEMO3.6-PISCESv2-gas (CNRM),NEMO-PISCES (IPSL),NEMO-PlankTOM5,NorESM-OC
+1959,1.02833137,0.43,0.836,1.11,0.498,0.886,1.1783
+1960,0.814816441,0.57,0.7934,0.98,0.507,0.919,1.1489
+1961,0.722197169,0.43,0.7879,0.7,0.414,0.877,1.0728
+1962,0.686463469,0.58,0.7508,0.67,0.382,0.974,1.2537
+1963,0.820376859,0.71,0.8148,0.87,0.578,1.114,1.4278
+1964,1.131096518,0.77,1.0071,1.28,0.937,1.335,1.5321
+1965,1.327298916,0.84,1.1322,1.55,0.958,1.527,1.7153
+1966,1.345646952,0.88,1.0769,1.38,0.948,1.583,1.7234
+1967,1.09643893,0.75,0.8796,1.19,0.769,1.28,1.5264
+1968,1.002248606,0.92,1.0269,1.22,0.696,1.259,1.5806
+1969,1.109216779,0.93,0.8501,1.06,0.955,1.384,1.6824
+1970,0.997278729,0.79,1.0549,1.17,0.86,1.175,1.568
+1971,1.099951136,0.96,1.0681,1.23,0.847,1.266,1.6157
+1972,1.406929705,1.1,1.1952,1.29,1.116,1.625,1.8751
+1973,1.226340401,1.01,1.1384,1.4,1.269,1.697,1.9215
+1974,1.137241329,1.12,1.1567,1.31,1.0,1.43,1.8684
+1975,1.231928133,1.1,1.2471,1.34,1.163,1.631,1.812
+1976,1.256175226,1.05,1.0349,1.41,1.192,1.671,1.9824
+1977,1.524463584,1.0,1.2445,1.44,1.329,1.75,2.052
+1978,1.464045589,1.06,1.4065,1.42,1.401,1.714,1.9972
+1979,0.96384505,1.03,0.9919,1.45,1.227,1.555,1.8523
+1980,1.509250898,1.44,1.4954,1.62,1.558,1.764,2.154
+1981,1.483365989,1.5,1.522,1.51,1.397,1.677,2.1615
+1982,1.508199135,1.49,1.34,1.69,1.643,1.836,2.2139
+1983,1.739441474,1.59,1.5101,1.68,1.818,2.066,2.3958
+1984,1.603135191,1.48,1.5984,1.76,1.608,1.849,2.3444
+1985,1.382440511,1.51,1.3935,1.59,1.689,1.944,2.3211
+1986,1.453672332,1.62,1.6563,1.72,1.762,1.923,2.3852
+1987,1.388326413,1.62,1.5421,1.99,1.806,2.013,2.3303
+1988,1.42062838,1.63,1.6783,1.5,1.698,1.801,2.2141
+1989,1.312896501,1.55,1.5397,1.66,1.703,1.886,2.3388
+1990,1.469506081,1.61,1.7245,1.89,1.84,1.983,2.3677
+1991,1.577026068,1.71,1.7336,2.02,1.922,2.066,2.4101
+1992,1.897703815,1.87,1.9419,2.37,2.124,2.21,2.674
+1993,1.757939137,1.77,1.7616,2.29,2.078,2.192,2.6594
+1994,1.6241372,1.7,1.8863,2.06,1.932,1.974,2.5025
+1995,1.485450322,1.84,1.8034,1.99,1.845,1.899,2.4083
+1996,1.464454463,1.79,1.8668,1.87,1.776,1.749,2.3367
+1997,1.496264687,1.79,1.638,2.08,1.983,2.009,2.4286
+1998,1.668585861,1.99,1.6199,2.14,2.353,2.389,2.4587
+1999,1.501133567,1.88,1.7594,1.97,2.07,2.093,2.5077
+2000,1.475459973,1.86,1.8891,1.98,1.801,1.859,2.4935
+2001,1.367070061,1.59,1.7166,1.86,1.748,1.724,2.4074
+2002,1.779841977,2.06,2.2021,1.9,2.203,2.099,2.644
+2003,1.711290289,1.98,2.0684,2.26,2.225,2.102,2.7738
+2004,1.638239619,1.98,2.0238,2.04,2.157,2.041,2.6896
+2005,1.653335027,2.04,2.0722,2.04,2.235,2.161,2.7199
+2006,1.692381611,2.13,2.0562,2.14,2.37,2.226,2.8302
+2007,1.756879216,2.29,2.2768,2.23,2.415,2.335,2.7551
+2008,1.501950264,2.23,2.0445,2.17,2.323,2.219,2.876
+2009,1.723916898,2.18,2.2914,2.4,2.422,2.303,2.7636
+2010,1.720810322,2.02,1.9832,2.4,2.479,2.299,2.7391
+2011,1.868745782,2.39,2.5287,2.32,2.505,2.362,2.9026
+2012,1.943427142,2.27,2.2533,2.42,2.644,2.637,3.05
+2013,2.054423559,2.24,2.3203,2.53,2.705,2.545,3.0536
+2014,2.009124153,2.4,2.3926,2.59,2.837,2.539,3.1277
+2015,1.910098781,2.44,2.3181,2.71,2.9,2.536,3.2476
+2016,2.073167721,2.49,2.4897,2.74,2.963,2.5,3.1992
+2017,1.942435226,2.28,2.4061,2.47,2.81,2.495,3.1418

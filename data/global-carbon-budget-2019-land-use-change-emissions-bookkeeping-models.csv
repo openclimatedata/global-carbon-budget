@@ -23,7 +23,7 @@
 # ORCHIDEE-CNP	Goll, D. S., Winkler, A. J., Raddatz, T., Dong, N., Colin Prentice, I., Ciais, P. and Brovkin, V.: Carbon-nitrogen interactions in idealized simulations with JSBACH (version 3.10), Geosci. Model Dev., 10(5), 2009–2030, doi:10.5194/gmd-10-2009-2017, 2017.
 # ORCHIDEE-Trunk	Krinner, G., Viovy, N., de Noblet, N., Ogée, J., Friedlingstein, P., Ciais, P., Sitch, S., Polcher, J., and Prentice, I. C.: A dynamic global vegetation model for studies of the coupled atmosphere-biosphere system, Global Biogeochemical Cycles, 19, 1-33, 2005.
 # SDGVM	Walker, A. P., Quaife, T., van Bodegom, P. M., De Kauwe, M. G., Keenan, T. F., Joiner, J., Lomas, M. R., MacBean, N., Xu, C. G., Yang, X. J., and Woodward, F. I.: The impact of alternative trait-scaling hypotheses for the maximum photosynthetic carboxylation rate (V-cmax) on global gross primary production, New Phytologist, 215, 1370-1386, 2017.
-# Generated with openclimatedata 0.38.1 from the GCB Excel file 'Global_Carbon_Budget_2019v1.0.xlsx' from https://doi.org/10.18160/gcp-2019
+# Generated with openclimatedata 0.40.1 from the GCB Excel file 'Global_Carbon_Budget_2019v1.0.xlsx' from https://doi.org/10.18160/gcp-2019
 # http://openclimatedata.net - https://github.com/openclimatedata/global-carbon-budget
 #
 # Bookkeeping Models
